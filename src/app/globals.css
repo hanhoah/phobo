@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h2 {
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  @apply text-secondary;
+}
+
+h1 {
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  @apply text-secondary;
+}
+
+p {
+}
+
+.box {
+  @apply bg-primary border-4 border-secondary text-secondary font-bold m-3 p-3;
+}
+
+input,
+textarea {
+  @apply shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5;
+}
+
+button {
+  @apply bg-primary py-3 px-5 text-sm font-bold text-center text-secondary rounded-lg sm:w-fit hover:bg-yellow-500 focus:ring-4 focus:outline-none;
+}
+
+.slick-prev {
+  left: 3% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
+}

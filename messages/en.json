@@ -1,0 +1,18 @@
+{
+  "Menu": {
+    "home": "Home",
+    "aboutus": "About us",
+    "products": "Products",
+    "contact": "Contact",
+    "competences": "Competences",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
+  "HomePage": {
+    "title": "Hello world!",
+    "service": "Request Service",
+    "about": "Here comes the main content",
+    "callus": "Call us",
+    "rights": "All rights reserved. "
+  }
+}
