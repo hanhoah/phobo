@@ -6,7 +6,7 @@ const PrivacyPage = () => {
   const locale = useLocale();
   if (locale == "de") {
     return (
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2">
         <h2>Datenschutzerklärung</h2>
         <p>
           Wir freuen uns über Ihr Interesse an unserer Website. Der Schutz Ihrer
@@ -80,7 +80,7 @@ const PrivacyPage = () => {
     );
   } else {
     return (
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2">
         <h1>Privacy policy</h1>
         <p>
           Thank you for your interest in our website. The protection of your

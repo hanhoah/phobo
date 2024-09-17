@@ -39,7 +39,7 @@ const FormPage = () => {
   const t = useTranslations("FormPage");
 
   return (
-    <div className="m-auto w-1/2">
+    <div className="m-auto w-full lg:w-1/2">
       <h1 className="text-center">{t("title")}</h1>
       <p className="text-xl">{t("intro")}</p>
       <form onSubmit={handleSubmit} className="space-y-4 my-28">

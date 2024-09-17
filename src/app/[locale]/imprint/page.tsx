@@ -6,7 +6,7 @@ const ImpressumPage = () => {
   const locale = useLocale();
   if (locale == "de") {
     return (
-      <div className="w-3/4">
+      <div className="w-full lg:w-1/2">
         <h1>Impressum</h1>
         <p>
           Phobo.de, Han Hoa Huynh, Elisabeth-Selbert-Str. 17, 45473 Mülheim an
@@ -80,7 +80,7 @@ const ImpressumPage = () => {
     );
   } else {
     return (
-      <div className="w-3/4">
+      <div className="w-full lg:w-1/2">
         <h1>Imprint</h1>
         <p>
           Phobo.de, Han Hoa Huynh, Elisabeth-Selbert-Str. 17, 45473 Mülheim an
