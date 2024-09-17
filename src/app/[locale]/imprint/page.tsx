@@ -6,25 +6,19 @@ const ImpressumPage = () => {
   const locale = useLocale();
   if (locale == "de") {
     return (
-      <div className="w-1/2">
+      <div className="w-3/4">
         <h1>Impressum</h1>
         <p>
-          WJH Werkzeugtechnik, Am Meerkamp 19A, 40667 Meerbusch
+          Phobo.de, Han Hoa Huynh, Elisabeth-Selbert-Str. 17, 45473 Mülheim an
+          der Ruhr
           <br />
-          info@wjh-wt.de
+          info@phobo.de
           <br />
-          Tel.: +49 (0) 213 2581 2130
+          Tel.: +49 (0) 1637516883
           <br />
-          www.wjh-wt.de
+          www.phobo.de
           <br />
-          Vertretungsberechtigter Geschäftsführer: Junhua Wei
-          <br />
-          <br />
-          Handelsregister: HRB 90080
-          <br />
-          Registergericht: Amtsgericht Düsseldorf
-          <br />
-          USt-IdNr.: DE343906954
+          USt-IdNr.: DE-266530613
         </p>
         <h2>EU-Streitschlichtung</h2>
         <p>
@@ -86,25 +80,19 @@ const ImpressumPage = () => {
     );
   } else {
     return (
-      <div className="w-1/2">
+      <div className="w-3/4">
         <h1>Imprint</h1>
         <p>
-          WJH Werkzeugtechnik, Am Meerkamp 19A, 40667 Meerbusch
+          Phobo.de, Han Hoa Huynh, Elisabeth-Selbert-Str. 17, 45473 Mülheim an
+          der Ruhr
           <br />
-          info@wjh-wt.de
+          info@phobo.de
           <br />
-          Tel.: +49 (0) 213 2581 2130
+          Tel.: +49 (0) 1637516883
           <br />
-          www.wjh-wt.de
+          www.phobo.de
           <br />
-          Managing director authorized to represent the company: Junhua Wei
-          <br />
-          <br />
-          Commercial Register: HRB 90080
-          <br />
-          Register Court: Amtsgericht Düsseldorf
-          <br />
-          VAT Number: DE343906954
+          VAT Number.: DE-266530613
         </p>
         <h2>EU dispute resolution</h2>
         <p>

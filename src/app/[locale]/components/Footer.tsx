@@ -29,7 +29,10 @@ const Footer = () => {
           </ul>
         </nav>
         <div className="container mx-auto text-center">
-          <p>&copy; 2024 WJH Werkzeugtechnik. {t("rights")}</p>
+          <p>
+            &copy; 2024 Phobo.de - Web Design & Development
+            <br /> {t("rights")}
+          </p>
         </div>
       </div>
     </footer>

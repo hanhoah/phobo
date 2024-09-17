@@ -5,8 +5,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#fec50d", // gelb vom logo
-        secondary: "#123f90", // blau vom logo
+        primary: {
+          DEFAULT: "#008C94", // Türkis
+        },
+        secondary: {
+          DEFAULT: "#FF6F61", // Koralle
+        },
+        accent: {
+          DEFAULT: "#FFC107", // Senfgelb
+        },
+        background: {
+          DEFAULT: "#FAF3E0", // Hellbeige
+        },
+        text: {
+          DEFAULT: "#333333", // Dunkelgrau
+        },
       },
     },
   },

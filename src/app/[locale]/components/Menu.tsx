@@ -1,61 +1,45 @@
-import React from "react";
-import { Icon } from "@iconify/react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const Menu = () => {
   const t = useTranslations("Menu");
+
   return (
-    <div className="bg-secondary text-white mt-2 py-3 ">
-      <nav className="flex justify-between items-center max-w-lg m-auto">
-        <ul className="flex space-x-4">
-          <li>
-            <a
-              href="/"
-              className="flex items-center space-x-2 hover:underline decoration-primary decoration-4"
+    <nav className="bg-secondary text-primary p-4 shadow-md">
+      <div className="max-w-screen-2xl mx-auto flex justify-end">
+        <div className="relative group">
+          <button className="px-4 py-2 bg-background text-primary hover:bg-primary hover:text-white">
+            {t("about")}
+          </button>
+          <div className="absolute right-0 hidden mt-0 w-48 bg-white opacity-90 shadow-lg rounded-md group-hover:block">
+            <Link
+              href="/about/mission"
+              className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
             >
-              <span className="icon-[material-symbols--home-outline]"></span>
-              <span>{t("home")}</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="/"
-              className="flex items-center space-x-2 hover:underline decoration-primary decoration-4"
+              {t("mission")}
+            </Link>
+            <Link
+              href="/about/team"
+              className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
             >
-              <span className="icon-[material-symbols--home-outline]"></span>
-              <span>{t("aboutus")}</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="/about"
-              className="flex items-center space-x-2  hover:underline decoration-primary decoration-4"
+              {t("team")}
+            </Link>
+            <Link
+              href="/about/history"
+              className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
             >
-              <span className="icon-[mdi--about-variant]"></span>
-              <span>{t("products")}</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="/about"
-              className="flex items-center space-x-2 hover:underline decoration-primary decoration-4 "
+              {t("history")}
+            </Link>
+            <Link
+              href="/about/testimonials"
+              className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
             >
-              <span className="icon-[mdi--about-variant]"></span>
-              <span>{t("competences")}</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="/about"
-              className="flex items-center space-x-2 hover:underline decoration-primary decoration-4 "
-            >
-              <span className="icon-[mdi--about-variant]"></span>
-              <span>{t("contact")}</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+              {t("testimonials")}
+            </Link>
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 };
 

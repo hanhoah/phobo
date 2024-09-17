@@ -30,10 +30,6 @@ textarea {
   @apply shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5;
 }
 
-button {
-  @apply bg-primary py-3 px-5 text-sm font-bold text-center text-secondary rounded-lg sm:w-fit hover:bg-yellow-500 focus:ring-4 focus:outline-none;
-}
-
 .slick-prev {
   left: 3% !important;
   z-index: 1;
@@ -41,4 +37,8 @@ button {
 .slick-next {
   right: 3% !important;
   z-index: 1;
+}
+
+.button {
+  @apply bg-primary text-white px-4 py-2 rounded hover:bg-secondary;
 }

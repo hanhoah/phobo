@@ -1,10 +1,38 @@
 {
   "Menu": {
     "home": "Home",
-    "aboutus": "About us",
-    "products": "Products",
+    "about": "About",
+    "mission": "Our Mission",
+    "team": "Our Team",
+    "history": "Our History",
+    "testimonials": "Testimonials",
+    "services": "Services",
+    "webdesign": "Web Design",
+    "responsive_design": "Responsive Design",
+    "uiux_design": "UI/UX Design",
+    "webentwicklung": "Web Development",
+    "frontend": "Frontend Development",
+    "backend": "Backend Development",
+    "seo": "SEO Optimization",
+    "onpage_seo": "On-Page SEO",
+    "offpage_seo": "Off-Page SEO",
+    "seo_audits": "SEO Audits",
+    "online_marketing": "Online Marketing",
+    "social_media_marketing": "Social Media Marketing",
+    "content_marketing": "Content Marketing",
+    "ppc_advertising": "PPC Advertising",
+    "portfolio": "Portfolio",
+    "case_studies": "Case Studies",
+    "industry_solutions": "Industry Solutions",
+    "client_projects": "Client Projects",
+    "blog": "Blog",
+    "tips_and_tricks": "Tips & Tricks",
+    "news": "News",
+    "industry_insights": "Industry Insights",
     "contact": "Contact",
-    "competences": "Competences",
+    "contact_form": "Contact Form",
+    "location": "Location",
+    "inquiries": "Inquiries",
     "privacy": "Privacy Policy",
     "imprint": "Imprint"
   },
@@ -14,5 +42,18 @@
     "about": "Here comes the main content",
     "callus": "Call us",
     "rights": "All rights reserved. "
+  },
+  "hero": {
+    "slogan": "Creativity Meets Technology",
+    "introduction": "We are Phobo, specializing in the development of engaging and functional websites. Our goal is to turn your ideas into impressive digital solutions. Contact us to learn more about our services!"
+  },
+  "FormPage": {
+    "title": "Request Service",
+    "intro": "Are you ready to bring your website or online marketing project to life? Share your ideas with us, and let’s develop a plan together. Our full-service offering includes everything you need to achieve your goals—from conception to implementation. Fill out our contact form now and let’s get started! Feel free to adjust any part of the text to better fit your brand voice or specific offerings!",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Submit"
   }
 }

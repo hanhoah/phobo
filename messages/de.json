@@ -1,18 +1,59 @@
 {
   "Menu": {
     "home": "Startseite",
-    "aboutus": "Über uns",
-    "products": "Produkte",
+    "about": "Über uns",
+    "mission": "Unsere Mission",
+    "team": "Unser Team",
+    "history": "Unsere Geschichte",
+    "testimonials": "Kundenstimmen",
+    "services": "Leistungen",
+    "webdesign": "Webdesign",
+    "responsive_design": "Responsive Design",
+    "uiux_design": "UI/UX-Design",
+    "webentwicklung": "Webentwicklung",
+    "frontend": "Frontend-Entwicklung",
+    "backend": "Backend-Entwicklung",
+    "seo": "SEO-Optimierung",
+    "onpage_seo": "On-Page SEO",
+    "offpage_seo": "Off-Page SEO",
+    "seo_audits": "SEO-Audits",
+    "online_marketing": "Online-Marketing",
+    "social_media_marketing": "Social Media Marketing",
+    "content_marketing": "Content-Marketing",
+    "ppc_advertising": "PPC-Werbung",
+    "portfolio": "Portfolio",
+    "case_studies": "Fallstudien",
+    "industry_solutions": "Branchenlösungen",
+    "client_projects": "Kundenprojekte",
+    "blog": "Blog",
+    "tips_and_tricks": "Tipps & Tricks",
+    "news": "Neuigkeiten",
+    "industry_insights": "Brancheneinblicke",
     "contact": "Kontakt",
-    "competences": "Kompetenz",
+    "contact_form": "Kontaktformular",
+    "location": "Standort",
+    "inquiries": "Anfragen",
     "privacy": "Datenschutz",
     "imprint": "Impressum"
   },
   "HomePage": {
     "title": "Hallo Welt!",
-    "service": "Service anfragen",
+    "service": "Service Anfragen",
     "about": "Hier kommt der Haupt Content",
     "callus": "Rufen Sie uns an!",
     "rights": "Alle Rechte vorbehalten. "
+  },
+  "hero": {
+    "slogan": "Kreativität trifft Technologie",
+    "introduction": "Wir sind Phobo, spezialisiert auf die Entwicklung von ansprechenden und funktionalen Websites. Unser Ziel ist es, Ihre Ideen in beeindruckende digitale Lösungen zu verwandeln. Kontaktieren Sie uns, um mehr über unsere Dienstleistungen zu erfahren!"
+  },
+  "FormPage": {
+    "title": "Service Anfragen",
+    "intro": "Sie haben eine Vision für Ihre Website oder ein Online-Marketing-Projekt? Teilen Sie uns Ihre Ideen mit und lassen Sie uns gemeinsam einen Plan entwickeln. Unser Full-Service-Angebot umfasst alles, was Sie benötigen, um Ihre Ziele zu erreichen - von der Konzeption bis zur Umsetzung. Füllen Sie jetzt unser Kontaktformular aus und lassen Sie uns loslegen!",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "submit": "Absenden"
   }
 }
