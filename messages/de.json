@@ -55,5 +55,17 @@
     "subject": "Betreff",
     "message": "Nachricht",
     "submit": "Absenden"
+  },
+  "services": {
+    "webdesign": {
+      "title": "Maßgeschneiderte Webdesign-Lösungen",
+      "description": "Moin",
+      "cta": "<a href='/services/webdesign' class='text-blue-600 hover:underline'>Erfahren Sie mehr über unsere Webdesign-Dienstleistungen</a>"
+    },
+    "seo": {
+      "title": "Steigern Sie Ihre Sichtbarkeit mit SEO",
+      "description": "Möchten Sie, dass Ihre Website von mehr Kunden gefunden wird? Unsere SEO-Optimierungsdienste helfen Ihnen dabei, in den Suchmaschinen besser platziert zu werden. Wir analysieren Ihre Website, identifizieren Optimierungspotenziale und implementieren bewährte Strategien, um Ihre Sichtbarkeit zu erhöhen und mehr Traffic zu generieren.",
+      "cta": "<a href='/services/seo' class='text-blue-600 hover:underline'>Jetzt mehr über unsere SEO-Dienstleistungen erfahren</a>"
+    }
   }
 }

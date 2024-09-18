@@ -117,7 +117,7 @@ const ImpressumPage = () => {
           unaffected by this. However, liability in this respect is only
           possible from the time of knowledge of a concrete infringement. Upon
           we become aware of such legal violations, we will remove this content
-          immediately. remove such content immediately.
+          immediately.
         </p>
         <h2>Liability for links</h2>
         <p>
@@ -143,10 +143,10 @@ const ImpressumPage = () => {
           are only permitted for private, non-commercial use. Insofar as the
           content on this site was not created by the operator the copyrights of
           third parties are respected. In particular third-party content is
-          marked as such. Should you nevertheless nevertheless become aware of a
-          copyright infringement, please inform us corresponding notification.
-          As soon as we become aware of legal violations we will remove such
-          content immediately.
+          marked as such. Should you nevertheless become aware of a copyright
+          infringement, please inform us corresponding notification. As soon as
+          we become aware of legal violations we will remove such content
+          immediately.
         </p>
         <p>Source: e-recht24.de</p>
       </div>

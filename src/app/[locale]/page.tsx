@@ -5,6 +5,7 @@ import Image from "next/image";
 import toolsImage from "@/assets/images/tools.jpeg";
 import ImageSlider from "./components/ImageSlider";
 import Hero from "./components/start/Hero";
+import Services from "./components/start/Services";
 
 export default function HomePage() {
   const t = useTranslations("HomePage");
@@ -13,12 +14,14 @@ export default function HomePage() {
     return (
       <>
         <Hero />
+        <Services />
       </>
     );
   else
     return (
       <>
         <Hero />
+        <Services />
       </>
     );
 }
