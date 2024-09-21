@@ -67,5 +67,13 @@
       "description": "Want your website to be found by more customers? Our SEO optimization services help you rank better in search engines. We analyze your website, identify optimization potentials, and implement proven strategies to increase your visibility and generate more traffic.",
       "cta": "Discover more about our SEO services"
     }
+  },
+  "about": {
+    "description": "Welcome to Phobo, your full-service web design agency! Founded by Han Hoa Huynh, a graduate media computer scientist with over 20 years of experience in web design, we specialize in developing custom full-stack applications. Our expertise includes modern technologies such as React.js, Next.js, Vue.js, Nuxt.js, Svelte, SvelteKit, and Tailwind.css.",
+    "phobo": "The name 'Phobo' has its roots in the Vietnamese 'Phở Bò', which means 'beef noodle soup'. This delicious dish is not only a national dish of Vietnam but also a symbol of the diversity and richness of Vietnamese cuisine. Just as a good bowl of Phở is carefully prepared—with an aromatic broth and fresh ingredients—we also emphasize the careful design and development of your digital solutions.",
+    "slogan": "Our slogan: 'We want to make the web faster' reflects our commitment to providing innovative and efficient solutions for small and medium-sized enterprises (SMEs). Let us strengthen your digital presence together and bring your ideas to life!",
+    "phobowebdesigntitle": "Phobo: Where web design meets Vietnamese tradition",
+    "phobowebdesigndesc": "At Phobo, we combine our passion for web design with our founder's passion for Vietnamese cuisine. Just like a carefully prepared bowl of Phở Bò, enhanced with fresh ingredients and an aromatic broth, we place great importance on the careful design and development of your digital solutions. Discover how we can make your brand shine!",
+    "zielgruppe": "Target audience: SMEs from various sectors such as craftsmen, electricians, retailers, nail salons, lawyers, tax advisors, real estate."
   }
 }
