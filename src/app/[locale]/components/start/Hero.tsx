@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="bg-white">
       <div className="relative">
         <div className="mx-auto max-w-7xl">
-          <div className="relative z-10 pt-14 lg:w-full lg:max-w-2xl">
+          <div className="relative z-10 md:pt-14 lg:w-full lg:max-w-2xl">
             <svg
               viewBox="0 0 100 100"
               preserveAspectRatio="none"
@@ -22,9 +22,7 @@ export default function Hero() {
                 <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-6xl">
                   {t("slogan")}
                 </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                  {t("introduction")}
-                </p>
+                <p>{t("introduction")}</p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <RequestBtn />
                 </div>

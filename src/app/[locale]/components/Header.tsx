@@ -3,7 +3,7 @@ import Headline from "./headline/Headline";
 
 const Header = () => {
   return (
-    <header className="max-w-screen-xl m-auto">
+    <header className="w-full m-auto">
       <Headline />
     </header>
   );

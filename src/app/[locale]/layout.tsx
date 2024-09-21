@@ -28,12 +28,12 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={roboto.className}>
       <body className="w-full m-auto ">
-        <div className="sticky top-0 z-20 bg-background w-full">
+        <div className="sticky top-0 z-20 bg-white w-full">
           <Header />
           <Menu />
         </div>
         <NextIntlClientProvider messages={messages}>
-          <div className="max-w-screen-xl p-5 m-auto">{children}</div>
+          <div className="max-w-screen-xl p-1 md:p-5 m-auto">{children}</div>
           <Footer />
         </NextIntlClientProvider>
       </body>

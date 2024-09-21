@@ -59,13 +59,13 @@
   "services": {
     "webdesign": {
       "title": "Custom Web Design Solutions",
-      "description": "<p>Give your brand a unique online presence with our creative web design services. Our experienced team creates user-friendly and engaging websites that not only look great but also function optimally. Let’s bring your vision to life and delight your audience!</p>",
-      "cta": "<a href='/services/webdesign' class='text-blue-600 hover:underline'>Learn more about our web design services</a>"
+      "description": "Give your brand a unique online presence with our creative web design services. Our experienced team creates user-friendly and engaging websites that not only look great but also function optimally. Let’s bring your vision to life and delight your audience!",
+      "cta": "Learn more about our web design services"
     },
     "seo": {
       "title": "Boost Your Visibility with SEO",
-      "description": "<p>Want your website to be found by more customers? Our SEO optimization services help you rank better in search engines. We analyze your website, identify optimization potentials, and implement proven strategies to increase your visibility and generate more traffic.</p>",
-      "cta": "<a href='/services/seo' class='text-blue-600 hover:underline'>Discover more about our SEO services</a>"
+      "description": "Want your website to be found by more customers? Our SEO optimization services help you rank better in search engines. We analyze your website, identify optimization potentials, and implement proven strategies to increase your visibility and generate more traffic.",
+      "cta": "Discover more about our SEO services"
     }
   }
 }
