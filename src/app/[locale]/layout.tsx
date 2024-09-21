@@ -6,6 +6,8 @@ import "../globals.css";
 import Footer from "./components/Footer";
 import Menu from "./components/Menu";
 import { Roboto } from "next/font/google";
+import { routing } from "@/i18n/routing";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -13,6 +15,10 @@ const roboto = Roboto({
   subsets: ["latin"],
   display: "swap",
 });
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export default async function LocaleLayout({
   children,
@@ -24,6 +30,7 @@ export default async function LocaleLayout({
   // Providing all messages to the client
   // side is the easiest way to get started
   const messages = await getMessages();
+  unstable_setRequestLocale(locale);
 
   return (
     <html lang={locale} className={roboto.className}>

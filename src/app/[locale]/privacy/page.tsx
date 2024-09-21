@@ -1,9 +1,14 @@
 import React from "react";
 import { useLocale } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 // src/app/de/impressum/page.tsx
-const PrivacyPage = () => {
-  const locale = useLocale();
+const PrivacyPage = ({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) => {
+  unstable_setRequestLocale(locale);
   if (locale == "de") {
     return (
       <div className="w-full lg:w-1/2">
