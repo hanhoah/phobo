@@ -19,7 +19,7 @@ h1 {
 }
 
 p {
-  @apply text-lg leading-8 text-gray-600 mt-5;
+  @apply text-lg leading-8  mt-5;
 }
 
 .box {
