@@ -1,8 +1,6 @@
 import React from "react";
 import Address from "./Address";
-import CallUs from "./CallUs";
 import RequestBtn from "./RequestBtn";
-import Image from "next/image";
 import Logo from "../Logo";
 
 import LanguageSwitcher from "./LanguageSwitcher";

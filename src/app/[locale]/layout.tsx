@@ -8,6 +8,7 @@ import Menu from "./components/Menu";
 import { Roboto } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { unstable_setRequestLocale } from "next-intl/server";
+import Head from "next/head";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -34,6 +35,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={roboto.className}>
+      <Head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </Head>
       <body className="w-full m-auto ">
         <div className="sticky top-0 z-20 bg-white w-full">
           <Header />
