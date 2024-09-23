@@ -32,28 +32,12 @@ const USPSection = () => {
             <p className="text-md">{t("benefit4Description")}</p>
           </div>
           <div>
-            <p className="title">{t("benefit5")}</p>
-            <p className="text-md">{t("benefit5Description")}</p>
-          </div>
-          <div>
             <p className="title">{t("benefit6")}</p>
             <p className="text-md">{t("benefit6Description")}</p>
           </div>
           <div>
-            <p className="title">{t("benefit7")}</p>
-            <p className="text-md">{t("benefit7Description")}</p>
-          </div>
-          <div>
             <p className="title">{t("benefit8")}</p>
             <p className="text-md">{t("benefit8Description")}</p>
-          </div>
-          <div>
-            <p className="title">{t("benefit9")}</p>
-            <p className="text-md">{t("benefit9Description")}</p>
-          </div>
-          <div>
-            <p className="title">{t("benefit10")}</p>
-            <p className="text-md">{t("benefit10Description")}</p>
           </div>
         </div>
 
