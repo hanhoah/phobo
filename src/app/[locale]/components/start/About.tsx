@@ -5,12 +5,12 @@ import { useTranslations } from "next-intl";
 export default function AboutSection() {
   const t = useTranslations("about");
   return (
-    <div className=" md:py-12">
-      <div className="max-w-7xl mx-auto md:px-4 px-1 lg:px-8">
-        <div className="rounded-lg shadow-lg overflow-hidden">
+    <section>
+      <div className="max-w-7xl mx-auto md:px-4 px-1">
+        <div className="overflow-hidden">
           <div className="flex flex-row">
-            <div className="bg-gray-100 p-1 md:p-3 lg:p-6">
-              <h1>Über Phobo</h1>
+            <div className=" md:p-3 lg:p-6">
+              <h1 className="text-primary">Über Phobo</h1>
               <div className="flex flex-col md:flex-row">
                 <div className="w-full lg:w-2/3 md:p-5">
                   <p>{t("description")}</p>
@@ -26,7 +26,7 @@ export default function AboutSection() {
                       height="400"
                       alt="Delicious Bowl of Pho Bo"
                     />
-                    <div className="px-6 py-4">
+                    <div className="px-6 py-4 bg-background">
                       <div className="font-bold text-xl mb-2">
                         {t("phobowebdesigntitle")}
                       </div>
@@ -46,6 +46,6 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

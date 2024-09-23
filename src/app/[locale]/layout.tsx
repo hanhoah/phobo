@@ -38,14 +38,14 @@ export default async function LocaleLayout({
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
-      <body className="w-full m-auto ">
-        <div className="sticky top-0 z-20 bg-white w-full">
+      <body className="w-full m-auto bg-gray-100 ">
+        <div className="sticky top-0 z-20  w-full">
           <Header />
           <Menu />
         </div>
         <NextIntlClientProvider messages={messages}>
           <div className="max-w-screen-xl p-1 md:p-5 m-auto">{children}</div>
-          <Footer />
+          <Footer />·
         </NextIntlClientProvider>
       </body>
     </html>

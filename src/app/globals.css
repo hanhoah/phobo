@@ -7,7 +7,7 @@ h2 {
   font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
-  @apply text-secondary;
+  @apply text-primary;
 }
 
 h1 {
@@ -15,7 +15,11 @@ h1 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: bold;
-  @apply text-secondary;
+  @apply text-primary;
+}
+
+.title {
+  @apply text-lg font-semibold text-secondary;
 }
 
 p {
@@ -42,4 +46,8 @@ textarea {
 
 .button {
   @apply bg-primary text-white px-4 py-2 rounded hover:bg-secondary;
+}
+
+section {
+  @apply relative bg-white mt-5;
 }

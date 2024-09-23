@@ -3,6 +3,7 @@ import Hero from "./components/start/Hero";
 import Services from "./components/start/Services";
 import AboutSection from "./components/start/About";
 import { unstable_setRequestLocale } from "next-intl/server";
+import USPSection from "./components/start/USPSection";
 
 export default function HomePage({
   params: { locale },
@@ -18,6 +19,7 @@ export default function HomePage({
       <Hero />
       <Services />
       <AboutSection />
+      <USPSection />
     </>
   );
 }
