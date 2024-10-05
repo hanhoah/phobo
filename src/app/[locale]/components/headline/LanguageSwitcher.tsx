@@ -2,10 +2,19 @@
 
 import React, { useEffect, useState } from "react";
 import Select from "react-select";
+import { components, OptionProps, StylesConfig } from "react-select";
+import { ActionMeta, SingleValue, MultiValue } from "react-select";
+
 import { Icon } from "@iconify/react";
 import { useSelectedLayoutSegment } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
+
+interface Option {
+  value: string;
+  label: string;
+  icon: JSX.Element;
+}
 
 interface LanguageOption {
   value: string;
@@ -48,15 +57,19 @@ const LanguageSwitcher = () => {
     }
   }, []);
 
-  const handleChange = (option) => {
-    if (option) {
-      setSelectedOption(option);
-      localStorage.setItem("selectedLanguage", option.value);
-      router.push(option.value);
+  const handleChange = (
+    newValue: SingleValue<LanguageOption> | MultiValue<LanguageOption>,
+    actionMeta: ActionMeta<LanguageOption>
+  ) => {
+    if (newValue) {
+      const selected = Array.isArray(newValue) ? newValue[0] : newValue; // Wenn es mehrere Werte gibt, nimm den ersten
+      setSelectedOption(selected);
+      localStorage.setItem("selectedLanguage", selected.value);
+      router.push(selected.value);
     }
   };
 
-  const customOption = (props) => (
+  const customOption = (props: OptionProps<LanguageOption>) => (
     <div
       className={`flex items-center cursor-pointer ${
         props.isFocused ? "bg-gray-200" : ""
@@ -68,7 +81,7 @@ const LanguageSwitcher = () => {
     </div>
   );
 
-  const customStyles = {
+  const customStyles: StylesConfig<LanguageOption> = {
     control: (provided) => ({
       ...provided,
       width: "200px", // Setze die Breite hier
@@ -84,7 +97,7 @@ const LanguageSwitcher = () => {
   };
 
   // Funktion zur Darstellung des ausgewählten Wertes
-  const formatOptionLabel = (option) => (
+  const formatOptionLabel = (option: LanguageOption) => (
     <div className="flex items-center">
       {option.icon} {/* Flagge der gewählten Sprache */}
       <span className="ml-2">{option.label}</span>{" "}
