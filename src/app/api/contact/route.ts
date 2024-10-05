@@ -1,29 +1,40 @@
-// app/api/contact/route.ts
 import { NextResponse } from "next/server";
-import sgMail from "@sendgrid/mail";
+import Mailjet from "node-mailjet";
 
-sgMail.setApiKey(process.env.SENDGRID_API_KEY!); // API-Schlüssel aus Umgebungsvariablen
-
-console.log("SENDGRID_API_KEY", process.env.SENDGRID_API_KEY);
+const mailjet = new Mailjet({
+  apiKey: process.env.MJ_APIKEY_PUBLIC,
+  apiSecret: process.env.MJ_APIKEY_PRIVATE,
+});
 
 export async function POST(request: Request) {
   const { name, email, subject, message } = await request.json();
 
-  const msg = {
-    to: "info@wjh-wt.de", // Empfänger-E-Mail-Adresse
-    from: "info@wjh-wt.de", // Absender-E-Mail-Adresse
-    subject: subject,
-    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
-  };
-
   try {
-    await sgMail.send(msg);
-    return NextResponse.json({ success: true });
-  } catch (error) {
-    console.error("Error sending email:", error);
+    const response = await mailjet.post("send", { version: "v3.1" }).request({
+      Messages: [
+        {
+          From: {
+            Email: process.env.MAILJET_SENDER_EMAIL,
+            Name: name,
+          },
+          To: [
+            {
+              Email: process.env.MAILJET_RECIPIENT_EMAIL,
+              Name: "Recipient",
+            },
+          ],
+          Subject: subject,
+          TextPart: `Nachricht von ${name} (${email}): ${message}`,
+        },
+      ],
+    });
+
     return NextResponse.json(
-      { success: false, error: "Error sending email" },
-      { status: 500 }
+      { status: "success", data: response.body },
+      { status: 200 }
     );
+  } catch (error) {
+    console.error(error);
+    return NextResponse.json({ status: "error", error }, { status: 500 });
   }
 }

@@ -10,7 +10,7 @@ const RequestBtn = () => {
   const requestPath = `/${locale}/requestservice`;
 
   return (
-    <div className="border-2">
+    <div className="">
       <a href={requestPath} className="button">
         {t("service")}
       </a>

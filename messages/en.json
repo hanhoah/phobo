@@ -91,5 +91,10 @@
     "benefit8": "Long-term partnerships with our clients",
     "benefit8Description": "We strive for long-term relationships with our clients and support them even after the purchase with comprehensive services.",
     "multilingualMessage": "'Our team is multilingual and speaks German, English, and Vietnamese.'"
+  },
+  "language": {
+    "en": "English",
+    "de": "German",
+    "vi": "Vietnamese"
   }
 }

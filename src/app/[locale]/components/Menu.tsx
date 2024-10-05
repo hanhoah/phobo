@@ -5,10 +5,10 @@ const Menu = () => {
   const t = useTranslations("Menu");
 
   return (
-    <nav className="bg-secondary text-primary p-4 shadow-md">
+    <nav className=" text-white text-0xl">
       <div className="max-w-screen-2xl mx-auto flex justify-end">
         <div className="relative group">
-          <button className="px-4 py-2 bg-background text-primary hover:bg-primary hover:text-white">
+          <button className="px-4 py-2 bg-background hover:bg-primary hover:text-white">
             {t("about")}
           </button>
           <div className="absolute right-0 hidden mt-0 w-48 bg-white opacity-90 shadow-lg rounded-md group-hover:block">

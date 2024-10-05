@@ -16,8 +16,8 @@ const Footer = () => {
   const imprintPath = `/${locale}/imprint`;
 
   return (
-    <footer className="bg-secondary text-white py-4">
-      <div className="ml-5">
+    <footer className="bg-secondary text-white py-4 ">
+      <div className="max-w-screen-2xl m-auto">
         <nav>
           <ul className="list-none">
             <li>

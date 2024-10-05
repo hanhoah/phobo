@@ -5,20 +5,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          DEFAULT: "#008C94", // Türkis
+        accent: {
+          DEFAULT: "#FFDA78", // yellow
         },
         secondary: {
-          DEFAULT: "#FF6F61", // Koralle
+          DEFAULT: "#2A629A", // hellblau
         },
-        accent: {
-          DEFAULT: "#FFC107", // Senfgelb
+        primary: {
+          DEFAULT: "#FF7F3E", // orange
         },
         background: {
-          DEFAULT: "#FAF3E0", // Hellbeige
+          DEFAULT: "#003285", // navyblue
         },
         text: {
-          DEFAULT: "#333333", // Dunkelgrau
+          DEFAULT: "#292b32", // Dunkelgrau
         },
       },
     },

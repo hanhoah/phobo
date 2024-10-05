@@ -27,10 +27,10 @@ export default function AboutSection() {
                       alt="Delicious Bowl of Pho Bo"
                     />
                     <div className="px-6 py-4 bg-background">
-                      <div className="font-bold text-xl mb-2">
+                      <div className="font-bold text-xl mb-2 text-primary">
                         {t("phobowebdesigntitle")}
                       </div>
-                      <p className="text-gray-700 text-base">
+                      <p className="text-white text-base">
                         {t("phobowebdesigndesc")}
                       </p>
                     </div>

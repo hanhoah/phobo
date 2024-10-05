@@ -4,7 +4,6 @@ import Header from "./components/Header";
 // These styles apply to every route in the application
 import "../globals.css";
 import Footer from "./components/Footer";
-import Menu from "./components/Menu";
 import { Roboto } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { unstable_setRequestLocale } from "next-intl/server";
@@ -39,11 +38,10 @@ export default async function LocaleLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <body className="w-full m-auto bg-gray-100 ">
-        <div className="sticky top-0 z-20  w-full">
-          <Header />
-          <Menu />
-        </div>
         <NextIntlClientProvider messages={messages}>
+          <div className="sticky top-0 z-20  w-full">
+            <Header />
+          </div>
           <div className="max-w-screen-xl p-1 md:p-5 m-auto">{children}</div>
           <Footer />·
         </NextIntlClientProvider>
