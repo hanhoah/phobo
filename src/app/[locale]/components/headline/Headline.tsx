@@ -9,8 +9,8 @@ import Link from "next/link";
 const Headline = () => {
   return (
     <div className="bg-background">
-      <div className="flex items-center  text-primary  justify-between p-5 max-w-screen-2xl m-auto ">
-        <div className="flex items-center ">
+      <div className="flex flex-col md:flex-row items-center  text-primary  justify-between p-5 max-w-screen-2xl m-auto ">
+        <div className=" items-center ">
           <Link href="/">
             <Logo />
           </Link>

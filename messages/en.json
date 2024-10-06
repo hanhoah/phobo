@@ -2,7 +2,7 @@
   "Menu": {
     "home": "Home",
     "about": "About",
-    "mission": "Our Mission",
+    "service": "Our services",
     "team": "Our Team",
     "history": "Our History",
     "testimonials": "Testimonials",
@@ -90,7 +90,7 @@
     "benefit6Description": "We leverage the latest technologies and trends to ensure our solutions are always up-to-date.",
     "benefit8": "Long-term partnerships with our clients",
     "benefit8Description": "We strive for long-term relationships with our clients and support them even after the purchase with comprehensive services.",
-    "multilingualMessage": "'Our team is multilingual and speaks German, English, and Vietnamese.'"
+    "multilingualMessage": "'Our team is multilingual and speaks German, English, Korean, Japanese, Chinese and Vietnamese.'"
   },
   "language": {
     "en": "English",

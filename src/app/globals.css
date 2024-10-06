@@ -34,9 +34,12 @@ p {
   @apply bg-primary border-4 border-secondary text-secondary font-bold m-3 p-3;
 }
 
-input,
-textarea {
+input {
   @apply shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5;
+}
+
+textarea {
+  @apply shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg  block w-full p-2.5 h-32 mb-8;
 }
 
 .slick-prev {
@@ -53,5 +56,5 @@ textarea {
 }
 
 section {
-  @apply relative bg-white mt-5;
+  @apply relative bg-white mt-2 p-1;
 }
