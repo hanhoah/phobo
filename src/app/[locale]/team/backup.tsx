@@ -1,12 +1,7 @@
 import { useTranslations } from "next-intl";
-import Services from "../components/start/Services";
 import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function ServicePage({
-  params: { locale },
-}: {
-  params: { locale: string };
-}) {
+const TeamPage = ({ locale }: any) => {
   unstable_setRequestLocale(locale);
 
   const t = useTranslations("team");
@@ -76,4 +71,6 @@ export default function ServicePage({
       </ul>
     </div>
   );
-}
+};
+
+export default TeamPage;
