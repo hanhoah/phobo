@@ -112,8 +112,8 @@
       },
       "haiPham": {
         "name": "Hai Pham",
-        "role": "UX/UI Designer",
-        "bio": "Hai Pham is a talented web designer...",
+        "role": "Software Developer and IT Project Planner",
+        "bio": "Hai Pham is an experienced software developer specializing in React and Node.js. His passion for frontend development and user experience (UX) enables him to create engaging and user-friendly solutions.\n\nWith his expertise in IT project planning, Hai ensures that projects are executed efficiently and effectively. He has a knack for creatively solving technical challenges while keeping user needs at the forefront.\n\nWe are proud to have Hai on our team! This version maintains clarity and highlights Hai's skills succinctly.",
         "imageUrl": "/images/people/haipham.jpg",
         "linkedinUrl": "https://www.linkedin.com/in/john-doe/",
         "languages": "German, English, Vietnamese"

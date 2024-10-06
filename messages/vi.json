@@ -1,0 +1,130 @@
+{
+  "Menu": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "service": "Dịch vụ của chúng tôi",
+    "team": "Đội ngũ của chúng tôi",
+    "history": "Lịch sử của chúng tôi",
+    "testimonials": "Ý kiến khách hàng",
+    "services": "Dịch vụ",
+    "webdesign": "Phát triển web",
+    "responsive_design": "Thiết kế phản hồi",
+    "uiux_design": "Thiết kế UI/UX",
+    "webentwicklung": "Phát triển web",
+    "frontend": "Phát triển frontend",
+    "backend": "Phát triển backend",
+    "seo": "Tối ưu hóa SEO",
+    "onpage_seo": "SEO trên trang",
+    "offpage_seo": "SEO ngoài trang",
+    "seo_audits": "Kiểm toán SEO",
+    "online_marketing": "Tiếp thị trực tuyến",
+    "social_media_marketing": "Tiếp thị truyền thông xã hội",
+    "content_marketing": "Tiếp thị nội dung",
+    "ppc_advertising": "Quảng cáo PPC",
+    "portfolio": "Danh mục đầu tư",
+    "case_studies": "Nghiên cứu trường hợp",
+    "industry_solutions": "Giải pháp ngành nghề",
+    "client_projects": "Dự án khách hàng",
+    "blog": "Blog",
+    "tips_and_tricks": "Mẹo & Thủ thuật",
+    "news": "Tin tức",
+    "industry_insights": "Thông tin ngành nghề",
+    "contact": "Liên hệ",
+    "contact_form": "Mẫu liên hệ",
+    "location": "Địa điểm",
+    "inquiries": "Yêu cầu thông tin",
+    "privacy": "Quyền riêng tư",
+    "imprint": "Thông tin pháp lý"
+  },
+  "HomePage": {
+    "title": "Xin chào thế giới!",
+    "service": "Yêu cầu dịch vụ",
+    "about": "Nội dung chính sẽ ở đây",
+    "callus": "Gọi cho chúng tôi!",
+    "rights": "Tất cả quyền được bảo lưu."
+  },
+  "hero": {
+    "slogan": "Sáng tạo gặp công nghệ",
+    "introduction": "Chúng tôi là Phobo, chuyên phát triển các trang web hấp dẫn và chức năng. Mục tiêu của chúng tôi là biến ý tưởng của bạn thành những giải pháp kỹ thuật số ấn tượng. Liên hệ với chúng tôi để tìm hiểu thêm về các dịch vụ của chúng tôi!"
+  },
+  "FormPage": {
+    "title": "Yêu cầu dịch vụ",
+    "intro": "Bạn có một tầm nhìn cho trang web hoặc dự án tiếp thị trực tuyến của mình? Hãy chia sẻ ý tưởng của bạn với chúng tôi và cùng nhau phát triển một kế hoạch. Dịch vụ toàn diện của chúng tôi bao gồm mọi thứ bạn cần để đạt được mục tiêu - từ khái niệm đến thực hiện. Hãy điền vào mẫu liên hệ của chúng tôi ngay bây giờ và bắt đầu nào!",
+    "name": "Tên",
+    "email": "Email",
+    "subject": "Chủ đề",
+    "message": "Tin nhắn",
+    "submit": "Gửi"
+  },
+  "services": {
+    "webdesign": {
+      "title": "Giải pháp thiết kế web tùy chỉnh",
+      "description": "Mang đến cho thương hiệu của bạn một diện mạo trực tuyến độc đáo với các dịch vụ thiết kế web sáng tạo của chúng tôi. Đội ngũ giàu kinh nghiệm của chúng tôi tạo ra các trang web thân thiện với người dùng và hấp dẫn, không chỉ đẹp mà còn hoạt động tối ưu. Hãy cùng nhau hiện thực hóa tầm nhìn của bạn và gây ấn tượng với đối tượng mục tiêu!",
+      "cta": "Tìm hiểu thêm về dịch vụ thiết kế web của chúng tôi"
+    },
+    "seo": {
+      "title": "Tăng cường khả năng hiển thị của bạn với SEO",
+      "description": "Bạn muốn trang web của mình được nhiều khách hàng tìm thấy hơn? Dịch vụ tối ưu hóa SEO của chúng tôi giúp bạn cải thiện vị trí trên các công cụ tìm kiếm. Chúng tôi phân tích trang web của bạn, xác định tiềm năng tối ưu hóa và thực hiện các chiến lược đã được chứng minh để tăng cường khả năng hiển thị và tạo ra nhiều lưu lượng truy cập hơn.",
+      "cta": "Tìm hiểu thêm về dịch vụ SEO của chúng tôi"
+    }
+  },
+  "about": {
+    "description": "Chào mừng bạn đến với Phobo, đại lý thiết kế web toàn diện của bạn! Được thành lập bởi Han Hoa Huynh, một kỹ sư truyền thông (FH) với hơn 20 năm kinh nghiệm trong lĩnh vực thiết kế web, chúng tôi chuyên phát triển các ứng dụng Fullstack tùy chỉnh. Chuyên môn của chúng tôi bao gồm các công nghệ hiện đại như React.js, Next.js, Vue.js, Nuxt.js, Svelte, SvelteKit và Tailwind.css.",
+    "phobo": "Tên ‘Phobo’ có nguồn gốc từ ‘Phở Bò’ trong tiếng Việt, có nghĩa là ‘mì bò’. Món ăn ngon này không chỉ là món quốc hồn quốc túy của Việt Nam mà còn là biểu tượng cho sự đa dạng và phong phú của nền ẩm thực Việt Nam. Giống như một tô phở ngon được chuẩn bị cẩn thận – với nước dùng thơm ngon và nguyên liệu tươi mới – chúng tôi cũng chú trọng đến việc thiết kế và phát triển cẩn thận các giải pháp kỹ thuật số của bạn.",
+    "slogan": "Khẩu hiệu của chúng tôi: ‘Chúng tôi muốn làm cho web nhanh hơn’ phản ánh cam kết của chúng tôi trong việc cung cấp các giải pháp đổi mới và hiệu quả cho các doanh nghiệp nhỏ và vừa (SMEs). Hãy cùng nhau củng cố sự hiện diện kỹ thuật số của bạn và biến ý tưởng thành hiện thực!",
+    "phobowebdesigntitle": "Phobo: Nơi thiết kế web gặp gỡ truyền thống Việt Nam",
+    "phobowebdesigndesc": "Tại Phobo, chúng tôi kết hợp đam mê thiết kế web với niềm đam mê về ẩm thực Việt Nam mà người sáng lập chúng tôi có. Giống như một tô phở bò được chuẩn bị cẩn thận với nguyên liệu tươi mới và nước dùng thơm ngon, chúng tôi cũng chú trọng đến việc thiết kế và phát triển cẩn thận các giải pháp kỹ thuật số của bạn. Khám phá cách mà chúng tôi làm nổi bật thương hiệu của bạn!",
+    "zielgruppe": "Đối tượng: Các doanh nghiệp vừa và nhỏ từ nhiều ngành nghề khác nhau như thợ thủ công, thợ điện, nhà bán lẻ, tiệm nail, luật sư, kế toán viên, bất động sản."
+  },
+  "USP": {
+    "title": "Lợi ích/USP",
+    "benefit1": "Giải pháp tùy chỉnh",
+    "benefit1Description": "Chúng tôi cung cấp các giải pháp tùy chỉnh, được thiết kế đặc biệt để đáp ứng nhu cầu và yêu cầu của từng khách hàng.",
+    "benefit2": "Đội ngũ giàu kinh nghiệm",
+    "benefit2Description": "Đội ngũ của chúng tôi bao gồm các chuyên gia trong ngành với nhiều năm kinh nghiệm, cung cấp cho bạn những hiểu biết và tư vấn quý giá.",
+    "benefit3": "Đảm bảo sự hài lòng của khách hàng",
+    "benefit3Description": "Chúng tôi nỗ lực hết mình để đảm bảo rằng khách hàng hoàn toàn hài lòng với dịch vụ của mình.",
+    "benefit4": "Chất lượng cao qua kiểm tra nghiêm ngặt",
+    "benefit4Description": "Sản phẩm/Dịch vụ của chúng tôi nổi bật với tiêu chuẩn chất lượng cao nhất, được đảm bảo qua kiểm tra nghiêm ngặt.",
+    "benefit6": "Công nghệ đổi mới cho giải pháp hiện đại",
+    "benefit6Description": "Chúng tôi sử dụng công nghệ và xu hướng mới nhất để đảm bảo rằng giải pháp của chúng tôi luôn cập nhật.",
+    "benefit8": "Mối quan hệ lâu dài với khách hàng",
+    "benefit8Description": "Chúng tôi hướng tới xây dựng mối quan hệ lâu dài với khách hàng và hỗ trợ họ sau khi mua hàng bằng dịch vụ toàn diện.",
+    "multilingualMessage": "Đội ngũ của chúng tôi nói nhiều ngôn ngữ bao gồm tiếng Đức, tiếng Anh, tiếng Hàn, tiếng Nhật, tiếng Trung Quốc và tiếng Việt."
+  },
+  "language": {
+    "de": "Tiếng Đức",
+    "en": "Tiếng Anh",
+    "vi": "Tiếng Việt"
+  },
+  "team": {
+    "title": "Về đội ngũ",
+    "description": "Tại đại lý của chúng tôi, chúng tôi là một tập thể sống động gồm những bộ óc sáng tạo được thúc đẩy bởi niềm đam mê chung đối với đổi mới. Chúng tôi phát triển mạnh mẽ trong việc biến ý tưởng thành những trải nghiệm kỹ thuật số ấn tượng và cam kết mang lại kết quả xuất sắc giúp thương hiệu của khách hàng vươn tới những tầm cao mới. Hãy cùng nhau tạo ra điều gì đó phi thường! Hãy cho tôi biết nếu bạn cần thêm điều chỉnh!",
+    "members": {
+      "hanHoaHuynh": {
+        "name": "Han Hoa Huynh",
+        "role": "Người sáng lập & CEO",
+        "bio": "Han Hoa Huynh là một kỹ sư truyền thông (FH Osnabrück) với hơn 20 năm kinh nghiệm trong lĩnh vực thiết kế web. Ông thành lập Phobo nhằm cung cấp những giải pháp đổi mới và hiệu quả cho các doanh nghiệp nhỏ và vừa (SME).",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/han-hoa-huynh-8738aa39/",
+        "languages": "Tiếng Đức, Tiếng Anh, Tiếng Việt, Tiếng Quảng Đông"
+      },
+      "haiPham": {
+        "name": "Hai Pham",
+        "role": "Nhà phát triển phần mềm và lập kế hoạch dự án CNTT",
+        "bio": "Hai Pham là một nhà phát triển phần mềm có kinh nghiệm chuyên về React và Node.js. Niềm đam mê của anh đối với phát triển frontend và trải nghiệm người dùng (UX) giúp anh tạo ra những giải pháp hấp dẫn và thân thiện với người dùng.\n\nVới chuyên môn trong lập kế hoạch dự án CNTT, Hai đảm bảo rằng các dự án được thực hiện hiệu quả và đúng hướng. Anh có khả năng giải quyết các thách thức kỹ thuật một cách sáng tạo trong khi luôn chú ý đến nhu cầu người dùng.\n\nChúng tôi tự hào có Hai trong đội ngũ!",
+        "imageUrl": "/images/people/haipham.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/john-doe/",
+        "languages": "Tiếng Đức, Tiếng Anh, Tiếng Việt"
+      },
+      "seki": {
+        "name": "Seki Kawaguchi",
+        "role": "Chuyên gia SEO, Quản lý truyền thông xã hội",
+        "bio": "Seki Kawaguchi là một chuyên gia SEO và quản lý truyền thông xã hội có kinh nghiệm...",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
+        "languages": "Tiếng Đức, Tiếng Anh, Tiếng Hàn, Tiếng Nhật, Tiếng Trung Quốc"
+      }
+    }
+  }
+}
