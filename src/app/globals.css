@@ -58,3 +58,7 @@ textarea {
 section {
   @apply relative bg-white mt-2 p-1;
 }
+
+.menulink {
+  @apply flex items-center py-2 hover:text-primary  hover:underline underline-offset-4 text-xl;
+}

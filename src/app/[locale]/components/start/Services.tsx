@@ -21,6 +21,7 @@ export default function Services() {
         <div className="px-1 md:px-6 lg:contents">
           <div className="mx-auto max-w-2xl pb-24 pt-16 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
             {/* Webdesign Teaser */}
+            <a id="web-design" />
             <h2 className="text-base font-semibold leading-7 text-primary">
               {t("webdesign.cta")}
             </h2>
@@ -32,6 +33,7 @@ export default function Services() {
             />
 
             {/* SEO Teaser */}
+            <a id="seo" />
             <h2 className="text-base font-semibold leading-7 text-primary mt-16">
               {t("seo.cta")}
             </h2>

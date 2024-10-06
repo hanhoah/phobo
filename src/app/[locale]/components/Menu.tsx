@@ -1,49 +1,98 @@
-import { useTranslations } from "next-intl";
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
+import { Icon } from "@iconify/react";
 
 const Menu = () => {
   const t = useTranslations("Menu");
   const locale = useLocale();
-
-  // Define paths based on the locale
-  const servicePath = `/${locale}/services`;
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className=" text-white text-0xl">
-      <div className="max-w-screen-2xl mx-auto flex justify-end">
-        <div className="relative group">
-          <button className="px-4 py-2 bg-background hover:bg-primary hover:text-white">
-            {t("about")}
-          </button>
-          <div className="absolute right-0 hidden mt-0 w-48 bg-white opacity-90 shadow-lg rounded-md group-hover:block">
-            <Link
-              href={servicePath}
-              className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
-            >
-              {t("service")}
-            </Link>
-            <Link
-              href="/about/team"
-              className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
-            >
-              {t("team")}
-            </Link>
-            <Link
-              href="/about/history"
-              className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
-            >
-              {t("history")}
-            </Link>
-            <Link
-              href="/about/testimonials"
-              className="block px-4 py-2 text-sm text-primary hover:bg-gray-100"
-            >
-              {t("testimonials")}
-            </Link>
-          </div>
-        </div>
+    <nav className={`bg-background text-accent p-4`}>
+      <div className="flex items-center justify-between">
+        <button
+          className="md:hidden focus:outline-none"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle Menu"
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            {isOpen ? (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M6 18L18 6M6 6l12 12"
+              />
+            ) : (
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            )}
+          </svg>
+        </button>
       </div>
+
+      <ul
+        className={`mt-4 md:flex md:items-center md:space-x-8  ${
+          isOpen ? "block" : "hidden"
+        } md:block`}
+      >
+        <li>
+          <Link href={`/${locale}`} className="menulink">
+            <Icon icon="mdi:home" className="mr-2 text-xl" />
+            {t("home")}
+          </Link>
+        </li>
+        <li className="relative group">
+          <Link href={`/${locale}/services`} className="menulink">
+            <Icon icon="mdi:briefcase" className="mr-2" />
+            {t("services")}
+          </Link>
+          <ul className="absolute left-0 hidden group-hover:block bg-secondary text-accent rounded-md shadow-lg">
+            <li>
+              <Link
+                href={`/${locale}/services#web-design`}
+                className="block py-2 px-4 hover:underline"
+              >
+                {t("webdesign")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`/${locale}/services#seo`}
+                className="block py-2 px-4 hover:underline"
+              >
+                {t("seo")}
+              </Link>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <Link href={`/${locale}/team`} className="menulink">
+            <Icon icon="mdi:account-group" className="mr-2" />
+            {t("team")}
+          </Link>
+        </li>
+        <li>
+          <Link href={`/${locale}/requestservice`} className="menulink">
+            <Icon icon="mdi:contact-mail" className="mr-2" />
+            {t("contact")}
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 };

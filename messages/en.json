@@ -96,5 +96,36 @@
     "en": "English",
     "de": "German",
     "vi": "Vietnamese"
+  },
+  "team": {
+    "title": "About The Team",
+    "description": "At our agency, we’re a vibrant collective of creative minds driven by a shared passion for innovation. We thrive on transforming ideas into stunning digital experiences, and we’re committed to delivering exceptional results that elevate our clients' brands to new heights. Let’s create something extraordinary together! Feel free to let me know if you need any further adjustments!",
+    "members": {
+      "hanHoaHuynh": {
+        "name": "Han Hoa Huynh",
+        "role": "Founder & CEO",
+        "bio": "Han Hoa Huynh is a graduate media computer scientist with over 20 years of experience in web design. He founded Phobo with the goal of providing innovative and efficient solutions for small and medium-sized enterprises (SMEs).",
+
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/han-hoa-huynh-8738aa39/",
+        "languages": "German, English, Vietnamese, Cantonese"
+      },
+      "haiPham": {
+        "name": "Hai Pham",
+        "role": "UX/UI Designer",
+        "bio": "Hai Pham is a talented web designer...",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/john-doe/",
+        "languages": "German, English, Vietnamese"
+      },
+      "seki": {
+        "name": "Seki Kawaguchi",
+        "role": "SEO Specialist, Social Media Manager",
+        "bio": "eki Kawaguchi is an experienced SEO specialist and Social Media Manager...",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
+        "languages": "German, English, Korean, Japanese, Chinese"
+      }
+    }
   }
 }

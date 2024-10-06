@@ -15,7 +15,7 @@ const Headline = () => {
             <Logo />
           </Link>
         </div>
-        <div>
+        <div className="w-1/2">
           <Menu />
         </div>
         <div className="flex flex-row items-center space-x-5">
