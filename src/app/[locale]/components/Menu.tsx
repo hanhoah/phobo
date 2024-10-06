@@ -12,15 +12,16 @@ const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className={`bg-background text-accent p-4`}>
-      <div className="flex items-center justify-between">
+    <nav className="bg-background text-accent p-4">
+      {/* Mobile Menu */}
+      <div className="md:hidden flex items-center justify-between">
         <button
-          className="md:hidden focus:outline-none"
+          className="focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle Menu"
         >
           <svg
-            className="w-6 h-6"
+            className="w-12 h-12"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -45,11 +46,54 @@ const Menu = () => {
         </button>
       </div>
 
-      <ul
-        className={`mt-4 md:flex md:items-center md:space-x-8  ${
-          isOpen ? "block" : "hidden"
-        } md:block`}
-      >
+      {/* Mobile Links */}
+      <ul className={`mt-4 md:hidden ${isOpen ? "block" : "hidden"}`}>
+        <li>
+          <Link href={`/${locale}`} className="menulink">
+            <Icon icon="mdi:home" className="mr-2 text-xl" />
+            {t("home")}
+          </Link>
+        </li>
+        <li className="relative group">
+          <Link href={`/${locale}/services`} className="menulink">
+            <Icon icon="mdi:briefcase" className="mr-2" />
+            {t("services")}
+          </Link>
+          <ul className="absolute left-0 hidden group-hover:block bg-secondary text-accent rounded-md shadow-lg">
+            <li>
+              <Link
+                href={`/${locale}/services#web-design`}
+                className="block py-2 px-4 hover:underline"
+              >
+                {t("webdesign")}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href={`/${locale}/services#seo`}
+                className="block py-2 px-4 hover:underline"
+              >
+                {t("seo")}
+              </Link>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <Link href={`/${locale}/team`} className="menulink">
+            <Icon icon="mdi:account-group" className="mr-2" />
+            {t("team")}
+          </Link>
+        </li>
+        <li>
+          <Link href={`/${locale}/requestservice`} className="menulink">
+            <Icon icon="mdi:contact-mail" className="mr-2" />
+            {t("contact")}
+          </Link>
+        </li>
+      </ul>
+
+      {/* Desktop Links */}
+      <ul className="hidden md:flex md:items-center md:space-x-8">
         <li>
           <Link href={`/${locale}`} className="menulink">
             <Icon icon="mdi:home" className="mr-2 text-xl" />
