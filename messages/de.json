@@ -96,5 +96,35 @@
     "de": "Deutsch",
     "en": "Englisch",
     "vi": "Vietnamesisch"
+  },
+  "team": {
+    "title": "Über das Team",
+    "description": "In unserer Agentur sind wir ein lebendiges Kollektiv kreativer Köpfe, die von einer gemeinsamen Leidenschaft für Innovationen angetrieben werden. Wir gedeihen darin, Ideen in beeindruckende digitale Erlebnisse zu verwandeln, und wir sind bestrebt, außergewöhnliche Ergebnisse zu liefern, die die Marken unserer Kunden auf neue Höhen heben. Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen! Lassen Sie es mich wissen, wenn Sie weitere Anpassungen benötigen!",
+    "members": {
+      "hanHoaHuynh": {
+        "name": "Han Hoa Huynh",
+        "role": "Gründer & CEO",
+        "bio": "Han Hoa Huynh ist ein ausgebildeter Medieninformatiker (Fachhochschule Osnabrück) mit über 20 Jahren Erfahrung im Webdesign. Er gründete Phobo mit dem Ziel, innovative und effiziente Lösungen für kleine und mittelständische Unternehmen (KMU) anzubieten.",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/han-hoa-huynh-8738aa39/",
+        "languages": "Deutsch, Englisch, Vietnamesisch, Kantonesisch"
+      },
+      "haiPham": {
+        "name": "Hai Pham",
+        "role": "UX/UI Designer",
+        "bio": "Hai Pham ist ein talentierter Webdesigner...",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/john-doe/",
+        "languages": "Deutsch, Englisch, Vietnamesisch"
+      },
+      "seki": {
+        "name": "Seki Kawaguchi",
+        "role": "SEO-Spezialist, Social Media Manager",
+        "bio": "Seki Kawaguchi ist ein erfahrener SEO-Spezialist und Social Media Manager...",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
+        "languages": "Deutsch, Englisch, Koreanisch, Japanisch, Chinesisch"
+      }
+    }
   }
 }
