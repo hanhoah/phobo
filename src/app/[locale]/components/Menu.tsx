@@ -12,7 +12,7 @@ const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-background text-accent p-4">
+    <nav className="bg-background text-accent p-4 menu">
       {/* Mobile Menu */}
       <div className="md:hidden flex items-center justify-between">
         <button
@@ -76,6 +76,14 @@ const Menu = () => {
                 {t("seo")}
               </Link>
             </li>
+            <li>
+              <Link
+                href={`/${locale}/faq`}
+                className="block py-2 px-4 hover:underline"
+              >
+                {t("faq")}
+              </Link>
+            </li>
           </ul>
         </li>
         <li>
@@ -123,6 +131,15 @@ const Menu = () => {
               </Link>
             </li>
           </ul>
+        </li>
+        <li>
+          <Link href={`/${locale}/faq`} className="menulink">
+            <Icon
+              icon="mdi-comment-question-outline"
+              className="mr-2 text-xl"
+            />{" "}
+            {t("faq")}
+          </Link>
         </li>
         <li>
           <Link href={`/${locale}/team`} className="menulink">

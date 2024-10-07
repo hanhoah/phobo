@@ -10,7 +10,7 @@ export default function AboutSection() {
         <div className="overflow-hidden">
           <div className="flex flex-row">
             <div className=" md:p-3 lg:p-6">
-              <h1 className="text-primary">Über Phobo</h1>
+              <h1 className="text-primary">{t("about")} Phobo</h1>
               <div className="flex flex-col md:flex-row">
                 <div className="w-full lg:w-2/3 md:p-5">
                   <p>{t("description")}</p>

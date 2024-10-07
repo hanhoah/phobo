@@ -34,7 +34,8 @@
     "location": "Standort",
     "inquiries": "Anfragen",
     "privacy": "Datenschutz",
-    "imprint": "Impressum"
+    "imprint": "Impressum",
+    "faq": "Häufige Fragen"
   },
   "HomePage": {
     "title": "Hallo Welt!",
@@ -69,6 +70,7 @@
     }
   },
   "about": {
+    "about": "Über",
     "description": "Willkommen bei Phobo, Ihrer Full-Service-Webdesign-Agentur! Gegründet von Han Hoa Huynh, einem Diplom-Medieninformatiker (FH) mit über 20 Jahren Erfahrung im Webdesign, sind wir darauf spezialisiert, maßgeschneiderte Fullstack-Applikationen zu entwickeln. Unsere Expertise umfasst moderne Technologien wie React.js, Next.js, Vue.js, Nuxt.js, Svelte, SvelteKit und Tailwind.css.",
     "phobo": "Der Name „Phobo“ hat seine Wurzeln im vietnamesischen „Phở Bò“, was so viel wie „Rindfleisch-Nudelsuppe“ bedeutet. Diese köstliche Speise ist nicht nur ein Nationalgericht Vietnams, sondern auch ein Symbol für die Vielfalt und den Reichtum der vietnamesischen Küche. Genauso wie eine gute Schüssel Phở sorgfältig zubereitet wird – mit einer aromatischen Brühe und frischen Zutaten – so legen wir auch Wert auf die sorgfältige Gestaltung und Entwicklung Ihrer digitalen Lösungen.",
     "slogan": "Unser Slogan: „Wir möchten das Web schneller machen“ spiegelt unser Engagement wider, innovative und effiziente Lösungen für kleine und mittelständische Unternehmen (KMUs) zu bieten. Lassen Sie uns gemeinsam Ihre digitale Präsenz stärken und Ihre Ideen zum Leben erwecken!",
@@ -124,6 +126,50 @@
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
         "languages": "Deutsch, Englisch, Koreanisch, Japanisch, Chinesisch"
+      }
+    }
+  },
+  "FAQ": {
+    "questions": {
+      "q1": {
+        "question": "Wie lange dauert es, eine Website bei Phobo zu entwickeln?",
+        "answer": "Die Entwicklung einer Website bei Phobo dauert in der Regel zwischen 4 und 12 Wochen, abhängig von der Komplexität des Projekts und den spezifischen Anforderungen des Kunden."
+      },
+      "q2": {
+        "question": "Was kostet die Erstellung einer Website?",
+        "answer": "Die Kosten für die Erstellung einer Website variieren je nach Anforderungen und Umfang des Projekts. Einfache Websites beginnen oft bei etwa 1.000 Euro."
+      },
+      "q3": {
+        "question": "Bieten Sie auch Wartungsdienste an?",
+        "answer": "Ja, wir bieten umfassende Wartungsdienste an, um sicherzustellen, dass Ihre Website stets aktuell und sicher ist."
+      },
+      "q4": {
+        "question": "Kann ich meine Website selbst aktualisieren?",
+        "answer": "Ja, wir verwenden Content-Management-Systeme (CMS) wie WordPress, die es Ihnen ermöglichen, Inhalte einfach selbst zu aktualisieren."
+      },
+      "q5": {
+        "question": "Wie wichtig ist SEO für meine Website?",
+        "answer": "SEO ist entscheidend, um sicherzustellen, dass Ihre Website in Suchmaschinen gut platziert wird und von potenziellen Kunden gefunden wird."
+      },
+      "q6": {
+        "question": "Was ist der Unterschied zwischen Frontend- und Backend-Entwicklung?",
+        "answer": "Frontend-Entwicklung bezieht sich auf die Gestaltung der Benutzeroberfläche, während Backend-Entwicklung die serverseitige Programmierung umfasst."
+      },
+      "q7": {
+        "question": "Welche Technologien verwenden Sie für die Webentwicklung?",
+        "answer": "Wir verwenden moderne Technologien wie **React.js**, **Node.js**, **Vue.js** und **Tailwind.css**. \n\nObwohl wir auch WordPress unterstützen, bevorzugen wir diese Technologien aufgrund ihrer zahlreichen Vorteile.\n\n- Anwendungen, die mit React.js und Vue.js entwickelt wurden, bieten eine hohe Leistung durch die Nutzung eines virtuellen DOMs, was zu schnelleren Ladezeiten und einer verbesserten Benutzererfahrung führt.\n- Node.js ermöglicht die Entwicklung skalierbarer Netzwerkapplikationen, die mehrere Anfragen gleichzeitig verarbeiten können, ohne die Leistung zu beeinträchtigen.\n- Mit React.js und Vue.js können wir benutzerdefinierte Benutzeroberflächen erstellen, die genau auf Ihre spezifischen Anforderungen zugeschnitten sind.\n- Tailwind.css fördert einen utility-first Ansatz beim Styling, der schnelle Designiteration und konsistente UI-Entwicklung ermöglicht.\n- Während WordPress anfällig für Angriffe ist, können wir mit Node.js und React sichere Anwendungen entwickeln, die von Grund auf mit besten Sicherheitspraktiken erstellt werden.\n- Durch den Einsatz moderner Technologien stellen wir sicher, dass Ihre Anwendung anpassungsfähig bleibt und zukünftige Entwicklungen im Webdesign berücksichtigt.\n\n> Die Nutzung unseres Tech Stacks stellt ein einzigartiges Verkaufsargument (USP) gegenüber unseren Wettbewerbern dar, da diese in der Regel nur mit WordPress-Templates und Plugins arbeiten. Bei uns erhalten Sie Technologien, mit denen auch einige der größten Internetunternehmen arbeiten, darunter Facebook, Netflix und Airbnb. Diese Firmen setzen auf leistungsstarke und skalierbare Lösungen, um ihren Nutzern das bestmögliche Erlebnis zu bieten."
+      },
+      "q8": {
+        "question": "Wie kann ich den Fortschritt meiner Website verfolgen?",
+        "answer": "Wir halten Sie regelmäßig auf dem Laufenden und stellen sicher, dass Sie über alle Fortschritte informiert sind."
+      },
+      "q9": {
+        "question": "Was passiert, wenn ich nach dem Launch Änderungen an meiner Website vornehmen möchte?",
+        "answer": "Nach dem Launch sind Anpassungen jederzeit möglich. Wir bieten Änderungsdienste an."
+      },
+      "q10": {
+        "question": "Wie kann ich Sie kontaktieren?",
+        "answer": "Sie können uns jederzeit über unser Kontaktformular auf der Website erreichen oder uns direkt anrufen."
       }
     }
   }

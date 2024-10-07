@@ -34,7 +34,8 @@
     "location": "Location",
     "inquiries": "Inquiries",
     "privacy": "Privacy Policy",
-    "imprint": "Imprint"
+    "imprint": "Imprint",
+    "faq": "FAQ"
   },
   "HomePage": {
     "title": "Hello world!",
@@ -69,6 +70,7 @@
     }
   },
   "about": {
+    "about": "About",
     "description": "Welcome to Phobo, your full-service web design agency! Founded by Han Hoa Huynh, a graduate media computer scientist with over 20 years of experience in web design, we specialize in developing custom full-stack applications. Our expertise includes modern technologies such as React.js, Next.js, Vue.js, Nuxt.js, Svelte, SvelteKit, and Tailwind.css.",
     "phobo": "The name 'Phobo' has its roots in the Vietnamese 'Phở Bò', which means 'beef noodle soup'. This delicious dish is not only a national dish of Vietnam but also a symbol of the diversity and richness of Vietnamese cuisine. Just as a good bowl of Phở is carefully prepared—with an aromatic broth and fresh ingredients—we also emphasize the careful design and development of your digital solutions.",
     "slogan": "Our slogan: 'We want to make the web faster' reflects our commitment to providing innovative and efficient solutions for small and medium-sized enterprises (SMEs). Let us strengthen your digital presence together and bring your ideas to life!",
@@ -125,6 +127,50 @@
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
         "languages": "German, English, Korean, Japanese, Chinese"
+      }
+    }
+  },
+  "FAQ": {
+    "questions": {
+      "q1": {
+        "question": "How long does it take to develop a website at Phobo?",
+        "answer": "The development of a website at Phobo typically takes between 4 and 12 weeks, depending on the complexity of the project and the specific requirements of the client."
+      },
+      "q2": {
+        "question": "What does it cost to create a website?",
+        "answer": "The costs for creating a website vary depending on the requirements and scope of the project. Simple websites often start at around 1,000 euros."
+      },
+      "q3": {
+        "question": "Do you also offer maintenance services?",
+        "answer": "Yes, we provide comprehensive maintenance services to ensure that your website is always up-to-date and secure."
+      },
+      "q4": {
+        "question": "Can I update my website myself?",
+        "answer": "Yes, we use content management systems (CMS) like WordPress that allow you to easily update content yourself."
+      },
+      "q5": {
+        "question": "How important is SEO for my website?",
+        "answer": "SEO is crucial to ensure that your website ranks well in search engines and can be found by potential customers."
+      },
+      "q6": {
+        "question": "What is the difference between frontend and backend development?",
+        "answer": "Frontend development refers to designing the user interface, while backend development involves server-side programming."
+      },
+      "q7": {
+        "question": "What technologies do you use for web development?",
+        "answer": "We use modern technologies such as React.js, Node.js, Vue.js, and Tailwind.css."
+      },
+      "q8": {
+        "question": "How can I track the progress of my website?",
+        "answer": "We keep you regularly updated and ensure that you are informed about all progress."
+      },
+      "q9": {
+        "question": "What happens if I want to make changes to my website after launch?",
+        "answer": "After launch, adjustments are always possible. We offer change services."
+      },
+      "q10": {
+        "question": "How can I contact you?",
+        "answer": "You can reach us anytime through our contact form on the website or call us directly."
       }
     }
   }

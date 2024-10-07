@@ -34,7 +34,8 @@
     "location": "Địa điểm",
     "inquiries": "Yêu cầu thông tin",
     "privacy": "Quyền riêng tư",
-    "imprint": "Thông tin pháp lý"
+    "imprint": "Thông tin pháp lý",
+    "faq": "Câu hỏi thường gặp"
   },
   "HomePage": {
     "title": "Xin chào thế giới!",
@@ -69,6 +70,7 @@
     }
   },
   "about": {
+    "about": "Về",
     "description": "Chào mừng bạn đến với Phobo, đại lý thiết kế web toàn diện của bạn! Được thành lập bởi Han Hoa Huynh, một kỹ sư truyền thông (FH) với hơn 20 năm kinh nghiệm trong lĩnh vực thiết kế web, chúng tôi chuyên phát triển các ứng dụng Fullstack tùy chỉnh. Chuyên môn của chúng tôi bao gồm các công nghệ hiện đại như React.js, Next.js, Vue.js, Nuxt.js, Svelte, SvelteKit và Tailwind.css.",
     "phobo": "Tên ‘Phobo’ có nguồn gốc từ ‘Phở Bò’ trong tiếng Việt, có nghĩa là ‘mì bò’. Món ăn ngon này không chỉ là món quốc hồn quốc túy của Việt Nam mà còn là biểu tượng cho sự đa dạng và phong phú của nền ẩm thực Việt Nam. Giống như một tô phở ngon được chuẩn bị cẩn thận – với nước dùng thơm ngon và nguyên liệu tươi mới – chúng tôi cũng chú trọng đến việc thiết kế và phát triển cẩn thận các giải pháp kỹ thuật số của bạn.",
     "slogan": "Khẩu hiệu của chúng tôi: ‘Chúng tôi muốn làm cho web nhanh hơn’ phản ánh cam kết của chúng tôi trong việc cung cấp các giải pháp đổi mới và hiệu quả cho các doanh nghiệp nhỏ và vừa (SMEs). Hãy cùng nhau củng cố sự hiện diện kỹ thuật số của bạn và biến ý tưởng thành hiện thực!",
@@ -124,6 +126,50 @@
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
         "languages": "Tiếng Đức, Tiếng Anh, Tiếng Hàn, Tiếng Nhật, Tiếng Trung Quốc"
+      }
+    }
+  },
+  "FAQ": {
+    "questions": {
+      "q1": {
+        "question": "Mất bao lâu để phát triển một trang web tại Phobo?",
+        "answer": "Việc phát triển một trang web tại Phobo thường mất từ 4 đến 12 tuần, tùy thuộc vào độ phức tạp của dự án và các yêu cầu cụ thể của khách hàng."
+      },
+      "q2": {
+        "question": "Chi phí để tạo một trang web là bao nhiêu?",
+        "answer": "Chi phí để tạo một trang web thay đổi tùy theo yêu cầu và quy mô của dự án. Các trang web đơn giản thường bắt đầu từ khoảng 1.000 Euro."
+      },
+      "q3": {
+        "question": "Bạn có cung cấp dịch vụ bảo trì không?",
+        "answer": "Có, chúng tôi cung cấp dịch vụ bảo trì toàn diện để đảm bảo rằng trang web của bạn luôn được cập nhật và an toàn."
+      },
+      "q4": {
+        "question": "Tôi có thể tự cập nhật trang web của mình không?",
+        "answer": "Có, chúng tôi sử dụng các hệ thống quản lý nội dung (CMS) như WordPress, cho phép bạn dễ dàng tự cập nhật nội dung."
+      },
+      "q5": {
+        "question": "SEO quan trọng như thế nào đối với trang web của tôi?",
+        "answer": "SEO rất quan trọng để đảm bảo rằng trang web của bạn được xếp hạng tốt trên các công cụ tìm kiếm và được khách hàng tiềm năng tìm thấy."
+      },
+      "q6": {
+        "question": "Sự khác biệt giữa phát triển Frontend và Backend là gì?",
+        "answer": "Phát triển Frontend liên quan đến thiết kế giao diện người dùng, trong khi phát triển Backend liên quan đến lập trình phía máy chủ."
+      },
+      "q7": {
+        "question": "Bạn sử dụng công nghệ nào cho phát triển web?",
+        "answer": "Chúng tôi sử dụng các công nghệ hiện đại như React.js, Node.js, Vue.js và Tailwind.css."
+      },
+      "q8": {
+        "question": "Làm thế nào tôi có thể theo dõi tiến độ của trang web của mình?",
+        "answer": "Chúng tôi sẽ thường xuyên cập nhật cho bạn và đảm bảo rằng bạn luôn được thông báo về mọi tiến bộ."
+      },
+      "q9": {
+        "question": "Điều gì xảy ra nếu tôi muốn thực hiện thay đổi sau khi ra mắt trang web?",
+        "answer": "Sau khi ra mắt, việc điều chỉnh là hoàn toàn có thể. Chúng tôi cung cấp dịch vụ thay đổi."
+      },
+      "q10": {
+        "question": "Làm thế nào tôi có thể liên hệ với bạn?",
+        "answer": "Bạn có thể liên hệ với chúng tôi bất cứ lúc nào qua mẫu liên hệ trên trang web hoặc gọi trực tiếp cho chúng tôi."
       }
     }
   }

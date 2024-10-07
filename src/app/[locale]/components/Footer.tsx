@@ -19,7 +19,7 @@ const Footer = () => {
     <footer className="bg-secondary text-white py-4 ">
       <div className="max-w-screen-2xl m-auto">
         <nav className="ml-5">
-          <ul className="list-none">
+          <ul>
             <li>
               <Link href={privacyPath}>{u("privacy")}</Link>
             </li>

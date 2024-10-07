@@ -60,5 +60,29 @@ section {
 }
 
 .menulink {
-  @apply flex items-center py-2 hover:text-primary  hover:underline underline-offset-4 text-xl;
+  @apply flex items-center py-2 hover:text-primary  hover:underline underline-offset-4 text-lg;
+}
+
+.menu ul {
+  @apply mt-0;
+}
+
+.menu li {
+  @apply list-none;
+}
+
+footer li {
+  @apply list-none;
+}
+
+ul {
+  @apply mt-2;
+}
+
+li {
+  @apply list-disc ml-5 text-lg;
+}
+
+blockquote {
+  @apply text-lg italic  border-primary border-l-8 pl-4;
 }
