@@ -156,8 +156,8 @@
         "answer": "Phát triển Frontend liên quan đến thiết kế giao diện người dùng, trong khi phát triển Backend liên quan đến lập trình phía máy chủ."
       },
       "q7": {
-        "question": "Bạn sử dụng công nghệ nào cho phát triển web?",
-        "answer": "Chúng tôi sử dụng các công nghệ hiện đại như React.js, Node.js, Vue.js và Tailwind.css."
+        "question": "Bạn sử dụng công nghệ nào để phát triển web?",
+        "answer": "Chúng tôi sử dụng các công nghệ hiện đại như **React.js**, **Node.js**, **Vue.js** và **Tailwind.css**.\n\nMặc dù chúng tôi cũng hỗ trợ WordPress, nhưng chúng tôi ưu tiên các công nghệ này vì nhiều lợi ích của chúng.\n\n- Các ứng dụng được phát triển bằng React.js và Vue.js cung cấp hiệu suất cao nhờ vào việc sử dụng DOM ảo, dẫn đến thời gian tải nhanh hơn và trải nghiệm người dùng được cải thiện.\n- Node.js cho phép phát triển các ứng dụng mạng có thể mở rộng, có thể xử lý nhiều yêu cầu cùng một lúc mà không làm giảm hiệu suất.\n- Với React.js và Vue.js, chúng tôi có thể tạo ra các giao diện người dùng tùy chỉnh, chính xác theo yêu cầu cụ thể của bạn.\n- Tailwind.css khuyến khích một cách tiếp cận utility-first trong việc thiết kế, cho phép lặp lại thiết kế nhanh chóng và phát triển UI nhất quán.\n- Trong khi WordPress dễ bị tấn công, chúng tôi có thể phát triển các ứng dụng an toàn với Node.js và React, được xây dựng từ đầu với các thực tiễn bảo mật tốt nhất.\n- Bằng cách sử dụng các công nghệ hiện đại, chúng tôi đảm bảo rằng ứng dụng của bạn luôn thích ứng và xem xét các phát triển trong thiết kế web trong tương lai.\n\n> Việc sử dụng bộ công nghệ của chúng tôi tạo ra một điểm bán hàng độc đáo (USP) so với các đối thủ cạnh tranh của chúng tôi, vì họ thường chỉ làm việc với các mẫu WordPress và plugin. Với chúng tôi, bạn sẽ nhận được các công nghệ mà ngay cả những công ty Internet lớn nhất cũng sử dụng, bao gồm Facebook, Netflix và Airbnb. Những công ty này dựa vào các giải pháp mạnh mẽ và có thể mở rộng để mang lại trải nghiệm tốt nhất cho người dùng của họ."
       },
       "q8": {
         "question": "Làm thế nào tôi có thể theo dõi tiến độ của trang web của mình?",

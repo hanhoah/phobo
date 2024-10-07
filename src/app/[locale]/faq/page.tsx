@@ -56,7 +56,7 @@ export default function FAQPage({
   ];
 
   return (
-    <div className="container w-1/2 mx-auto p-4">
+    <div className="container w-full lg:w-1/2 mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6">{m("faq")}</h1>
       <div className="space-y-4">
         {faqs.map((faq, index) => (
