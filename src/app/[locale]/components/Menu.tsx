@@ -103,10 +103,10 @@ const Menu = () => {
       </ul>
 
       {/* Desktop Links */}
-      <ul className="hidden md:flex md:items-center md:space-x-8">
+      <ul className="hidden md:flex md:flex-row md:space-x-4">
         <li>
           <Link href={`/${locale}`} className="menulink">
-            <Icon icon="mdi:home" className="mr-2 text-xl" />
+            <Icon icon="mdi:home" className="mr-1 text-xl" />
             {t("home")}
           </Link>
         </li>
@@ -115,11 +115,11 @@ const Menu = () => {
             <Icon icon="mdi:briefcase" className="mr-2" />
             {t("services")}
           </Link>
-          <ul className="absolute left-0 hidden group-hover:block bg-secondary text-accent rounded-md shadow-lg">
+          <ul className="absolute left-0 hidden group-hover:block w-40 bg-secondary text-accent rounded-md shadow-lg">
             <li>
               <Link
                 href={`/${locale}/services#web-design`}
-                className="block py-2 px-4 hover:underline"
+                className="block py-2 px-4 hover:underline hover:text-primary"
               >
                 {t("webdesign")}
               </Link>
@@ -127,7 +127,7 @@ const Menu = () => {
             <li>
               <Link
                 href={`/${locale}/services#seo`}
-                className="block py-2 px-4 hover:underline"
+                className="block py-2 px-4 hover:underline hover:text-primary"
               >
                 {t("seo")}
               </Link>

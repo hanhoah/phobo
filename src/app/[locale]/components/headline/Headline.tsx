@@ -32,7 +32,7 @@ const Headline = () => {
         <div className="w-1/2">
           <Menu />
         </div>
-        <div className="flex flex-row items-center space-x-5">
+        <div className="flex flex-col items-center space-x-5 space-y-5">
           <RequestBtn />
           <LanguageSwitcher />
         </div>
