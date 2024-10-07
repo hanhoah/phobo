@@ -30,6 +30,7 @@ const LanguageSwitcher = () => {
   const enPath = segment ? `/en/${segment}` : "/en";
   const dePath = segment ? `/de/${segment}` : "/de";
   const viPath = segment ? `/vi/${segment}` : "/vi";
+  const zhPath = segment ? `/zh/${segment}` : "/zh";
 
   const options: LanguageOption[] = [
     {
@@ -46,6 +47,11 @@ const LanguageSwitcher = () => {
       value: viPath,
       label: t("vi"),
       icon: <Icon icon="flag:vn-4x3" width="20" height="15" />,
+    },
+    {
+      value: zhPath,
+      label: t("zh"),
+      icon: <Icon icon="flag:cn-4x3" width="20" height="15" />,
     },
   ];
 

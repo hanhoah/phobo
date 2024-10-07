@@ -97,11 +97,13 @@
   "language": {
     "en": "English",
     "de": "German",
-    "vi": "Vietnamese"
+    "vi": "Vietnamese",
+    "zh": "Chinese"
   },
   "team": {
     "title": "About The Team",
-    "description": "At our agency, we’re a vibrant collective of creative minds driven by a shared passion for innovation. We thrive on transforming ideas into stunning digital experiences, and we’re committed to delivering exceptional results that elevate our clients' brands to new heights. Let’s create something extraordinary together! Feel free to let me know if you need any further adjustments!",
+    "description": "At our agency, we're a vibrant collective of creative minds driven by a shared passion for innovation. We thrive on transforming ideas into stunning digital experiences, and we’re committed to delivering exceptional results that elevate our clients' brands to new heights. Let’s create something extraordinary together! Feel free to let me know if you need any further adjustments!",
+    "languages": "Languages",
     "members": {
       "hanHoaHuynh": {
         "name": "Han Hoa Huynh",

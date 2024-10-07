@@ -97,11 +97,13 @@
   "language": {
     "de": "Tiếng Đức",
     "en": "Tiếng Anh",
-    "vi": "Tiếng Việt"
+    "vi": "Tiếng Việt",
+    "zh": "Tiếng Trung Quốc"
   },
   "team": {
     "title": "Về đội ngũ",
     "description": "Tại đại lý của chúng tôi, chúng tôi là một tập thể sống động gồm những bộ óc sáng tạo được thúc đẩy bởi niềm đam mê chung đối với đổi mới. Chúng tôi phát triển mạnh mẽ trong việc biến ý tưởng thành những trải nghiệm kỹ thuật số ấn tượng và cam kết mang lại kết quả xuất sắc giúp thương hiệu của khách hàng vươn tới những tầm cao mới. Hãy cùng nhau tạo ra điều gì đó phi thường! Hãy cho tôi biết nếu bạn cần thêm điều chỉnh!",
+    "languages": "Ngôn ngữ",
     "members": {
       "hanHoaHuynh": {
         "name": "Han Hoa Huynh",

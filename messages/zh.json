@@ -1,0 +1,190 @@
+{
+  "Menu": {
+    "home": "首页",
+    "about": "关于我们",
+    "service": "我们的服务",
+    "team": "我们的团队",
+    "history": "我们的历史",
+    "testimonials": "客户评价",
+    "services": "服务项目",
+    "webdesign": "网页设计",
+    "responsive_design": "响应式设计",
+    "uiux_design": "UI/UX设计",
+    "webentwicklung": "网页开发",
+    "frontend": "前端开发",
+    "backend": "后端开发",
+    "seo": "SEO优化",
+    "onpage_seo": "页面内SEO",
+    "offpage_seo": "页面外SEO",
+    "seo_audits": "SEO审计",
+    "online_marketing": "在线营销",
+    "social_media_marketing": "社交媒体营销",
+    "content_marketing": "内容营销",
+    "ppc_advertising": "PPC广告",
+    "portfolio": "作品集",
+    "case_studies": "案例研究",
+    "industry_solutions": "行业解决方案",
+    "client_projects": "客户项目",
+    "blog": "博客",
+    "tips_and_tricks": "小贴士与技巧",
+    "news": "新闻动态",
+    "industry_insights": "行业洞察",
+    "contact": "联系",
+    "contact_form": "联系表单",
+    "location": "位置",
+    "inquiries": "咨询",
+    "privacy": "隐私政策",
+    "imprint": "版权声明",
+    "faq": "常见问题"
+  },
+  "HomePage": {
+    "title": "你好，世界！",
+    "service": "服务咨询",
+    "about": "这里是主要内容",
+    "callus": "给我们打电话！",
+    "rights": "版权所有。"
+  },
+  "hero": {
+    "slogan": "创造力与科技的结合",
+    "introduction": "我们是Phobo，专注于开发引人入胜且功能齐全的网站。我们的目标是将您的想法转化为令人印象深刻的数字解决方案。请联系我们以了解更多关于我们的服务！"
+  },
+  "FormPage": {
+    "title": "服务咨询",
+    "intro": "您对您的网站或在线营销项目有愿景吗？与我们分享您的想法，让我们共同制定计划。我们的全方位服务包括您实现目标所需的一切——从构思到实施。立即填写我们的联系表单，让我们开始吧！",
+    "name": "姓名",
+    "email": "电子邮件",
+    "subject": "主题",
+    "message": "消息",
+    "submit": "提交"
+  },
+  "services": {
+    "webdesign": {
+      "title": "量身定制的网页设计解决方案",
+      "description": "通过我们的创意网页设计服务，为您的品牌打造独特的在线形象。我们的经验丰富的团队创建用户友好且引人入胜的网站，不仅外观优美，而且功能完备。让我们一起实现您的愿景，吸引您的目标受众！",
+      "cta": "了解更多关于我们的网页设计服务"
+    },
+    "seo": {
+      "title": "通过SEO提升您的可见性",
+      "description": "希望您的网站被更多客户找到吗？我们的SEO优化服务可以帮助您在搜索引擎中获得更好的排名。我们分析您的网站，识别优化潜力，并实施经过验证的策略，以提高您的可见性并增加流量。",
+      "cta": "立即了解更多关于我们的SEO服务"
+    }
+  },
+  "about": {
+    "about": "关于",
+    "description": "欢迎来到Phobo，您的全方位网页设计公司！由Han Hoa Huynh创办，他是一位拥有超过20年网页设计经验的媒体信息学毕业生（FH）。我们专注于开发量身定制的全栈应用程序。我们的专业知识涵盖现代技术，如React.js、Next.js、Vue.js、Nuxt.js、Svelte、SvelteKit和Tailwind.css。",
+    "phobo": "\"Phobo\"这个名字源于越南语中的\"Phở Bò\"，意为\"牛肉米粉汤\"。这道美味的菜肴不仅是越南的国菜，也是越南美食多样性和丰富性的象征。就像一碗好的Phở经过精心准备——用香气四溢的汤底和新鲜的食材——我们也重视精心设计和开发您的数字解决方案。",
+    "slogan": "\"我们希望让网络更快\"的口号体现了我们致力于为中小企业（SMEs）提供创新和高效解决方案的承诺。让我们一起增强您的数字存在感，将您的想法变为现实！",
+    "phobowebdesigntitle": "Phobo：在越南传统与网页设计之间的交汇",
+    "phobowebdesigndesc": "在Phobo，我们将对网页设计的热情与创始人对越南美食的热爱结合在一起。就像一碗精心准备的Phở Bò，配以新鲜食材和香气四溢的汤底，我们非常重视精心设计和开发您的数字解决方案。探索我们如何使您的品牌熠熠生辉！",
+    "zielgruppe": "目标受众：来自各行各业的小型和中型企业，如工匠、电工、商家、美甲店、律师、税务顾问、房地产"
+  },
+  "USP": {
+    "title": "优势/USP",
+    "benefit1": "定制解决方案",
+    "benefit1Description": "我们提供量身定制的解决方案，专门针对每个客户的需求和要求。",
+    "benefit2": "经验丰富的团队",
+    "benefit2Description": "我们的团队由行业专家组成，拥有多年的经验，为您提供宝贵的见解和建议。",
+    "benefit3": "客户满意度保证",
+    "benefit3Description": "我们致力于确保客户对我们的服务完全满意。",
+    "benefit4": "通过严格审查确保高质量",
+    "benefit4Description": "我们的产品/服务具有最高质量标准，通过严格审查得以保障。",
+    "benefit6": "现代解决方案中的创新技术",
+    "benefit6Description": "我们利用最新技术和趋势，确保我们的解决方案始终保持最新状态。",
+    "benefit8": "与客户建立长期合作关系",
+    "benefit8Description": "我们追求与客户建立长期关系，并在购买后提供全面服务。",
+    "multilingualMessage": "我们的团队是多语言的，能够讲德语、英语、韩语、日语、中文和越南语。"
+  },
+  "language": {
+    "de": "德语",
+    "en": "英语",
+    "vi": "越南语",
+    "zh": "中文"
+  },
+  "team": {
+    "title": "关于团队",
+    "description": "在我们的代理机构中，我们是一个充满活力的创意集体，由共同追求创新的人驱动。我们擅长将想法转化为令人印象深刻的数字体验，并致力于提供卓越成果，将客户品牌提升到新的高度。让我们一起创造一些非凡的东西！如果您需要进一步调整，请告诉我！",
+    "languages": "语言",
+    "members": {
+      "hanHoaHuynh": {
+        "name": "Han Hoa Huynh",
+        "role": "创始人兼首席执行官",
+        "bio": "\"Han Hoa Huynh是一名受过教育的媒体信息学家（奥斯纳布吕克应用科技大学），拥有超过20年的网页设计经验。他创办了Phobo，旨在为中小企业（SME）提供创新和高效的解决方案。",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/han-hoa-huynh-8738aa39/",
+        "languages": "德语, 英语, 越南语, 粤语"
+      },
+      "haiPham": {
+        "name": "Hai Pham",
+        "role": "软件开发者兼IT项目规划师",
+        "bio": "Hai Pham是一名经验丰富的软件开发者，专注于React和Node.js。他对前端开发和用户体验（UX）的热情使他能够创建引人入胜且用户友好的解决方案。\n\n凭借其在IT项目规划方面的专业知识，Hai确保项目高效且有针对性地实施。他擅长创造性地解决技术挑战，同时始终关注用户需求。\n\n我们很自豪能有Hai加入我们的团队！",
+        "imageUrl": "/images/people/haipham.jpg",
+        "linkedinUrl": "https://www.linkedin.com/in/john-doe/",
+        "languages": "德语, 英语, 越南语"
+      },
+      "seki": {
+        "name": "Seki Kawaguchi",
+        "role": "SEO专家，社交媒体经理",
+        "bio": "Seki Kawaguchi是一名经验丰富的SEO专家和社交媒体经理...",
+        "imageUrl": "/images/people/hhh.jpeg",
+        "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
+        "languages": "德语, 英语, 韩语, 日语, 中文"
+      }
+    }
+  },
+  "FAQ": {
+    "questions": {
+      "q1": {
+        "question": "在Phobo开发一个网站需要多长时间？",
+        "answer": "在Phobo开发一个网站通常需要4到12周，具体取决于项目的复杂性和客户的具体要求。"
+      },
+      "q2": {
+        "question": "创建一个网站的费用是多少？",
+        "answer": "创建网站的费用因需求和项目范围而异。简单的网站通常起价约为1000欧元。"
+      },
+      "q3": {
+        "question": "您也提供维护服务吗？",
+        "answer": "是的，我们提供全面的维护服务，以确保您的网站始终保持最新和安全。"
+      },
+      "q4": {
+        "question": "我可以自己更新我的网站吗？",
+        "answer": "是的，我们使用像WordPress这样的内容管理系统（CMS），使您能够轻松地自行更新内容。"
+      },
+      "q5": {
+        "question": "SEO对我的网站有多重要？",
+        "answer": "SEO对于确保您的网站在搜索引擎中获得良好排名并被潜在客户找到至关重要。"
+      },
+      "q6": {
+        "question": "前端开发和后端开发有什么区别？",
+        "answer": "前端开发涉及用户界面的设计，而后端开发则包括服务器端编程。"
+      },
+      "q7": {
+        "question": "您使用哪些技术进行网页开发？",
+        "answer": "我们使用现代技术，如**React.js**、**Node.js**、**Vue.js**和**Tailwind.css**。\n\n虽然我们也支持WordPress，但我们更喜欢这些技术，因为它们有许多优势。\n\n- 使用React.js和Vue.js开发的应用程序通过利用虚拟DOM提供高性能，从而实现更快的加载时间和更好的用户体验。\n- Node.js允许开发可扩展的网络应用程序，可以同时处理多个请求，而不会影响性能。\n- 使用React.js和Vue.js，我们可以创建完全符合您特定要求的自定义用户界面。\n- Tailwind.css促进了一种以实用为主的样式设计方法，使快速设计迭代和一致的UI开发成为可能。\n- 尽管WordPress容易受到攻击，但我们可以使用Node.js和React开发安全的应用程序，这些应用程序从根本上遵循最佳安全实践构建。\n- 通过使用现代技术，我们确保您的应用程序保持适应性，并考虑未来网页设计的发展。\n\n> 使用我们的技术栈为我们提供了一个独特的销售主张（USP），因为我们的竞争对手通常只使用WordPress模板和插件。在我们这里，您将获得一些最大的互联网公司所使用的技术，包括Facebook、Netflix和Airbnb。这些公司依赖强大且可扩展的解决方案，为其用户提供最佳体验。"
+      },
+      "q8": {
+        "question": "我如何跟踪我的网站进度？",
+        "answer": "我们会定期向您更新进展，确保您了解所有进展情况。"
+      },
+      "q9": {
+        "question": "如果我想在发布后对我的网站进行更改，会发生什么？",
+        "answer": "发布后，随时可以进行调整。我们提供更改服务。"
+      },
+      "q10": {
+        "question": "我该如何联系您？",
+        "answer": "您可以随时通过我们网站上的联系表单与我们联系，或直接给我们打电话。"
+      },
+      "q11": {
+        "question": "您的网站是否适合移动设备？",
+        "answer": "是的，我们所有的网站都采用响应式设计，确保它们在不同设备和屏幕尺寸上看起来良好并且功能正常。"
+      },
+      "q12": {
+        "question": "您如何优化网站以便于搜索引擎？",
+        "answer": "我们使用经过验证的SEO策略，包括页面内优化、关键词研究和技术SEO，以确保您的网站在搜索引擎中排名良好，并获得更多有机流量。"
+      },
+      "q13": {
+        "question": "我可以更新现有的网站吗？",
+        "answer": "是的，我们可以更新和现代化现有的网站。我们分析您当前的网站并提出改进建议，以优化用户体验。"
+      }
+    }
+  }
+}

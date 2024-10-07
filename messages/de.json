@@ -97,11 +97,13 @@
   "language": {
     "de": "Deutsch",
     "en": "Englisch",
-    "vi": "Vietnamesisch"
+    "vi": "Vietnamesisch",
+    "zh": "Chinesisch"
   },
   "team": {
     "title": "Über das Team",
     "description": "In unserer Agentur sind wir ein lebendiges Kollektiv kreativer Köpfe, die von einer gemeinsamen Leidenschaft für Innovationen angetrieben werden. Wir gedeihen darin, Ideen in beeindruckende digitale Erlebnisse zu verwandeln, und wir sind bestrebt, außergewöhnliche Ergebnisse zu liefern, die die Marken unserer Kunden auf neue Höhen heben. Lassen Sie uns gemeinsam etwas Außergewöhnliches schaffen! Lassen Sie es mich wissen, wenn Sie weitere Anpassungen benötigen!",
+    "languages": "Sprachen",
     "members": {
       "hanHoaHuynh": {
         "name": "Han Hoa Huynh",

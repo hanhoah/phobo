@@ -1,6 +1,8 @@
 import { useTranslations } from "next-intl";
 import Services from "../components/start/Services";
 import { unstable_setRequestLocale } from "next-intl/server";
+import Image from "next/image";
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 export default function ServicePage({
   params: { locale },
@@ -53,22 +55,20 @@ export default function ServicePage({
                 </h3>
                 <p className="text-base leading-7 text-gray-600">{role}</p>
                 <p className="mt-6 text-base leading-7 text-gray-600">{bio}</p>
-                <p className="mt-6 text-base leading-7 text-gray-600">
-                  {languages}
+                <p className="mt-6 text-base leading-7 text-gray-600 bg-accent">
+                  {t("languages")}: {languages}
                 </p>
-                <ul role="list" className="mt-6 flex gap-x-6 h-12">
-                  <li>
-                    <a
-                      target="_blank"
-                      rel="noreferrer"
-                      href={linkedinUrl}
-                      className="text-gray-400 hover:text-gray-500"
-                    >
-                      <span className="sr-only">LinkedIn</span>
-                      {/* LinkedIn SVG Icon */}
-                    </a>
-                  </li>
-                </ul>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={linkedinUrl}
+                  className="text-gray-400 hover:text-gray-500"
+                >
+                  <Icon
+                    icon="akar-icons:linkedin-fill"
+                    className="w-6 h-6 text-secondary"
+                  />
+                </a>
               </div>
             </li>
           );
