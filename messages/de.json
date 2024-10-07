@@ -170,6 +170,18 @@
       "q10": {
         "question": "Wie kann ich Sie kontaktieren?",
         "answer": "Sie können uns jederzeit über unser Kontaktformular auf der Website erreichen oder uns direkt anrufen."
+      },
+      "q11": {
+        "question": "Sind Ihre Websites mobilfreundlich?",
+        "answer": "Ja, alle unsere Websites werden mit einem responsiven Design entwickelt, das sicherstellt, dass sie auf verschiedenen Geräten und Bildschirmgrößen gut aussehen und funktionieren."
+      },
+      "q12": {
+        "question": "Wie optimieren Sie Websites für Suchmaschinen?",
+        "answer": "Wir verwenden bewährte SEO-Strategien, einschließlich On-Page-Optimierung, Keyword-Recherche und technische SEO, um sicherzustellen, dass Ihre Website in Suchmaschinen gut platziert ist und mehr organischen Traffic erhält."
+      },
+      "q13": {
+        "question": "Kann ich meine bestehende Website aktualisieren?",
+        "answer": "Ja, wir können bestehende Websites aktualisieren und modernisieren. Wir analysieren Ihre aktuelle Website und schlagen Verbesserungen vor, um die Benutzererfahrung zu optimieren."
       }
     }
   }

@@ -170,6 +170,18 @@
       "q10": {
         "question": "Làm thế nào tôi có thể liên hệ với bạn?",
         "answer": "Bạn có thể liên hệ với chúng tôi bất cứ lúc nào qua mẫu liên hệ trên trang web hoặc gọi trực tiếp cho chúng tôi."
+      },
+      "q11": {
+        "question": "Các trang web của bạn có thân thiện với di động không?",
+        "answer": "Có, tất cả các trang web của chúng tôi được phát triển với thiết kế đáp ứng, đảm bảo chúng trông đẹp và hoạt động tốt trên nhiều thiết bị và kích thước màn hình khác nhau."
+      },
+      "q12": {
+        "question": "Bạn tối ưu hóa các trang web cho công cụ tìm kiếm như thế nào?",
+        "answer": "Chúng tôi sử dụng các chiến lược SEO đã được chứng minh, bao gồm tối ưu hóa trên trang, nghiên cứu từ khóa và SEO kỹ thuật, để đảm bảo rằng trang web của bạn xếp hạng tốt trong các công cụ tìm kiếm và nhận được nhiều lưu lượng truy cập tự nhiên hơn."
+      },
+      "q13": {
+        "question": "Tôi có thể cập nhật trang web hiện tại của mình không?",
+        "answer": "Có, chúng tôi có thể cập nhật và hiện đại hóa các trang web hiện có. Chúng tôi phân tích trang web hiện tại của bạn và đề xuất cải tiến để tối ưu hóa trải nghiệm người dùng."
       }
     }
   }

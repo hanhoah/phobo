@@ -12,48 +12,26 @@ export default function FAQPage({
   const t = useTranslations("FAQ");
   const m = useTranslations("Menu");
 
-  const faqs = [
-    {
-      question: t("questions.q1.question"),
-      answer: t("questions.q1.answer"),
-    },
-    {
-      question: t("questions.q2.question"),
-      answer: t("questions.q2.answer"),
-    },
-    {
-      question: t("questions.q3.question"),
-      answer: t("questions.q3.answer"),
-    },
-    {
-      question: t("questions.q4.question"),
-      answer: t("questions.q4.answer"),
-    },
-    {
-      question: t("questions.q5.question"),
-      answer: t("questions.q5.answer"),
-    },
-    {
-      question: t("questions.q6.question"),
-      answer: t("questions.q6.answer"),
-    },
-    {
-      question: t("questions.q7.question"),
-      answer: t("questions.q7.answer"),
-    },
-    {
-      question: t("questions.q8.question"),
-      answer: t("questions.q8.answer"),
-    },
-    {
-      question: t("questions.q9.question"),
-      answer: t("questions.q9.answer"),
-    },
-    {
-      question: t("questions.q10.question"),
-      answer: t("questions.q10.answer"),
-    },
+  const questionKeys = [
+    "q1",
+    "q2",
+    "q3",
+    "q4",
+    "q5",
+    "q6",
+    "q7",
+    "q8",
+    "q9",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
   ];
+
+  const faqs = questionKeys.map((key) => ({
+    question: t(`questions.${key}.question`),
+    answer: t(`questions.${key}.answer`),
+  }));
 
   return (
     <div className="container w-full lg:w-1/2 mx-auto p-4">

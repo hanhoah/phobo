@@ -171,6 +171,18 @@
       "q10": {
         "question": "How can I contact you?",
         "answer": "You can reach us anytime through our contact form on the website or call us directly."
+      },
+      "q11": {
+        "question": "Are your websites mobile-friendly?",
+        "answer": "Yes, all our websites are developed with a responsive design that ensures they look and function well on various devices and screen sizes."
+      },
+      "q12": {
+        "question": "How do you optimize websites for search engines?",
+        "answer": "We use proven SEO strategies, including on-page optimization, keyword research, and technical SEO, to ensure that your website ranks well in search engines and receives more organic traffic."
+      },
+      "q13": {
+        "question": "Can I update my existing website?",
+        "answer": "Yes, we can update and modernize existing websites. We analyze your current website and suggest improvements to optimize the user experience."
       }
     }
   }
