@@ -17,12 +17,12 @@ export default function ServicePage({
   const memberKeys = ["hanHoaHuynh", "haiPham", "seki"]; // Manually set the keys
 
   return (
-    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5">
+    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 md:px-6 lg:px-8 xl:grid-cols-5 ">
       <div className="max-w-2xl xl:col-span-2">
-        <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
+        <h2 className="md:text-4xl font-bold  text-primary text-3xl p-1">
           {t("title")}
         </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-600 p-2 md:pr-10">
+        <p className="mt-0 md:mt-6 text-lg leading-8 text-gray-600 p-1 md:pr-10 ">
           {t("description")}
         </p>
       </div>
@@ -40,9 +40,9 @@ export default function ServicePage({
           const linkedinUrl = t(`members.${key}.linkedinUrl`);
 
           return (
-            <li
+            <div
               key={name} // Ensure this is unique
-              className="flex flex-col gap-10 pt-12 sm:flex-row"
+              className="w-full flex  gap-2 md:gap-10 md:mt-12 md:flex-row border-2"
             >
               <img
                 alt={name} // Use person's name for alt text
@@ -70,7 +70,7 @@ export default function ServicePage({
                   />
                 </a>
               </div>
-            </li>
+            </div>
           );
         })}
       </ul>

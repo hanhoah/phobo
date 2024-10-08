@@ -1,13 +1,13 @@
 // requestservice/page.tsx
 import React from "react";
 import { unstable_setRequestLocale } from "next-intl/server";
-import FormPage from "./FormPage";
+import ContactPage from "./ContactPage";
 
 const RequestServicePage = ({ params }: { params: { locale: string } }) => {
   // Set the request locale here
   unstable_setRequestLocale(params.locale);
 
-  return <FormPage locale={params.locale} />;
+  return <ContactPage locale={params.locale} />;
 };
 
 export default RequestServicePage;

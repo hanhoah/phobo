@@ -186,5 +186,24 @@
         "answer": "Ja, wir können bestehende Websites aktualisieren und modernisieren. Wir analysieren Ihre aktuelle Website und schlagen Verbesserungen vor, um die Benutzererfahrung zu optimieren."
       }
     }
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie uns!",
+    "generalContact": {
+      "title": "Allgemeine Kontaktmöglichkeiten",
+      "description": "Wir freuen uns darauf, von Ihnen zu hören! Egal, ob Sie Fragen zu unseren Dienstleistungen haben oder ein Projekt anfragen möchten, Sie können uns jederzeit über folgende Messener direkt erreichen."
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Für eine schnelle und unkomplizierte Kommunikation können Sie uns direkt über WhatsApp kontaktieren. Klicken Sie einfach auf den WhatsApp-Button und senden Sie uns Ihre Anfrage – wir sind hier, um Ihnen zu helfen!"
+    },
+    "telegram": {
+      "title": "Telegram",
+      "description": "Auch über Telegram sind wir erreichbar! Schreiben Sie uns dort, um Informationen zu unseren Dienstleistungen zu erhalten oder um Unterstützung zu bitten. Wir antworten schnell und gerne!"
+    },
+    "zalo": {
+      "title": "Zalo",
+      "description": "Für unsere vietnamesischen Kunden bieten wir auch die Möglichkeit, uns über Zalo zu kontaktieren. Senden Sie uns einfach eine Nachricht und lassen Sie uns wissen, wie wir Ihnen helfen können!"
+    }
   }
 }

@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import Link from "next/link";
+import Whatsapp from "./messenger/Whatsapp";
 
 const Footer = () => {
   const t = useTranslations("HomePage");
@@ -17,7 +18,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-secondary text-white py-4 ">
-      <div className="max-w-screen-2xl m-auto">
+      <div className="max-w-screen-2xl m-auto flex flex-col md:flex-row">
         <nav className="ml-5">
           <ul>
             <li>
@@ -33,6 +34,9 @@ const Footer = () => {
             &copy; 2024 Phobo.de - Web Design & Development
             <br /> {t("rights")}
           </p>
+        </div>
+        <div>
+          <Whatsapp />
         </div>
       </div>
     </footer>
