@@ -5,6 +5,8 @@ import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
 import Link from "next/link";
 import Whatsapp from "./messenger/Whatsapp";
+import Telegram from "./messenger/Telegram";
+import Zalo from "./messenger/Zalo";
 
 const Footer = () => {
   const t = useTranslations("HomePage");
@@ -35,8 +37,10 @@ const Footer = () => {
             <br /> {t("rights")}
           </p>
         </div>
-        <div>
+        <div className="flex flex-col md:flex-row md:space-x-3 space-y-3 md:space-y-0">
           <Whatsapp />
+          <Telegram />
+          <Zalo />
         </div>
       </div>
     </footer>
