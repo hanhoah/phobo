@@ -187,5 +187,24 @@
         "answer": "Yes, we can update and modernize existing websites. We analyze your current website and suggest improvements to optimize the user experience."
       }
     }
+  },
+  "Contact": {
+    "title": "Contact Us!",
+    "generalContact": {
+      "title": "General Contact Options",
+      "description": "We look forward to hearing from you! Whether you have questions about our services or want to inquire about a project, you can reach us anytime through the following messengers."
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "For quick and easy communication, you can contact us directly via WhatsApp. Just click the WhatsApp button and send us your inquiry – we are here to help!"
+    },
+    "telegram": {
+      "title": "Telegram",
+      "description": "We are also reachable via Telegram! Write to us there for information about our services or to ask for support. We respond quickly and gladly!"
+    },
+    "zalo": {
+      "title": "Zalo",
+      "description": "For our Vietnamese customers, we also offer the option to contact us via Zalo. Just send us a message and let us know how we can assist you!"
+    }
   }
 }

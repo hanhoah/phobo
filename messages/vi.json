@@ -186,5 +186,24 @@
         "answer": "Có, chúng tôi có thể cập nhật và hiện đại hóa các trang web hiện có. Chúng tôi phân tích trang web hiện tại của bạn và đề xuất cải tiến để tối ưu hóa trải nghiệm người dùng."
       }
     }
+  },
+  "Contact": {
+    "title": "Liên hệ với chúng tôi!",
+    "generalContact": {
+      "title": "Các tùy chọn liên hệ chung",
+      "description": "Chúng tôi rất mong nhận được phản hồi từ bạn! Dù bạn có câu hỏi về dịch vụ của chúng tôi hay muốn hỏi về một dự án, bạn có thể liên hệ với chúng tôi bất cứ lúc nào qua các ứng dụng nhắn tin sau."
+    },
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "Để giao tiếp nhanh chóng và dễ dàng, bạn có thể liên hệ trực tiếp với chúng tôi qua WhatsApp. Chỉ cần nhấp vào nút WhatsApp và gửi yêu cầu của bạn – chúng tôi ở đây để giúp đỡ bạn!"
+    },
+    "telegram": {
+      "title": "Telegram",
+      "description": "Bạn cũng có thể liên hệ với chúng tôi qua Telegram! Viết cho chúng tôi ở đó để biết thông tin về dịch vụ của chúng tôi hoặc để yêu cầu hỗ trợ. Chúng tôi sẽ phản hồi nhanh chóng và vui vẻ!"
+    },
+    "zalo": {
+      "title": "Zalo",
+      "description": "Đối với khách hàng Việt Nam của chúng tôi, chúng tôi cũng cung cấp tùy chọn liên hệ với chúng tôi qua Zalo. Chỉ cần gửi cho chúng tôi một tin nhắn và cho chúng tôi biết cách mà chúng tôi có thể hỗ trợ bạn!"
+    }
   }
 }

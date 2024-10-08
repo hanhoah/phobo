@@ -3,6 +3,10 @@
 import { useTranslations } from "next-intl";
 import Whatsapp from "../components/messenger/Whatsapp";
 import WhatsappQR from "../components/messenger/WhatsappQR";
+import Telegram from "../components/messenger/Telegram";
+import TelegramQR from "../components/messenger/TelegramQR";
+import Zalo from "../components/messenger/Zalo";
+import ZaloQR from "../components/messenger/ZaloQR";
 
 export default function ContactPage({ locale }: { locale: string }) {
   const t = useTranslations("Contact");
@@ -32,12 +36,28 @@ export default function ContactPage({ locale }: { locale: string }) {
 
         <div className="mb-6">
           <h2 className="text-xl font-semibold">{t("telegram.title")}</h2>
-          <p className="text-gray-700">{t("telegram.description")}</p>
+          <div className="flex flex-row align-top">
+            <div className="w-64 hidden md:block">
+              <TelegramQR />
+            </div>
+            <div className="flex flex-col">
+              <p className="text-gray-700 ">{t("telegram.description")}</p>
+              <Telegram />
+            </div>
+          </div>
         </div>
 
-        <div>
+        <div className="mb-6">
           <h2 className="text-xl font-semibold">{t("zalo.title")}</h2>
-          <p className="text-gray-700">{t("zalo.description")}</p>
+          <div className="flex flex-row align-top">
+            <div className="w-64 hidden md:block">
+              <ZaloQR />
+            </div>
+            <div className="flex flex-col">
+              <p className="text-gray-700 ">{t("zalo.description")}</p>
+              <Zalo />
+            </div>
+          </div>
         </div>
       </div>
     </section>
