@@ -27,7 +27,7 @@ h1 {
 }
 
 p {
-  @apply text-lg leading-8;
+  @apply leading-8;
 }
 
 .box {
@@ -80,7 +80,7 @@ ul {
 }
 
 li {
-  @apply list-disc ml-5 text-lg;
+  @apply list-disc ml-5;
 }
 
 blockquote {

@@ -37,7 +37,7 @@ const Footer = () => {
             <br /> {t("rights")}
           </p>
         </div>
-        <div className="flex flex-col md:flex-row md:space-x-3 space-y-3 md:space-y-0">
+        <div className="flex flex-col md:flex-row md:space-x-3 space-y-3 md:space-y-0 md:mr-5">
           <Whatsapp />
           <Telegram />
           <Zalo />

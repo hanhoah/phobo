@@ -95,6 +95,7 @@
     "multilingualMessage": "Unser Team ist multilingual und spricht Deutsch, Englisch, Koreanisch, Japanisch, Chinesisch und Vietnamesisch."
   },
   "language": {
+    "language": "Sprache",
     "de": "Deutsch",
     "en": "Englisch",
     "vi": "Vietnamesisch",
@@ -111,15 +112,15 @@
         "bio": "Han Hoa Huynh ist ein ausgebildeter Medieninformatiker (Fachhochschule Osnabrück) mit über 20 Jahren Erfahrung im Webdesign. Er gründete Phobo mit dem Ziel, innovative und effiziente Lösungen für kleine und mittelständische Unternehmen (KMU) anzubieten.",
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/han-hoa-huynh-8738aa39/",
-        "languages": "Deutsch, Englisch, Vietnamesisch, Kantonesisch"
+        "languages": "###\n- Deutsch \n- Englisch \n- Vietnamesisch \n- Kantonesisch"
       },
       "haiPham": {
         "name": "Hai Pham",
         "role": "Softwareentwickler und IT-Projektplaner",
         "bio": "Hai Pham ist ein erfahrener Softwareentwickler mit Schwerpunkt auf React und Node.js. Seine Leidenschaft für Frontend-Entwicklung und User Experience (UX) ermöglicht es ihm, ansprechende und benutzerfreundliche Lösungen zu schaffen.\n\nMit seiner Expertise in der IT-Projektplanung sorgt Hai dafür, dass Projekte effizient und zielgerichtet umgesetzt werden. Er versteht es, technische Herausforderungen kreativ zu lösen und dabei stets die Bedürfnisse der Nutzer im Blick zu behalten.\n\nWir sind stolz, Hai in unserem Team zu haben!",
         "imageUrl": "/images/people/haipham.jpg",
-        "linkedinUrl": "https://www.linkedin.com/in/john-doe/",
-        "languages": "Deutsch, Englisch, Vietnamesisch"
+        "linkedinUrl": "https://www.linkedin.com/in/hai-pham-datapix/",
+        "languages": "###\n- Deutsch\n- Englisch\n- Vietnamesisch"
       },
       "seki": {
         "name": "Seki Kawaguchi",
@@ -127,7 +128,7 @@
         "bio": "Seki Kawaguchi ist ein erfahrener SEO-Spezialist und Social Media Manager...",
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
-        "languages": "Deutsch, Englisch, Koreanisch, Japanisch, Chinesisch"
+        "languages": "###\n- Deutsch\n- Englisch\n- Koreanisch\n- Japanisch\n- Chinesisch"
       }
     }
   },
@@ -205,5 +206,27 @@
       "title": "Zalo",
       "description": "Für unsere vietnamesischen Kunden bieten wir auch die Möglichkeit, uns über Zalo zu kontaktieren. Senden Sie uns einfach eine Nachricht und lassen Sie uns wissen, wie wir Ihnen helfen können!"
     }
+  },
+  "general": {
+    "readMore": "Mehr erfahren",
+    "back": "Zurück",
+    "next": "Weiter",
+    "close": "Schließen",
+    "submit": "Absenden",
+    "contact": "Kontakt",
+    "send": "Senden",
+    "message": "Nachricht",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "terms": "AGB",
+    "privacyPolicy": "Datenschutzerklärung",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "cookieConsent": "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die bestmögliche Erfahrung auf unserer Website erzielen. Durch die Nutzung unserer Website stimmen Sie unserer",
+    "socialnetworks": "Soziale Netzwerke"
   }
 }

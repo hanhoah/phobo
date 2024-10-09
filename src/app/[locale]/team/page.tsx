@@ -1,8 +1,16 @@
 import { useTranslations } from "next-intl";
-import Services from "../components/start/Services";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { Icon } from "@iconify/react/dist/iconify.js";
+import ReactMarkdown from "react-markdown";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 export default function ServicePage({
   params: { locale },
@@ -12,6 +20,8 @@ export default function ServicePage({
   unstable_setRequestLocale(locale);
 
   const t = useTranslations("team");
+  const l = useTranslations("language");
+  const g = useTranslations("general");
 
   // Define an array of member keys manually
   const memberKeys = ["hanHoaHuynh", "haiPham"]; // Manually set the keys
@@ -29,7 +39,7 @@ export default function ServicePage({
         </div>
         <ul
           role="list"
-          className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3"
+          className="-mt-12 space-y-4 divide-y divide-gray-200 xl:col-span-3"
         >
           {memberKeys.map((key) => {
             // Access each property using dot notation
@@ -37,43 +47,58 @@ export default function ServicePage({
             const role = t(`members.${key}.role`);
             const bio = t(`members.${key}.bio`);
             const languages = t(`members.${key}.languages`);
+            const spokenlanguages = t;
             const imageUrl = t(`members.${key}.imageUrl`);
             const linkedinUrl = t(`members.${key}.linkedinUrl`);
 
             return (
-              <div
-                key={name} // Ensure this is unique
-                className="w-full flex  gap-2 md:gap-10 md:mt-12 md:flex-row"
-              >
-                <img
-                  alt={name} // Use person's name for alt text
-                  src={imageUrl}
-                  className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
-                />
-                <div className="max-w-xl flex-auto">
-                  <h3 className="text-lg font-semibold leading-8 tracking-tight text-primary">
-                    {name}
-                  </h3>
-                  <p className="text-base leading-7 text-gray-600">{role}</p>
-                  <p className="mt-6 text-base leading-7 text-gray-600">
-                    {bio}
-                  </p>
-                  <p className="mt-6 text-base leading-7 text-gray-600 bg-accent">
-                    {t("languages")}: {languages}
-                  </p>
-                  <a
-                    target="_blank"
-                    rel="noreferrer"
-                    href={linkedinUrl}
-                    className="text-gray-400 hover:text-gray-500"
-                  >
-                    <Icon
-                      icon="akar-icons:linkedin-fill"
-                      className="w-6 h-6 text-secondary"
+              <Card className="mt-16 w-full md:w-3/4 p-0" key={name}>
+                <CardHeader>
+                  <CardTitle>{name}</CardTitle>
+                  <CardDescription>
+                    <Badge variant="outline">{role}</Badge>
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <CardDescription>{bio}</CardDescription>
+                  <div className="flex flex-row mt-2 md:mt-5">
+                    <Image
+                      alt={name}
+                      src={imageUrl}
+                      width={208}
+                      height={260}
+                      className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
                     />
-                  </a>
-                </div>
-              </div>
+                    <div className="ml-1 md:ml-5">
+                      <CardDescription className="flex flex-col mb-5">
+                        <b>{g("socialnetworks")}: </b>{" "}
+                        <ul>
+                          <li>
+                            <a
+                              target="_blank"
+                              rel="noreferrer"
+                              href={linkedinUrl}
+                              className="text-gray-400 hover:text-gray-500"
+                            >
+                              <div className="flex flex-row text-sm text-slate-500">
+                                Linked
+                                <Icon
+                                  icon="akar-icons:linkedin-fill"
+                                  className="w-6 h-6 text-secondary"
+                                />
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </CardDescription>
+                      <CardDescription>
+                        <b>{t("languages")}:</b>
+                        <ReactMarkdown>{languages}</ReactMarkdown>
+                      </CardDescription>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             );
           })}
         </ul>

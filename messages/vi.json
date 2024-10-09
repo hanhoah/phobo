@@ -95,6 +95,7 @@
     "multilingualMessage": "Đội ngũ của chúng tôi nói nhiều ngôn ngữ bao gồm tiếng Đức, tiếng Anh, tiếng Hàn, tiếng Nhật, tiếng Trung Quốc và tiếng Việt."
   },
   "language": {
+    "languages": "Ngôn ngữ",
     "de": "Tiếng Đức",
     "en": "Tiếng Anh",
     "vi": "Tiếng Việt",
@@ -111,15 +112,15 @@
         "bio": "Han Hoa Huynh là một kỹ sư truyền thông (FH Osnabrück) với hơn 20 năm kinh nghiệm trong lĩnh vực thiết kế web. Ông thành lập Phobo nhằm cung cấp những giải pháp đổi mới và hiệu quả cho các doanh nghiệp nhỏ và vừa (SME).",
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/han-hoa-huynh-8738aa39/",
-        "languages": "Tiếng Đức, Tiếng Anh, Tiếng Việt, Tiếng Quảng Đông"
+        "languages": "###\n- Tiếng Đức\n- Tiếng Anh\n- Tiếng Việt\n- Tiếng Quảng Đông"
       },
       "haiPham": {
         "name": "Hai Pham",
         "role": "Nhà phát triển phần mềm và lập kế hoạch dự án CNTT",
         "bio": "Hai Pham là một nhà phát triển phần mềm có kinh nghiệm chuyên về React và Node.js. Niềm đam mê của anh đối với phát triển frontend và trải nghiệm người dùng (UX) giúp anh tạo ra những giải pháp hấp dẫn và thân thiện với người dùng.\n\nVới chuyên môn trong lập kế hoạch dự án CNTT, Hai đảm bảo rằng các dự án được thực hiện hiệu quả và đúng hướng. Anh có khả năng giải quyết các thách thức kỹ thuật một cách sáng tạo trong khi luôn chú ý đến nhu cầu người dùng.\n\nChúng tôi tự hào có Hai trong đội ngũ!",
         "imageUrl": "/images/people/haipham.jpg",
-        "linkedinUrl": "https://www.linkedin.com/in/john-doe/",
-        "languages": "Tiếng Đức, Tiếng Anh, Tiếng Việt"
+        "linkedinUrl": "https://www.linkedin.com/in/hai-pham-datapix/",
+        "languages": "###\n- Tiếng Đức\n- Tiếng Anh\n- Tiếng Việt"
       },
       "seki": {
         "name": "Seki Kawaguchi",
@@ -127,7 +128,7 @@
         "bio": "Seki Kawaguchi là một chuyên gia SEO và quản lý truyền thông xã hội có kinh nghiệm...",
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
-        "languages": "Tiếng Đức, Tiếng Anh, Tiếng Hàn, Tiếng Nhật, Tiếng Trung Quốc"
+        "languages": "###\n- Tiếng Đức\n- Tiếng Anh\n- Tiếng Hàn\n- Tiếng Nhật\n- Tiếng Trung Quốc"
       }
     }
   },
@@ -205,5 +206,24 @@
       "title": "Zalo",
       "description": "Đối với khách hàng Việt Nam của chúng tôi, chúng tôi cũng cung cấp tùy chọn liên hệ với chúng tôi qua Zalo. Chỉ cần gửi cho chúng tôi một tin nhắn và cho chúng tôi biết cách mà chúng tôi có thể hỗ trợ bạn!"
     }
+  },
+  "general": {
+    "back": "Quay lại",
+    "readMore": "Đọc thêm",
+    "readLess": "Đọc ít hơn",
+    "showMore": "Hiển thị thêm",
+    "showLess": "Hiển thị ít hơn",
+    "close": "Đóng",
+    "send": "Gửi",
+    "contact": "Liên hệ",
+    "contactUs": "Liên hệ với chúng tôi",
+    "imprint": "Thông tin pháp lý",
+    "privacy": "Quyền riêng tư",
+    "terms": "Điều khoản",
+    "rights": "Tất cả quyền được bảo lưu.",
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi. Vui lòng thử lại sau.",
+    "success": "Cảm ơn! Chúng tôi đã nhận được tin nhắn của bạn và sẽ phản hồi trong thời gian sớm nhất.",
+    "socialnetworks": "Mạng xã hội"
   }
 }

@@ -95,6 +95,7 @@
     "multilingualMessage": "'Our team is multilingual and speaks German, English, Korean, Japanese, Chinese and Vietnamese.'"
   },
   "language": {
+    "languages": "languages",
     "en": "English",
     "de": "German",
     "vi": "Vietnamese",
@@ -112,15 +113,15 @@
 
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/han-hoa-huynh-8738aa39/",
-        "languages": "German, English, Vietnamese, Cantonese"
+        "languages": "###\n- German\n- English\n- Vietnamese\n- Cantonese"
       },
       "haiPham": {
         "name": "Hai Pham",
         "role": "Software Developer and IT Project Planner",
         "bio": "Hai Pham is an experienced software developer specializing in React and Node.js. His passion for frontend development and user experience (UX) enables him to create engaging and user-friendly solutions.\n\nWith his expertise in IT project planning, Hai ensures that projects are executed efficiently and effectively. He has a knack for creatively solving technical challenges while keeping user needs at the forefront.\n\nWe are proud to have Hai on our team! This version maintains clarity and highlights Hai's skills succinctly.",
         "imageUrl": "/images/people/haipham.jpg",
-        "linkedinUrl": "https://www.linkedin.com/in/john-doe/",
-        "languages": "German, English, Vietnamese"
+        "linkedinUrl": "https://www.linkedin.com/in/hai-pham-datapix/",
+        "languages": "###\n- German\n- English\n- Vietnamese"
       },
       "seki": {
         "name": "Seki Kawaguchi",
@@ -128,7 +129,7 @@
         "bio": "Seki Kawaguchi is an experienced SEO specialist and Social Media Manager...",
         "imageUrl": "/images/people/hhh.jpeg",
         "linkedinUrl": "https://www.linkedin.com/in/jane-smith/",
-        "languages": "German, English, Korean, Japanese, Chinese"
+        "languages": "###\n- German\n- English\n- Korean\n- Japanese\n- Chinese"
       }
     }
   },
@@ -206,5 +207,23 @@
       "title": "Zalo",
       "description": "For our Vietnamese customers, we also offer the option to contact us via Zalo. Just send us a message and let us know how we can assist you!"
     }
+  },
+  "general": {
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "send": "Send",
+    "submit": "Submit",
+    "contact": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint",
+    "rights": "All rights reserved.",
+    "socialnetworks": "Social Networks"
   }
 }
