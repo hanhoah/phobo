@@ -14,66 +14,70 @@ export default function ServicePage({
   const t = useTranslations("team");
 
   // Define an array of member keys manually
-  const memberKeys = ["hanHoaHuynh", "haiPham", "seki"]; // Manually set the keys
+  const memberKeys = ["hanHoaHuynh", "haiPham"]; // Manually set the keys
 
   return (
-    <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 md:px-6 lg:px-8 xl:grid-cols-5 ">
-      <div className="max-w-2xl xl:col-span-2">
-        <h2 className="md:text-4xl font-bold  text-primary text-3xl p-1">
-          {t("title")}
-        </h2>
-        <p className="mt-0 md:mt-6 text-lg leading-8 text-gray-600 p-1 md:pr-10 ">
-          {t("description")}
-        </p>
-      </div>
-      <ul
-        role="list"
-        className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3"
-      >
-        {memberKeys.map((key) => {
-          // Access each property using dot notation
-          const name = t(`members.${key}.name`);
-          const role = t(`members.${key}.role`);
-          const bio = t(`members.${key}.bio`);
-          const languages = t(`members.${key}.languages`);
-          const imageUrl = t(`members.${key}.imageUrl`);
-          const linkedinUrl = t(`members.${key}.linkedinUrl`);
+    <section>
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 md:px-6 lg:px-8 xl:grid-cols-5 ">
+        <div className="max-w-2xl xl:col-span-2">
+          <h2 className="md:text-4xl font-bold  text-primary text-3xl p-1">
+            {t("title")}
+          </h2>
+          <p className="mt-0 md:mt-6 text-lg leading-8 text-gray-600 p-1 md:pr-10 ">
+            {t("description")}
+          </p>
+        </div>
+        <ul
+          role="list"
+          className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3"
+        >
+          {memberKeys.map((key) => {
+            // Access each property using dot notation
+            const name = t(`members.${key}.name`);
+            const role = t(`members.${key}.role`);
+            const bio = t(`members.${key}.bio`);
+            const languages = t(`members.${key}.languages`);
+            const imageUrl = t(`members.${key}.imageUrl`);
+            const linkedinUrl = t(`members.${key}.linkedinUrl`);
 
-          return (
-            <div
-              key={name} // Ensure this is unique
-              className="w-full flex  gap-2 md:gap-10 md:mt-12 md:flex-row border-2"
-            >
-              <img
-                alt={name} // Use person's name for alt text
-                src={imageUrl}
-                className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
-              />
-              <div className="max-w-xl flex-auto">
-                <h3 className="text-lg font-semibold leading-8 tracking-tight text-primary">
-                  {name}
-                </h3>
-                <p className="text-base leading-7 text-gray-600">{role}</p>
-                <p className="mt-6 text-base leading-7 text-gray-600">{bio}</p>
-                <p className="mt-6 text-base leading-7 text-gray-600 bg-accent">
-                  {t("languages")}: {languages}
-                </p>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href={linkedinUrl}
-                  className="text-gray-400 hover:text-gray-500"
-                >
-                  <Icon
-                    icon="akar-icons:linkedin-fill"
-                    className="w-6 h-6 text-secondary"
-                  />
-                </a>
+            return (
+              <div
+                key={name} // Ensure this is unique
+                className="w-full flex  gap-2 md:gap-10 md:mt-12 md:flex-row"
+              >
+                <img
+                  alt={name} // Use person's name for alt text
+                  src={imageUrl}
+                  className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+                />
+                <div className="max-w-xl flex-auto">
+                  <h3 className="text-lg font-semibold leading-8 tracking-tight text-primary">
+                    {name}
+                  </h3>
+                  <p className="text-base leading-7 text-gray-600">{role}</p>
+                  <p className="mt-6 text-base leading-7 text-gray-600">
+                    {bio}
+                  </p>
+                  <p className="mt-6 text-base leading-7 text-gray-600 bg-accent">
+                    {t("languages")}: {languages}
+                  </p>
+                  <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href={linkedinUrl}
+                    className="text-gray-400 hover:text-gray-500"
+                  >
+                    <Icon
+                      icon="akar-icons:linkedin-fill"
+                      className="w-6 h-6 text-secondary"
+                    />
+                  </a>
+                </div>
               </div>
-            </div>
-          );
-        })}
-      </ul>
-    </div>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
   );
 }
