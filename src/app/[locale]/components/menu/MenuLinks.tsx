@@ -62,17 +62,21 @@ const MenuLinks = () => {
           {t("faq")}
         </Link>
       </li>
-      <li>
-        <Link
+
+      {/*
+          
+          <li>
+          <Link
           href={`/${locale}/blog`}
           className={`menulink ${
             pathname === `/${locale}/blog` ? "bg-active" : ""
-          }`}
-        >
-          <Icon icon="mdi-blog" className="mr-2 text-xl" />
-          {t("blog")}
-        </Link>
-      </li>
+            }`}
+            >
+            <Icon icon="mdi-blog" className="mr-2 text-xl" />
+            {t("blog")}
+            </Link>
+            </li>
+            */}
       <li>
         <Link
           href={`/${locale}/team`}
