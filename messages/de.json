@@ -3,7 +3,7 @@
     "home": "Startseite",
     "about": "Über uns",
     "service": "Unsere Dienstleistungen",
-    "team": "Unser Team",
+    "team": "Team",
     "history": "Unsere Geschichte",
     "testimonials": "Kundenstimmen",
     "services": "Leistungen",
@@ -35,7 +35,7 @@
     "inquiries": "Anfragen",
     "privacy": "Datenschutz",
     "imprint": "Impressum",
-    "faq": "Häufige Fragen"
+    "faq": "FAQ"
   },
   "HomePage": {
     "title": "Hallo Welt!",
@@ -228,5 +228,19 @@
     "decline": "Ablehnen",
     "cookieConsent": "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die bestmögliche Erfahrung auf unserer Website erzielen. Durch die Nutzung unserer Website stimmen Sie unserer",
     "socialnetworks": "Soziale Netzwerke"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Willkommen in unserem Blog! Hier finden Sie regelmäßig aktualisierte Beiträge zu den neuesten Trends und Entwicklungen im Bereich Webdesign, SEO und Online-Marketing. Bleiben Sie auf dem Laufenden und erfahren Sie, wie Sie Ihre digitale Präsenz stärken und Ihre Online-Ziele erreichen können.",
+    "readMore": "Weiterlesen",
+    "publishedAt": "Veröffentlicht am",
+    "author": "Autor",
+    "tags": "Tags",
+    "relatedPosts": "Ähnliche Beiträge",
+    "recentPosts": "Neueste Beiträge",
+    "popularPosts": "Beliebte Beiträge",
+    "search": "Suche",
+    "searchResults": "Suchergebnisse für",
+    "noResults": "Keine Blogbeiträge gefunden"
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "../Menu";
+import Menu from "../menu/Menu";
 import RequestBtn from "./RequestBtn";
 import Logo from "../Logo";
 import LanguageSwitcher from "./LanguageSwitcher";

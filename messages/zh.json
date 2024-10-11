@@ -254,5 +254,19 @@
     "webdesign": "网页设计",
     "responsive_design": "响应式设计",
     "socialnetworks": "社交网络"
+  },
+  "blog": {
+    "title": "博客",
+    "description": "在我们的博客中，您将找到有关网页设计、SEO、在线营销和数字技术的最新信息。我们分享有关行业趋势、最佳实践和技术提示的见解。",
+    "readMore": "阅读更多",
+    "publishedAt": "发布于",
+    "author": "作者",
+    "tags": "标签",
+    "relatedPosts": "相关文章",
+    "recentPosts": "最近的帖子",
+    "popularPosts": "热门文章",
+    "search": "搜索博客文章",
+    "searchResults": "搜索结果",
+    "noResults": "没有找到结果"
   }
 }

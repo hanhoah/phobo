@@ -83,6 +83,16 @@ li {
   @apply list-disc ml-5;
 }
 
+.no-bullets {
+  list-style-type: none;
+  padding: 0; /* Optional: Entfernt das Padding */
+  margin: 0; /* Optional: Entfernt das Margin */
+}
+
+.no-bullets li::marker {
+  content: ""; /* Entfernt den Marker */
+}
+
 blockquote {
   @apply text-lg italic  border-primary border-l-8 pl-4;
 }
@@ -91,4 +101,8 @@ blockquote {
   :root {
     --radius: 0.5rem;
   }
+}
+
+.bg-active {
+  @apply bg-orange-500 px-2 text-white hover:text-white;
 }

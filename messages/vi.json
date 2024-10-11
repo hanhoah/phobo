@@ -3,7 +3,7 @@
     "home": "Trang chủ",
     "about": "Về chúng tôi",
     "service": "Dịch vụ của chúng tôi",
-    "team": "Đội ngũ của chúng tôi",
+    "team": "Đội",
     "history": "Lịch sử của chúng tôi",
     "testimonials": "Ý kiến khách hàng",
     "services": "Dịch vụ",
@@ -35,7 +35,7 @@
     "inquiries": "Yêu cầu thông tin",
     "privacy": "Quyền riêng tư",
     "imprint": "Thông tin pháp lý",
-    "faq": "Câu hỏi thường gặp"
+    "faq": "Hỏi Đáp"
   },
   "HomePage": {
     "title": "Xin chào thế giới!",
@@ -225,5 +225,19 @@
     "error": "Đã xảy ra lỗi. Vui lòng thử lại sau.",
     "success": "Cảm ơn! Chúng tôi đã nhận được tin nhắn của bạn và sẽ phản hồi trong thời gian sớm nhất.",
     "socialnetworks": "Mạng xã hội"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Đọc các bài viết mới nhất về các xu hướng thiết kế web, SEO và tiếp thị trực tuyến. Tìm hiểu cách tối ưu hóa trang web của bạn và tạo ra nội dung hấp dẫn để thu hút khách hàng tiềm năng!",
+    "readMore": "Đọc thêm",
+    "publishedAt": "Xuất bản lúc",
+    "author": "Tác giả",
+    "tags": "Thẻ",
+    "relatedPosts": "Bài viết liên quan",
+    "recentPosts": "Bài viết gần đây",
+    "popularPosts": "Bài viết phổ biến",
+    "search": "Tìm kiếm",
+    "searchResults": "Kết quả tìm kiếm",
+    "noResults": "Không tìm thấy kết quả phù hợp với tìm kiếm của bạn."
   }
 }
