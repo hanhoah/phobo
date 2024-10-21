@@ -9,9 +9,7 @@ export default function Hero() {
         <div className="relative z-10 md:pt-14 lg:w-full lg:max-w-2xl">
           <div className="relative px-2 py-16 sm:py-40 lg:px-4 lg:py-56 lg:pr-0">
             <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
-              <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-6xl">
-                {t("slogan")}
-              </h1>
+              <h1 className="  tracking-tight sm:text-6xl">{t("slogan")}</h1>
               <p>{t("introduction")}</p>
               <div className="mt-10 flex items-center gap-x-6">
                 <RequestBtn />
