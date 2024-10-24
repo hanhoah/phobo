@@ -1,68 +1,39 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { useTranslations } from "next-intl";
 
-interface Post {
-  title: string;
-  slug: string;
-  date: string;
-  description: string;
+interface Params {
+  locale: string;
 }
 
-const BlogIndex = ({ params }: { params: { locale: string } }) => {
-  const t = useTranslations("blog");
+const BlogPage = async ({ params }: { params: Params }) => {
+  const { locale } = params;
 
-  // Dynamisch die Sprache aus dem URL-Pfad abrufen
-  const locale = params.locale; // Hier kannst du den aktuellen Locale-Wert dynamisch abrufen
-
+  // Pfad zum Verzeichnis der Posts
   const postsDirectory = path.join(process.cwd(), "src/posts", locale);
 
-  // Überprüfen, ob der Ordner existiert und Dateien enthält
-  console.log("postsDirectory", postsDirectory);
-  console.log("number of files", fs.readdirSync(postsDirectory).length);
-  if (
-    !fs.existsSync(postsDirectory) ||
-    fs.readdirSync(postsDirectory).length === 0
-  ) {
-    return (
-      <div>
-        <h1>{t("title")}</h1>
-        <p>{t("noResults")}</p>{" "}
-        {/* Füge einen Text hinzu, wenn keine Beiträge vorhanden sind */}
-      </div>
-    );
-  }
+  // Alle Dateien im Verzeichnis lesen
+  const filenames = fs.readdirSync(postsDirectory);
 
-  const files = fs.readdirSync(postsDirectory);
+  // Posts laden und Metadaten extrahieren
+  const posts = filenames.map((filename) => {
+    const filePath = path.join(postsDirectory, filename);
+    const fileContent = fs.readFileSync(filePath, "utf8");
+    const { data } = matter(fileContent); // Extrahiere die Metadaten
 
-  const posts: Post[] = files.map((filename) => {
-    const markdownWithMeta = fs.readFileSync(
-      path.join(postsDirectory, filename),
-      "utf-8"
-    );
-    const { data } = matter(markdownWithMeta);
     return {
       title: data.title,
-      slug: filename.replace(".md", ""),
-      date: data.date,
-      description: data.description,
+      slug: filename.replace(/\.md$/, ""), // Entferne die Dateiendung für den Slug
     };
   });
 
-  // Die letzten 20 Beiträge
-  const recentPosts = posts.slice(0, 20);
-
   return (
     <div>
-      <ul className="no-bullets">
-        {recentPosts.map((post) => (
+      <h1>Blog Index Page</h1>
+      <ul>
+        {posts.map((post) => (
           <li key={post.slug}>
-            <a href={`/${locale}/blog/${post.slug}`}>
-              <h2>{post.title}</h2>
-              <p>{post.description}</p>
-              <small>{post.date}</small>
-            </a>
+            <a href={`/${locale}/blog/${post.slug}`}>{post.title}</a>
           </li>
         ))}
       </ul>
@@ -70,4 +41,13 @@ const BlogIndex = ({ params }: { params: { locale: string } }) => {
   );
 };
 
-export default BlogIndex;
+// Statische Pfade für die Lokalisierung
+export async function generateStaticParams() {
+  const locales = ["de", "en", "vi", "zh"];
+
+  return locales.map((locale) => ({
+    locale,
+  }));
+}
+
+export default BlogPage;
