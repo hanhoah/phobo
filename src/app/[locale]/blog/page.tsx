@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import ImageCard from "../components/ImageCard";
 
 interface Params {
   locale: string;
@@ -22,19 +23,25 @@ const BlogPage = async ({ params }: { params: Params }) => {
     const { data } = matter(fileContent); // Extrahiere die Metadaten
 
     return {
+      image: data.featuredImage,
       title: data.title,
+      description: data.description,
       slug: filename.replace(/\.md$/, ""), // Entferne die Dateiendung für den Slug
     };
   });
 
   return (
     <div>
-      <h1>Blog Index Page</h1>
       <ul>
         {posts.map((post) => (
-          <li key={post.slug}>
-            <a href={`/${locale}/blog/${post.slug}`}>{post.title}</a>
-          </li>
+          <div key={post.slug}>
+            <ImageCard
+              title={post.title}
+              description={post.description}
+              image={post.image}
+              link={`/${locale}/blog/${post.slug}`}
+            />
+          </div>
         ))}
       </ul>
     </div>

@@ -3,6 +3,7 @@ title: "AI ảnh hưởng như thế nào đến công việc của các công t
 description: "Cái nhìn sâu sắc về tác động của trí tuệ nhân tạo đối với các công ty thiết kế web và lợi ích cho khách hàng."
 author: "Đội ngũ Phobo"
 date: "2024-10-10"
+featuredImage: "/images/blogposts/ai/assistent_in_webdesign.png"
 keywords:
   ["Trí tuệ nhân tạo", "Thiết kế web", "Cải thiện hiệu suất", "Đa ngôn ngữ"]
 ---

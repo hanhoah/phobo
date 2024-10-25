@@ -3,6 +3,7 @@ title: "人工智能如何影响网页设计公司的工作？"
 description: "深入了解人工智能对网页设计公司的影响及其对客户的好处。"
 author: "Phobo团队"
 date: "2024-10-10"
+featuredImage: "/images/blogposts/ai/assistent_in_webdesign.png"
 keywords: ["人工智能", "网页设计", "效率提升", "多语言"]
 ---
 

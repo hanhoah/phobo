@@ -3,6 +3,7 @@ title: "How AI Influences the Work of Web Design Agencies?"
 description: "Insights into the impact of artificial intelligence on web design agencies and the benefits for clients."
 author: "Phobo Team"
 date: "2024-10-10"
+featuredImage: "/images/blogposts/ai/assistent_in_webdesign.png"
 keywords:
   [
     "Artificial Intelligence",

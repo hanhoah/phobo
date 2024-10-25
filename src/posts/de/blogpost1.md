@@ -3,6 +3,7 @@ title: "Wie beeinflusst KI die Arbeit von Webdesign-Agenturen?"
 description: "Einblick in die Auswirkungen von Künstlicher Intelligenz auf Webdesign-Agenturen und die Vorteile für Kunden."
 author: "Phobo Team"
 date: "2024-10-10"
+featuredImage: "/images/blogposts/ai/assistent_in_webdesign.png"
 keywords:
   [
     "Künstliche Intelligenz",
