@@ -33,7 +33,7 @@ export default async function Page({ params }: { params: Params }) {
 
   return (
     <div className="flex flex-row">
-      <div className="md:w-3/5">
+      <div className="md:w-3/5  px-2">
         <BlogPost frontmatter={frontmatter} content={content} />
       </div>
     </div>
