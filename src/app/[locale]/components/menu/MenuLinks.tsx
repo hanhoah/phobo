@@ -6,7 +6,8 @@ import { useLocale } from "next-intl";
 import { Icon } from "@iconify/react";
 import { usePathname } from "next/navigation"; // Verwende usePathname
 
-const MenuLinks = ({ onMenuItemClick }) => {
+const MenuLinks = ({ onMenuItemClick = () => {} }) => {
+  // Default function
   const t = useTranslations("Menu");
   const locale = useLocale();
   const pathname = usePathname(); // Erhalte den aktuellen Pfad
