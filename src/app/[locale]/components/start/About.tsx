@@ -21,7 +21,7 @@ export default function AboutSection() {
                   {" "}
                   <div className="max-w-sm w-full rounded overflow-hidden shadow-lg">
                     <Image
-                      src="/images/Delicious_Bowl_of_Pho_bo.png"
+                      src="/images/bowlphobo.jpg"
                       width="400"
                       height="400"
                       alt="Delicious Bowl of Pho Bo"
