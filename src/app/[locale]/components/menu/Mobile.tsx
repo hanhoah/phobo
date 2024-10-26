@@ -5,6 +5,12 @@ import MenuLinks from "./MenuLinks";
 
 function Mobile() {
   const [isOpen, setIsOpen] = useState(false);
+
+  // Function to close the menu
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div>
       <div className="md:hidden flex items-center justify-between">
@@ -41,7 +47,7 @@ function Mobile() {
 
       {/* Mobile Links */}
       <ul className={`mt-4 md:hidden ${isOpen ? "block" : "hidden"}`}>
-        <MenuLinks />
+        <MenuLinks onMenuItemClick={closeMenu} />
       </ul>
     </div>
   );

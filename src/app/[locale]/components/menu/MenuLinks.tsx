@@ -6,7 +6,7 @@ import { useLocale } from "next-intl";
 import { Icon } from "@iconify/react";
 import { usePathname } from "next/navigation"; // Verwende usePathname
 
-const MenuLinks = () => {
+const MenuLinks = ({ onMenuItemClick }) => {
   const t = useTranslations("Menu");
   const locale = useLocale();
   const pathname = usePathname(); // Erhalte den aktuellen Pfad
@@ -16,6 +16,7 @@ const MenuLinks = () => {
       <li>
         <Link
           href={`/${locale}`}
+          onClick={onMenuItemClick}
           className={`menulink ${pathname === `/${locale}` ? "bg-active" : ""}`}
         >
           <Icon icon="mdi:home" className="mr-1 text-xl" />
@@ -25,6 +26,7 @@ const MenuLinks = () => {
       <li>
         <Link
           href={`/${locale}/blog`}
+          onClick={onMenuItemClick}
           className={`menulink ${
             pathname === `/${locale}/blog` ? "bg-active" : ""
           }`}
@@ -47,6 +49,7 @@ const MenuLinks = () => {
           <li>
             <Link
               href={`/${locale}/services#web-design`}
+              onClick={onMenuItemClick}
               className="block py-2 px-4 hover:underline hover:text-primary"
             >
               {t("webdesign")}
@@ -55,6 +58,7 @@ const MenuLinks = () => {
           <li>
             <Link
               href={`/${locale}/services#seo`}
+              onClick={onMenuItemClick}
               className="block py-2 px-4 hover:underline hover:text-primary"
             >
               {t("seo")}
@@ -65,6 +69,7 @@ const MenuLinks = () => {
       <li>
         <Link
           href={`/${locale}/faq`}
+          onClick={onMenuItemClick}
           className={`menulink ${
             pathname === `/${locale}/faq` ? "bg-active" : ""
           }`}
@@ -91,6 +96,7 @@ const MenuLinks = () => {
       <li>
         <Link
           href={`/${locale}/team`}
+          onClick={onMenuItemClick}
           className={`menulink ${
             pathname === `/${locale}/team` ? "bg-active" : ""
           }`}
@@ -102,6 +108,7 @@ const MenuLinks = () => {
       <li>
         <Link
           href={`/${locale}/requestservice`}
+          onClick={onMenuItemClick}
           className={`menulink ${
             pathname === `/${locale}/requestservice` ? "bg-active" : ""
           }`}
