@@ -14,7 +14,7 @@ function ImageCard({
 }) {
   return (
     <Link href={link}>
-      <div className="max-w-sm rounded overflow-hidden shadow-lg">
+      <div className="max-w-sm rounded overflow-hidden shadow-lg bg-gray-100 mb-5 md:mb-10">
         <Image
           className="w-full"
           src={image}

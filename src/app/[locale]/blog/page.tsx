@@ -32,7 +32,7 @@ const BlogPage = async ({ params }: { params: Params }) => {
 
   return (
     <div>
-      <ul>
+      <ul className="flex md:flex-row md:space-x-5 flex-col">
         {posts.map((post) => (
           <div key={post.slug}>
             <ImageCard
