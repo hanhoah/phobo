@@ -41,13 +41,15 @@ keywords:
 
 ## 使用 PageSpeed Insights 测量您的网站速度
 
-要了解您的网站表现如何，请使用 **谷歌的 PageSpeed Insights**。这个强大的工具为您提供：
+要了解您的网站表现如何，请使用 [**谷歌的 PageSpeed Insights**](https://pagespeed.web.dev/)。这个强大的工具为您提供：
 
 - **性能评分：** 了解您的页面在 0 到 100 的范围内表现如何。
 - **具体改进建议：** 获取量身定制的建议，以优化您的加载时间。
 - **关键指标：** 分析核心值，如最大内容绘制（LCP）和累积布局偏移（CLS），以改善用户体验。
 
 通过定期使用 PageSpeed Insights 检查，您可以确保您的网站不仅保持快速，还能正常运行。
+
+现在就测试您的网站速度与竞争对手的比较——找出您的位置！
 
 ![网站速度统计](/images/blogposts/highspeedweb/websitestats.jpg)
 

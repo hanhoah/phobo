@@ -39,13 +39,15 @@ Here comes the “secret” advantage: Google has established a ranking factor t
 
 ## Measure Your Website Speed with PageSpeed Insights
 
-To find out how well your website performs, use **PageSpeed Insights from Google**. This powerful tool provides you with:
+To find out how well your website performs, use [**PageSpeed Insights from Google**](https://pagespeed.web.dev/). This powerful tool provides you with:
 
-- **A performance score:** Learn how well your page performs on a scale from 0 to 100.
+- **A performance score:** Discover how well your page performs on a scale from 0 to 100.
 - **Specific improvement suggestions:** Get tailored recommendations for optimizing your loading times.
-- **Key metrics:** Analyze core values like Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS) to enhance user experience.
+- **Key metrics:** Analyze core values such as Largest Contentful Paint (LCP) and Cumulative Layout Shift (CLS) to enhance the user experience.
 
-By regularly checking with PageSpeed Insights, you can ensure that your website remains not only fast but also functions optimally.
+By regularly checking with PageSpeed Insights, you can ensure that your website not only remains fast but also functions optimally.
+
+Test the speed of your website now compared to your competitors – find out how you stack up!
 
 ![Website Speed Stats](/images/blogposts/highspeedweb/websitestats.jpg)
 

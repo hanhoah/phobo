@@ -41,13 +41,15 @@ Hơn nữa, Google có một thông điệp rõ ràng: tốc độ của website
 
 ## Đo Tốc Độ Website Của Bạn Với PageSpeed Insights
 
-Để tìm hiểu xem website của bạn hoạt động tốt như thế nào, hãy sử dụng **PageSpeed Insights từ Google**. Công cụ mạnh mẽ này cung cấp cho bạn:
+Để tìm hiểu xem website của bạn hoạt động tốt như thế nào, hãy sử dụng [**PageSpeed Insights của Google**](https://pagespeed.web.dev/). Công cụ mạnh mẽ này cung cấp cho bạn:
 
 - **Điểm hiệu suất:** Tìm hiểu xem trang của bạn hoạt động tốt như thế nào trên thang điểm từ 0 đến 100.
-- **Đề xuất cải tiến cụ thể:** Nhận các khuyến nghị phù hợp để tối ưu hóa thời gian tải trang.
+- **Đề xuất cải tiến cụ thể:** Nhận các khuyến nghị phù hợp để tối ưu hóa thời gian tải trang của bạn.
 - **Các chỉ số quan trọng:** Phân tích các giá trị cốt lõi như Largest Contentful Paint (LCP) và Cumulative Layout Shift (CLS) để cải thiện trải nghiệm người dùng.
 
 Bằng cách thường xuyên kiểm tra với PageSpeed Insights, bạn có thể đảm bảo rằng website của mình không chỉ nhanh mà còn hoạt động tối ưu.
+
+Hãy kiểm tra tốc độ website của bạn ngay bây giờ so với các đối thủ cạnh tranh – tìm hiểu xem bạn đứng ở đâu!
 
 ![Thống Kê Tốc Độ Website](/images/blogposts/highspeedweb/websitestats.jpg)
 
