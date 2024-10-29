@@ -1,7 +1,7 @@
 ---
 title: "The Power of Speed: How a Fast Website Can Make Your Business Thrive"
 description: "Discover how a fast website improves user experience and boosts your sales."
-author: "Your Name or Company"
+author: "Phobo Webdesign - Our Mission is to make the faster"
 date: "2024-10-27"
 featuredImage: "/images/blogposts/highspeedweb/startup_entrepreneur_celebrating.jpg"
 keywords:

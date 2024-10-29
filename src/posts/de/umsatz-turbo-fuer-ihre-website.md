@@ -1,7 +1,7 @@
 ---
 title: "Die Macht der Geschwindigkeit: Warum eine schnelle Website Ihr Geschäft zum Blühen bringt"
 description: "Erfahren Sie, wie eine schnelle Website die Benutzererfahrung verbessert und Ihre Verkaufszahlen steigern kann."
-author: "Ihr Name oder Unternehmen"
+author: "Phobo Webdesign - Our Mission is to make the faster"
 date: "2024-10-27"
 featuredImage: "/images/blogposts/highspeedweb/startup_entrepreneur_celebrating.jpg"
 keywords:
