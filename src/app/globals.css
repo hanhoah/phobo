@@ -68,7 +68,7 @@ section {
 }
 
 .menulink {
-  @apply flex items-center py-2 hover:text-primary  hover:underline underline-offset-4 text-lg;
+  @apply flex items-center py-2 text-accent hover:text-primary  hover:underline underline-offset-4 text-lg font-normal;
 }
 
 .menu ul {
@@ -113,4 +113,8 @@ blockquote {
 
 .bg-active {
   @apply bg-orange-500 px-2 text-white hover:text-white;
+}
+
+a {
+  @apply text-primary font-bold hover:underline;
 }

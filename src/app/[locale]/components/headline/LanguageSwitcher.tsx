@@ -1,12 +1,12 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import Select from "react-select";
 import { components, OptionProps, StylesConfig } from "react-select";
 import { ActionMeta, SingleValue, MultiValue } from "react-select";
 
 import { Icon } from "@iconify/react";
-import { useSelectedLayoutSegment } from "next/navigation";
+import { useSelectedLayoutSegment, usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
 
@@ -23,37 +23,42 @@ interface LanguageOption {
 }
 
 const LanguageSwitcher = () => {
+  const pathname = usePathname();
   const segment = useSelectedLayoutSegment();
   const t = useTranslations("language");
   const router = useRouter();
 
-  const enPath = segment ? `/en/${segment}` : "/en";
-  const dePath = segment ? `/de/${segment}` : "/de";
-  const viPath = segment ? `/vi/${segment}` : "/vi";
-  const zhPath = segment ? `/zh/${segment}` : "/zh";
+  const options = useMemo(() => {
+    const createLocalizedPath = (locale: string) => {
+      // Deine Logik zur Generierung des Pfads
+      return pathname.includes("/blog/")
+        ? `/${locale}/blog`
+        : pathname.replace(/^\/[a-z]{2}/, `/${locale}`);
+    };
 
-  const options: LanguageOption[] = [
-    {
-      value: enPath,
-      label: t("en"),
-      icon: <Icon icon="flag:gb-4x3" width="20" height="15" />,
-    },
-    {
-      value: dePath,
-      label: t("de"),
-      icon: <Icon icon="flag:de-4x3" width="20" height="15" />,
-    },
-    {
-      value: viPath,
-      label: t("vi"),
-      icon: <Icon icon="flag:vn-4x3" width="20" height="15" />,
-    },
-    {
-      value: zhPath,
-      label: t("zh"),
-      icon: <Icon icon="flag:cn-4x3" width="20" height="15" />,
-    },
-  ];
+    return [
+      {
+        value: createLocalizedPath("en"),
+        label: t("en"),
+        icon: <Icon icon="flag:gb-4x3" width="20" height="15" />,
+      },
+      {
+        value: createLocalizedPath("de"),
+        label: t("de"),
+        icon: <Icon icon="flag:de-4x3" width="20" height="15" />,
+      },
+      {
+        value: createLocalizedPath("vi"),
+        label: t("vi"),
+        icon: <Icon icon="flag:vn-4x3" width="20" height="15" />,
+      },
+      {
+        value: createLocalizedPath("zh"),
+        label: t("zh"),
+        icon: <Icon icon="flag:cn-4x3" width="20" height="15" />,
+      },
+    ];
+  }, [pathname, t]);
 
   const [selectedOption, setSelectedOption] = useState<LanguageOption | null>(
     null
@@ -67,7 +72,7 @@ const LanguageSwitcher = () => {
     } else {
       setSelectedOption(options[0]);
     }
-  }, []);
+  }, [options]);
 
   const handleChange = (
     newValue: SingleValue<LanguageOption> | MultiValue<LanguageOption>,

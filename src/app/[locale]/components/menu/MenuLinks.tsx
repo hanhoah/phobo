@@ -46,7 +46,7 @@ const MenuLinks = ({ onMenuItemClick = () => {} }) => {
           <Icon icon="mdi:briefcase" className="mr-2" />
           {t("services")}
         </Link>
-        <ul className="absolute left-0 hidden group-hover:block bg-secondary text-accent rounded-md shadow-lg">
+        <ul className="absolute left-0 hidden group-hover:block bg-gray-100 text-accent rounded-md shadow-lg">
           <li>
             <Link
               href={`/${locale}/services#web-design`}
@@ -63,6 +63,15 @@ const MenuLinks = ({ onMenuItemClick = () => {} }) => {
               className="block py-2 px-4 hover:underline hover:text-primary"
             >
               {t("seo")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={`/${locale}/services/mobile-first`}
+              onClick={onMenuItemClick}
+              className="block py-2 px-4 hover:underline hover:text-primary"
+            >
+              {t("mobilefirst")}
             </Link>
           </li>
         </ul>

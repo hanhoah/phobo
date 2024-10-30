@@ -24,10 +24,14 @@ const Footer = () => {
         <nav className="ml-5 ">
           <ul className="w-40">
             <li>
-              <Link href={privacyPath}>{u("privacy")}</Link>
+              <Link className="text-white font-normal" href={privacyPath}>
+                {u("privacy")}
+              </Link>
             </li>
             <li>
-              <Link href={imprintPath}>{u("imprint")}</Link>
+              <Link className="text-white font-normal" href={imprintPath}>
+                {u("imprint")}
+              </Link>
             </li>
           </ul>
         </nav>
