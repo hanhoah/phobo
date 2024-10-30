@@ -46,7 +46,7 @@ const MenuLinks = ({ onMenuItemClick = () => {} }) => {
           <Icon icon="mdi:briefcase" className="mr-2" />
           {t("services")}
         </Link>
-        <ul className="absolute left-0 hidden group-hover:block bg-gray-100 text-accent rounded-md shadow-lg">
+        <ul className="absolute left-0 hidden group-hover:block bg-gray-100 text-accent rounded-md shadow-lg w-48">
           <li>
             <Link
               href={`/${locale}/services#web-design`}
