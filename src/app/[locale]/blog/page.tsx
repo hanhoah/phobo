@@ -27,9 +27,14 @@ const BlogPage = async ({ params }: { params: Params }) => {
       title: data.title,
       description: data.description,
       slug: filename.replace(/\.md$/, ""), // Entferne die Dateiendung für den Slug
+      date: new Date(data.date),
     };
   });
 
+  // Assuming posts is an array of objects where each object has a 'date' property
+  posts.sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime();
+  });
   return (
     <div>
       <ul className="flex md:flex-row md:space-x-5 flex-col">

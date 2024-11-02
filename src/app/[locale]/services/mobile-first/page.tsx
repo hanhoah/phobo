@@ -6,6 +6,7 @@ import Englisch from "./En";
 import Vietnamesisch from "./Vn";
 import Chinesisch from "./Zh";
 import { FC } from "react";
+import Image from "next/image";
 
 type LanguageComponentProps = {
   Language: FC;
@@ -18,7 +19,13 @@ export default function ServicePage({
 }) {
   const t = useTranslations("HomePage");
   const LanguageComponent: FC<LanguageComponentProps> = ({ Language }) => (
-    <div className="p-2">
+    <div className="p-2 max-w-screen-lg">
+      <Image
+        src="/images/blogposts/mobile/mobile1.jpg"
+        alt="Mobile First Design"
+        width={1024}
+        height={1}
+      />
       <Language />
     </div>
   );
