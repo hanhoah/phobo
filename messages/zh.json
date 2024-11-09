@@ -269,5 +269,10 @@
     "search": "搜索博客文章",
     "searchResults": "搜索结果",
     "noResults": "没有找到结果"
+  },
+  "contactCard": {
+    "title": "对这篇文章有疑问吗？",
+    "description": "请随时通过我们的社交媒体渠道与我们联系。",
+    "content": "我们在这里帮助您！"
   }
 }

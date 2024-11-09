@@ -7,7 +7,7 @@
 }
 
 p {
-  @apply mb-4;
+  @apply mb-2 text-lg;
 }
 
 h1,
@@ -64,7 +64,7 @@ textarea {
 }
 
 section {
-  @apply relative bg-white mt-2 p-1 md:p-3;
+  @apply relative bg-white mb-3 md:mb-10  p-1 md:p-3;
 }
 
 .menulink {

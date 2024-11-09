@@ -243,5 +243,10 @@
     "search": "Suche",
     "searchResults": "Suchergebnisse für",
     "noResults": "Keine Blogbeiträge gefunden"
+  },
+  "contactCard": {
+    "title": "Haben Sie Fragen zu diesem Beitrag?",
+    "description": "Zögern Sie nicht, uns über unsere sozialen Medien zu kontaktieren.",
+    "content": "Wir sind hier, um Ihnen zu helfen!"
   }
 }

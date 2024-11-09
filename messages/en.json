@@ -240,5 +240,10 @@
     "search": "Search",
     "searchResults": "Search Results",
     "noResults": "No blog posts found"
+  },
+  "contactCard": {
+    "title": "Have questions about this post?",
+    "description": "Feel free to reach out to us through any of our social media channels.",
+    "content": "We are here to help you!"
   }
 }

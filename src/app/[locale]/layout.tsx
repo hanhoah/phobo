@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import { Roboto } from "next/font/google";
 import { setRequestLocale } from "next-intl/server"; // Importieren Sie die stabile API
 import Head from "next/head";
+import ContactCard from "./components/messenger/ContactCard";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -53,7 +54,13 @@ export default async function LocaleLayout({
           <div className="sticky top-0 z-20 w-full">
             <Header />
           </div>
-          <div className="max-w-screen-xl p-1 md:p-5 m-auto">{children}</div>
+
+          <div className="flex flex-col md:flex-row">
+            <div className="max-w-screen-xl p-1 md:p-5 m-auto">{children}</div>
+            <div className="">
+              <ContactCard />
+            </div>
+          </div>
           <Footer />
         </NextIntlClientProvider>
         <Analytics />

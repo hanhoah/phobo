@@ -240,5 +240,10 @@
     "search": "Tìm kiếm",
     "searchResults": "Kết quả tìm kiếm",
     "noResults": "Không tìm thấy kết quả phù hợp với tìm kiếm của bạn."
+  },
+  "contactCard": {
+    "title": "Có câu hỏi nào về bài viết này không?",
+    "description": "Hãy liên hệ với chúng tôi qua bất kỳ kênh mạng xã hội nào.",
+    "content": "Chúng tôi ở đây để giúp bạn!"
   }
 }
