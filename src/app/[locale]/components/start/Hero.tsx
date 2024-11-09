@@ -6,9 +6,9 @@ export default function Hero() {
   const t = useTranslations("hero");
   return (
     <section className="flex flex-col lg:flex-row justify-between p-0">
-      <div className="md:w-1/3 p-2 flex flex-col justify-around text-center">
+      <div className="md:w-1/3 p-2 flex flex-col lg:justify-around lg:text-center">
         <h1 className=" sm:text-6xl">{t("slogan")}</h1>
-        <div className="w-80 text-xl mx-auto">{t("introduction")}</div>
+        <div className="lg:w-80 text-xl mx-auto">{t("introduction")}</div>
         <div className="mt-5">
           <RequestBtn />
         </div>
