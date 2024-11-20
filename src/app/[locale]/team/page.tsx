@@ -24,7 +24,7 @@ export default function ServicePage({
   const g = useTranslations("general");
 
   // Define an array of member keys manually
-  const memberKeys = ["hanHoaHuynh", "haiPham"]; // Manually set the keys
+  const memberKeys = ["hanHoaHuynh", "haiPham", "seki"]; // Manually set the keys
 
   return (
     <section>
