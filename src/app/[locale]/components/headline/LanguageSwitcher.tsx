@@ -57,6 +57,11 @@ const LanguageSwitcher = () => {
         label: t("zh"),
         icon: <Icon icon="flag:cn-4x3" width="20" height="15" />,
       },
+      {
+        value: createLocalizedPath("ja"),
+        label: t("ja"),
+        icon: <Icon icon="flag:jp-4x3" width="20" height="15" />,
+      },
     ];
   }, [pathname, t]);
 

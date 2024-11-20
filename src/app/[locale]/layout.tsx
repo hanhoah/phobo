@@ -27,7 +27,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale?: string }; // locale ist optional
 }) {
-  const validLocales = ["en", "de", "vi", "zh"]; // Ihre unterstützten Sprachen hier
+  const validLocales = ["en", "de", "vi", "zh", "ja"]; // Ihre unterstützten Sprachen hier
 
   // Standardwert für locale, falls es nicht gesetzt ist
   const locale = params?.locale || "en";
