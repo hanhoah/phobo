@@ -1,4 +1,3 @@
-// FormPage.tsx
 "use client";
 
 import React, { useState } from "react";
@@ -28,12 +27,17 @@ const FormPage = ({ locale }: { locale: string }) => {
     event.preventDefault();
     setFormStatus("loading");
 
-    const formData = new FormData(event.currentTarget);
-    const result = await sendEmail(formData);
+    try {
+      const result = await sendEmail(formData);
 
-    if (result.success) {
-      setFormStatus("success");
-    } else {
+      if (result.success) {
+        setFormStatus("success");
+        setFormData({ name: "", email: "", subject: "", message: "" }); // Reset form
+      } else {
+        setFormStatus("error");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
       setFormStatus("error");
     }
   }
@@ -89,9 +93,21 @@ const FormPage = ({ locale }: { locale: string }) => {
               required
             ></textarea>
           </div>
-          <button className="button" type="submit">
-            Absenden
+          <button
+            className="button"
+            type="submit"
+            disabled={formStatus === "loading"}
+          >
+            {formStatus === "loading" ? "Wird gesendet..." : "Absenden"}
           </button>
+          {formStatus === "success" && (
+            <p className="text-green-600">Nachricht erfolgreich gesendet!</p>
+          )}
+          {formStatus === "error" && (
+            <p className="text-red-600">
+              Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut.
+            </p>
+          )}
         </form>
       </div>
     </section>

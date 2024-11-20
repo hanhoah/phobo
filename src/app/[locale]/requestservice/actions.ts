@@ -4,20 +4,22 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function sendEmail(formData: FormData) {
-  const name = formData.get("name") as string;
-  const email = formData.get("email") as string;
-  const message = formData.get("message") as string;
-
+export async function sendEmail(formData: {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}) {
   try {
     await resend.emails.send({
       from: "info@phobo.de",
-      to: "hanniboy@gmail.com", // Replace with your email
-      subject: "New Contact Form Submission",
+      to: "hanniboy@gmail.com",
+      subject: `New Contact Form Submission: ${formData.subject}`,
       text: `
-        Name: ${name}
-        Email: ${email}
-        Message: ${message}
+        Name: ${formData.name}
+        Email: ${formData.email}
+        Subject: ${formData.subject}
+        Message: ${formData.message}
       `,
     });
 
