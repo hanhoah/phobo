@@ -3,6 +3,7 @@
 
 import React, { useState } from "react";
 import { useTranslations } from "next-intl";
+import { sendEmail } from "./actions";
 
 const FormPage = ({ locale }: { locale: string }) => {
   const [formData, setFormData] = useState({
@@ -19,23 +20,23 @@ const FormPage = ({ locale }: { locale: string }) => {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    const response = await fetch("/api/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
-    });
+  const [formStatus, setFormStatus] = useState<
+    "idle" | "loading" | "success" | "error"
+  >("idle");
 
-    if (response.ok) {
-      alert("Nachricht erfolgreich gesendet!");
-      setFormData({ name: "", email: "", subject: "", message: "" }); // Reset form
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    setFormStatus("loading");
+
+    const formData = new FormData(event.currentTarget);
+    const result = await sendEmail(formData);
+
+    if (result.success) {
+      setFormStatus("success");
     } else {
-      alert("Fehler beim Senden der Nachricht.");
+      setFormStatus("error");
     }
-  };
+  }
 
   const t = useTranslations("FormPage");
 
