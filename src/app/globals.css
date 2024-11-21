@@ -118,3 +118,7 @@ blockquote {
 a {
   @apply text-primary font-bold hover:underline;
 }
+
+hr {
+  @apply border-t-2 border-primary my-5;
+}
