@@ -245,5 +245,13 @@
     "title": "Have questions about this post?",
     "description": "Feel free to reach out to us through any of our social media channels.",
     "content": "We are here to help you!"
+  },
+  "common": {
+    "free": "Free",
+    "try_it": "Try it"
+  },
+  "aitools": {
+    "title": "AI Tools",
+    "subtitle": "A list of free and partially paid AI tools that you can use for your projects."
   }
 }

@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Text To Speech Generator",
+    "short_description": "Generate realistic audio readings from text using advanced AI speech technology.",
+    "description": "This tool utilizes Microsoft's AI speech library to create high-quality audio readings that closely mimic human voices. It supports various emotional tones, making it suitable for applications such as voice assistants, audiobooks, and educational tools.",
+    "link": "https://www.text-to-speech.online/",
+    "freeversion": true,
+    "pricing": "Free with premium options",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Text-to-Speech",
+    "logo": "https://lovo.ai/static/logo.png"
+  },
+  {
+    "title": "Perplexity AI",
+    "short_description": "An AI-powered answer engine that provides accurate and real-time responses to queries.",
+    "description": "Perplexity AI is designed to enhance the search experience by delivering concise and relevant answers to user questions. It leverages advanced natural language processing to ensure that users receive trustworthy information quickly.",
+    "link": "https://www.perplexity.ai/",
+    "freeversion": true,
+    "pricing": "Free",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Search Engine",
+    "logo": "https://www.perplexity.ai/logo.png"
+  },
+  {
+    "title": "Craiyon",
+    "short_description": "Generate images from text prompts using AI, offering multiple creative outputs.",
+    "description": "Craiyon (formerly DALL·E mini) allows users to create unique images based on textual descriptions. This tool is user-friendly and produces several variations of images, making it ideal for artists, marketers, and anyone looking to visualize their ideas.",
+    "link": "https://www.craiyon.com/",
+    "freeversion": true,
+    "pricing": "Free",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Image Generation",
+    "logo": "https://www.craiyon.com/logo.png"
+  },
+  {
+    "title": "ScripAI",
+    "short_description": "A suite of AI tools designed to enhance productivity in social media management and job applications.",
+    "description": "Scrip AI offers a range of free tools that assist users in creating compelling social media posts, drafting emails, and optimizing resumes. These tools are tailored to improve engagement and effectiveness in professional communication.",
+    "link": "https://scripai.com/",
+    "freeversion": true,
+    "pricing": "Free with premium options",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Productivity Tools",
+    "logo": "https://www.scripai.com/logo.png"
+  },
+  {
+    "title": "Riverside",
+    "short_description": "Automatically convert audio recordings into text for easy transcription.",
+    "description": "Riverside.fm provides a seamless transcription service that transforms audio content into written text. This tool is particularly useful for podcasters, interviewers, and content creators who need quick and accurate transcriptions of their recordings.",
+    "link": "https://riverside.fm/transcription",
+    "freeversion": true,
+    "pricing": "Free with premium options",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Transcription",
+    "logo": "https://www.riverside.fm/logo.png"
+  },
+  {
+    "title": "Acronym Generator",
+    "short_description": "Create memorable acronyms based on phrases or keywords for branding and marketing.",
+    "description": "This tool helps users generate catchy acronyms from given phrases or keywords, making it easier to create memorable brand names or marketing slogans. It’s especially useful for businesses looking to simplify complex terms into digestible formats.",
+    "link": "https://www.reliablesoft.net/ai-text-generator-tools/acronym-generator/",
+    "freeversion": true,
+    "pricing": "Free with premium options available",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://www.reliablesoft.net/logo.png"
+  },
+  {
+    "title": "Rephrase Text",
+    "short_description": "Paraphrase text while maintaining the original meaning to improve writing style.",
+    "description": "QuillBot is an advanced paraphrasing tool that allows users to reword sentences while preserving their original meaning. It offers various modes for rewriting text, making it ideal for students, writers, and professionals looking to enhance their writing style or avoid plagiarism.",
+    "link": "https://quillbot.com/paraphrasing-tool",
+    "freeversion": true,
+    "pricing": "Free with premium options available",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://quillbot.com/logo.png"
+  },
+  {
+    "title": "Summarizer",
+    "short_description": "Condense articles, papers, and documents into key points effortlessly.",
+    "description": "QuillBot's Summarizer uses AI and natural language processing to quickly extract critical information from large blocks of text while maintaining original context. Users can control the length of the summary using a slider, and it offers options for bullet points or paragraph formats. Ideal for students and professionals needing to summarize content efficiently.",
+    "link": "https://quillbot.com/summarize",
+    "freeversion": true,
+    "pricing": "100% free with unlimited summarization",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://quillbot.com/logo.png"
+  }
+]

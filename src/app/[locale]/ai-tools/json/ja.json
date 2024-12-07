@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Text To Speech Generator",
+    "short_description": "高度なAI音声技術を使用してテキストからリアルな音声読み上げを生成します。",
+    "description": "このツールはMicrosoftのAI音声ライブラリを活用し、人間の声に近い高品質な音声読み上げを作成します。様々な感情トーンをサポートしており、音声アシスタント、オーディオブック、教育ツールなどのアプリケーションに適しています。",
+    "link": "https://www.text-to-speech.online/",
+    "freeversion": true,
+    "pricing": "無料版とプレミアムオプションあり",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Text-to-Speech",
+    "logo": "https://lovo.ai/static/logo.png"
+  },
+  {
+    "title": "Perplexity AI",
+    "short_description": "クエリにリアルタイムで正確な回答を提供するAI駆動の検索エンジンです。",
+    "description": "Perplexity AIは、ユーザーの質問に簡潔で関連性の高い回答を提供することで、検索体験を向上させるように設計されています。高度な自然言語処理を活用して、ユーザーが信頼できる情報を迅速に受け取れるようにします。",
+    "link": "https://www.perplexity.ai/",
+    "freeversion": true,
+    "pricing": "無料",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Search Engine",
+    "logo": "https://www.perplexity.ai/logo.png"
+  },
+  {
+    "title": "Craiyon",
+    "short_description": "AIを使用してテキストプロンプトから画像を生成し、複数のクリエイティブな出力を提供します。",
+    "description": "Craiyon（旧DALL·E mini）は、テキストの説明に基づいてユニークな画像を作成することができます。このツールは使いやすく、複数のバリエーションの画像を生成するため、アーティスト、マーケター、アイデアを視覚化したい人に最適です。",
+    "link": "https://www.craiyon.com/",
+    "freeversion": true,
+    "pricing": "無料",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Image Generation",
+    "logo": "https://www.craiyon.com/logo.png"
+  },
+  {
+    "title": "ScripAI",
+    "short_description": "ソーシャルメディア管理や就職活動の生産性を向上させるように設計されたAIツール群です。",
+    "description": "Scrip AIは、魅力的なソーシャルメディア投稿の作成、メールの下書き、履歴書の最適化をサポートする無料ツールを提供しています。これらのツールは、プロフェッショナルなコミュニケーションにおける効果と効率を高めるように調整されています。",
+    "link": "https://scripai.com/",
+    "freeversion": true,
+    "pricing": "無料版とプレミアムオプションあり",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Productivity Tools",
+    "logo": "https://www.scripai.com/logo.png"
+  },
+  {
+    "title": "Riverside",
+    "short_description": "音声録音を簡単に文字起こしできる自動変換ツールです。",
+    "description": "Riverside.fmは、音声コンテンツを文字テキストに変換するシームレスな文字起こしサービスを提供します。このツールは、録音の素早く正確な文字起こしが必要なポッドキャスター、インタビュアー、コンテンツクリエイターに特に役立ちます。",
+    "link": "https://riverside.fm/transcription",
+    "freeversion": true,
+    "pricing": "無料版とプレミアムオプションあり",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Transcription",
+    "logo": "https://www.riverside.fm/logo.png"
+  },
+  {
+    "title": "Acronym Generator",
+    "short_description": "ブランディングやマーケティングのためのフレーズやキーワードから記憶に残る頭字語を作成します。",
+    "description": "このツールは、与えられたフレーズやキーワードから印象的な頭字語を生成し、複雑な用語を理解しやすい形式に簡略化したいビジネスに特に役立ちます。",
+    "link": "https://www.reliablesoft.net/ai-text-generator-tools/acronym-generator/",
+    "freeversion": true,
+    "pricing": "無料版とプレミアムオプションあり",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://www.reliablesoft.net/logo.png"
+  },
+  {
+    "title": "Rephrase Text",
+    "short_description": "文章の原意を保ちながら、文章スタイルを改善するための言い換えを行います。",
+    "description": "QuillBotは、文章の意味を保ちながら文を言い換えることができる高度な言い換えツールです。テキストの書き換えに様々なモードを提供し、文章スタイルを向上させたり、剽窃を避けたりしたい学生、作家、専門家に最適です。",
+    "link": "https://quillbot.com/paraphrasing-tool",
+    "freeversion": true,
+    "pricing": "無料版とプレミアムオプションあり",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://quillbot.com/logo.png"
+  },
+  {
+    "title": "Summarizer",
+    "short_description": "記事、論文、文書を簡単に要点にまとめることができます。",
+    "description": "QuillBotのSummarizerは、AIと自然言語処理を使用して、大量のテキストから重要な情報を素早く抽出し、元のコンテキストを維持します。スライダーを使用して要約の長さを調整でき、箇条書きや段落形式のオプションを提供します。コンテンツを効率的に要約する必要のある学生や専門家に最適です。",
+    "link": "https://quillbot.com/summarize",
+    "freeversion": true,
+    "pricing": "要約が無制限で100%無料",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://quillbot.com/logo.png"
+  }
+]

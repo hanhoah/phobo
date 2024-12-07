@@ -245,5 +245,13 @@
     "title": "Có câu hỏi nào về bài viết này không?",
     "description": "Hãy liên hệ với chúng tôi qua bất kỳ kênh mạng xã hội nào.",
     "content": "Chúng tôi ở đây để giúp bạn!"
+  },
+  "common": {
+    "free": "Miễn phí",
+    "try_it": "Thử ngay"
+  },
+  "aitools": {
+    "title": "Công cụ AI",
+    "subtitle": "Danh sách các công cụ AI miễn phí và một phần có phí mà bạn có thể sử dụng cho dự án của mình."
   }
 }

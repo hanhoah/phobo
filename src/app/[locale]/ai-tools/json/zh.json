@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Text To Speech Generator",
+    "short_description": "使用先进的AI语音技术将文本转换为逼真的语音。",
+    "description": "该工具使用Microsoft的AI语音库创建高质量的语音，接近真人发音效果。支持多种情感语调，适用于语音助手、有声书籍和教育工具等应用场景。",
+    "link": "https://www.text-to-speech.online/",
+    "freeversion": true,
+    "pricing": "提供免费版本和付费选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Text-to-Speech",
+    "logo": "https://lovo.ai/static/logo.png"
+  },
+  {
+    "title": "Perplexity AI",
+    "short_description": "AI驱动的搜索引擎，提供实时准确的查询答案。",
+    "description": "Perplexity AI旨在通过为用户问题提供简洁相关的答案来提升搜索体验。利用先进的自然语言处理技术，确保用户能够快速获取可靠信息。",
+    "link": "https://www.perplexity.ai/",
+    "freeversion": true,
+    "pricing": "免费",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Search Engine",
+    "logo": "https://www.perplexity.ai/logo.png"
+  },
+  {
+    "title": "Craiyon",
+    "short_description": "使用AI根据文本提示生成图像，提供多种创意输出。",
+    "description": "Craiyon（前身为DALL·E mini）能够根据文字描述创建独特的图像。这个工具使用简单，可以生成多个图像变体，非常适合艺术家、营销人员和想要将想法可视化的人使用。",
+    "link": "https://www.craiyon.com/",
+    "freeversion": true,
+    "pricing": "免费",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Image Generation",
+    "logo": "https://www.craiyon.com/logo.png"
+  },
+  {
+    "title": "ScripAI",
+    "short_description": "专为提高社交媒体管理和求职效率设计的AI工具套件。",
+    "description": "Scrip AI提供免费工具，帮助创建有吸引力的社交媒体帖子、起草电子邮件和优化简历。这些工具经过调整，旨在提高专业沟通的效果和效率。",
+    "link": "https://scripai.com/",
+    "freeversion": true,
+    "pricing": "提供免费版本和付费选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Productivity Tools",
+    "logo": "https://www.scripai.com/logo.png"
+  },
+  {
+    "title": "Riverside",
+    "short_description": "自动转换工具，轻松将音频转换为文本。",
+    "description": "Riverside.fm提供流畅的音频转文本转换服务。这个工具特别适合需要快速准确转录录音的播客制作者、采访者和内容创作者。",
+    "link": "https://riverside.fm/transcription",
+    "freeversion": true,
+    "pricing": "提供免费版本和付费选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Transcription",
+    "logo": "https://www.riverside.fm/logo.png"
+  },
+  {
+    "title": "Acronym Generator",
+    "short_description": "为品牌和营销从短语或关键词创建易记的缩写词。",
+    "description": "这个工具可以从给定的短语或关键词生成引人注目的缩写词，特别适合希望将复杂术语简化为易于理解格式的企业使用。",
+    "link": "https://www.reliablesoft.net/ai-text-generator-tools/acronym-generator/",
+    "freeversion": true,
+    "pricing": "提供免费版本和付费选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://www.reliablesoft.net/logo.png"
+  },
+  {
+    "title": "Rephrase Text",
+    "short_description": "在保持原意的同时改善写作风格的文本改写工具。",
+    "description": "QuillBot是一个高级改写工具，允许用户在保持原意的同时重写句子。提供多种文本改写模式，非常适合���要提升写作风格或避免抄袭的学生、作家和专业人士使用。",
+    "link": "https://quillbot.com/paraphrasing-tool",
+    "freeversion": true,
+    "pricing": "提供免费版本和付费选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://quillbot.com/logo.png"
+  },
+  {
+    "title": "Summarizer",
+    "short_description": "轻松将文章、论文和文档概括为要点。",
+    "description": "QuillBot Summarizer使用AI和自然语言处理技术，在保持原始上下文的同时快速从大段文本中提取重要信息。用户可以使用滑块调整摘要长度，并提供项目符号或段落格式选项。非常适合需要高效总结内容的学生和专业人士使用。",
+    "link": "https://quillbot.com/summarize",
+    "freeversion": true,
+    "pricing": "100%免费，无限制使用摘要功能",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://quillbot.com/logo.png"
+  }
+]

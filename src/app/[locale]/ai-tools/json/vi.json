@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Text To Speech Generator",
+    "short_description": "Tạo giọng đọc chân thực từ văn bản bằng công nghệ AI tiên tiến.",
+    "description": "Công cụ này sử dụng thư viện AI của Microsoft để tạo ra giọng đọc chất lượng cao, gần giống với giọng người thật. Hỗ trợ nhiều tông giọng cảm xúc khác nhau, phù hợp cho các ứng dụng như trợ lý giọng nói, sách nói và công cụ giáo dục.",
+    "link": "https://www.text-to-speech.online/",
+    "freeversion": true,
+    "pricing": "Có phiên bản miễn phí và tùy chọn trả phí",
+    "pricing_short": "Miễn Phí",
+    "affiliate": false,
+    "category": "Text-to-Speech",
+    "logo": "https://lovo.ai/static/logo.png"
+  },
+  {
+    "title": "Perplexity AI",
+    "short_description": "Công cụ tìm kiếm được hỗ trợ bởi AI, cung cấp câu trả lời chính xác theo thời gian thực.",
+    "description": "Perplexity AI được thiết kế để nâng cao trải nghiệm tìm kiếm bằng cách cung cấp câu trả lời ngắn gọn và phù hợp cho các câu hỏi của người dùng. Sử dụng xử lý ngôn ngữ tự nhiên tiên tiến để đảm bảo người dùng nhận được thông tin đáng tin cậy một cách nhanh chóng.",
+    "link": "https://www.perplexity.ai/",
+    "freeversion": true,
+    "pricing": "Miễn phí",
+    "pricing_short": "Miễn Phí",
+    "affiliate": false,
+    "category": "Search Engine",
+    "logo": "https://www.perplexity.ai/logo.png"
+  },
+  {
+    "title": "Craiyon",
+    "short_description": "Tạo hình ảnh từ văn bản bằng AI, cung cấp nhiều kết quả sáng tạo.",
+    "description": "Craiyon (trước đây là DALL·E mini) cho phép tạo ra những hình ảnh độc đáo dựa trên mô tả bằng văn bản. Công cụ này dễ sử dụng và tạo ra nhiều biến thể của hình ảnh, lý tưởng cho nghệ sĩ, nhà tiếp thị và những người muốn trực quan hóa ý tưởng của mình.",
+    "link": "https://www.craiyon.com/",
+    "freeversion": true,
+    "pricing": "Miễn phí",
+    "pricing_short": "Miễn Phí",
+    "affiliate": false,
+    "category": "Image Generation",
+    "logo": "https://www.craiyon.com/logo.png"
+  },
+  {
+    "title": "ScripAI",
+    "short_description": "Bộ công cụ AI được thiết kế để nâng cao năng suất trong quản lý mạng xã hội và ứng tuyển việc làm.",
+    "description": "Scrip AI cung cấp các công cụ miễn phí hỗ trợ tạo bài đăng mạng xã hội hấp dẫn, soạn thảo email và tối ưu hóa hồ sơ xin việc. Các công cụ này được điều chỉnh để nâng cao hiệu quả và hiệu suất trong giao tiếp chuyên nghiệp.",
+    "link": "https://scripai.com/",
+    "freeversion": true,
+    "pricing": "Có phiên bản miễn phí và tùy chọn trả phí",
+    "pricing_short": "Miễn Phí",
+    "affiliate": false,
+    "category": "Productivity Tools",
+    "logo": "https://www.scripai.com/logo.png"
+  },
+  {
+    "title": "Riverside",
+    "short_description": "Công cụ chuyển đổi tự động giúp chuyển âm thanh thành văn bản một cách dễ dàng.",
+    "description": "Riverside.fm cung cấp dịch vụ chuyển âm thanh thành văn bản một cách mượt mà. Công cụ này đặc biệt hữu ích cho những người làm podcast, phỏng vấn và người sáng tạo nội dung cần chuyển đổi bản ghi âm nhanh chóng và chính xác.",
+    "link": "https://riverside.fm/transcription",
+    "freeversion": true,
+    "pricing": "Có phiên bản miễn phí và tùy chọn trả phí",
+    "pricing_short": "Miễn Phí",
+    "affiliate": false,
+    "category": "Transcription",
+    "logo": "https://www.riverside.fm/logo.png"
+  },
+  {
+    "title": "Acronym Generator",
+    "short_description": "Tạo từ viết tắt dễ nhớ từ cụm từ hoặc từ khóa cho thương hiệu và tiếp thị.",
+    "description": "Công cụ này giúp tạo ra các từ viết tắt ấn tượng từ cụm từ hoặc từ khóa được cung cấp, đặc biệt hữu ích cho các doanh nghiệp muốn đơn giản hóa các thuật ngữ phức tạp thành định dạng dễ hiểu.",
+    "link": "https://www.reliablesoft.net/ai-text-generator-tools/acronym-generator/",
+    "freeversion": true,
+    "pricing": "Có phiên bản miễn phí và tùy chọn trả phí",
+    "pricing_short": "Miễn Phí",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://www.reliablesoft.net/logo.png"
+  },
+  {
+    "title": "Rephrase Text",
+    "short_description": "Diễn đạt lại văn bản để cải thiện phong cách viết trong khi vẫn giữ nguyên ý nghĩa.",
+    "description": "QuillBot là công cụ diễn đạt lại nâng cao cho phép người dùng viết lại câu văn mà vẫn giữ nguyên ý nghĩa. Cung cấp nhiều chế độ viết lại văn bản, lý tưởng cho học sinh, nhà văn và chuyên gia muốn cải thiện phong cách viết hoặc tránh đạo văn.",
+    "link": "https://quillbot.com/paraphrasing-tool",
+    "freeversion": true,
+    "pricing": "Có phiên bản miễn phí và tùy chọn trả phí",
+    "pricing_short": "Miễn Phí",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://quillbot.com/logo.png"
+  },
+  {
+    "title": "Summarizer",
+    "short_description": "Dễ dàng tóm tắt các bài báo, luận văn và tài liệu thành các điểm chính.",
+    "description": "QuillBot Summarizer sử dụng AI và xử lý ngôn ngữ tự nhiên để nhanh chóng trích xuất thông tin quan trọng từ khối văn bản lớn trong khi vẫn giữ nguyên ngữ cảnh gốc. Người dùng có thể điều chỉnh độ dài tóm tắt bằng thanh trượt và có các tùy chọn định dạng dạng điểm đầu dòng hoặc đoạn văn. Lý tưởng cho học sinh và chuyên gia cần tóm tắt nội dung một cách hiệu quả.",
+    "link": "https://quillbot.com/summarize",
+    "freeversion": true,
+    "pricing": "Hoàn toàn miễn phí với khả năng tóm tắt không giới hạn",
+    "pricing_short": "Miễn Phí",
+    "affiliate": false,
+    "category": "Text Tools",
+    "logo": "https://quillbot.com/logo.png"
+  }
+]
