@@ -1,4 +1,4 @@
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import AiToolsGrid from "@/app/[locale]/components/aitools/AiToolsGrid";
 import { loadAiTools } from "@/lib/loadAiTools";
 
@@ -7,6 +7,7 @@ export default async function AiToolsPage({
 }: {
   params: { locale: string };
 }) {
+  setRequestLocale(locale);
   const t = await getTranslations("aitools");
   const tools = await loadAiTools(locale);
 
