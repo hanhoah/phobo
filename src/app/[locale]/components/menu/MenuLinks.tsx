@@ -127,6 +127,18 @@ const MenuLinks = ({ onMenuItemClick = () => {} }) => {
           {t("contact")}
         </Link>
       </li>
+      <li>
+        <Link
+          href={`/${locale}/ai-tools`}
+          onClick={onMenuItemClick}
+          className={`menulink ${
+            pathname === `/${locale}/ai-tools` ? "bg-active" : ""
+          }`}
+        >
+          <Icon icon="mdi:robot" className="mr-2" />
+          {t("ai_tools")}
+        </Link>
+      </li>
     </>
   );
 };
