@@ -94,5 +94,17 @@
     "affiliate": false,
     "category": "Text Tools",
     "logo": "https://quillbot.com/logo.png"
+  },
+  {
+    "title": "Hugging Face",
+    "short_description": "领先的AI模型平台，提供数千个机器学习模型的访问。",
+    "description": "Hugging Face是一个综合性机器学习平台，提供大量预训练模型、工具和数据集。该平台使开发人员和研究人员能够共享、测试和部署AI模型。它为各种任务提供解决方案，包括文本处理、图像识别、语音处理等。",
+    "link": "https://huggingface.co/",
+    "freeversion": true,
+    "pricing": "免费版本，提供企业级选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "Machine Learning",
+    "logo": "https://huggingface.co/front/assets/huggingface_logo.svg"
   }
 ]

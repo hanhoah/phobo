@@ -94,5 +94,17 @@
     "affiliate": false,
     "category": "Text Tools",
     "logo": "https://quillbot.com/logo.png"
+  },
+  {
+    "title": "Hugging Face",
+    "short_description": "A leading AI model platform providing access to thousands of machine learning models.",
+    "description": "Hugging Face is a comprehensive machine learning platform that provides a vast collection of pre-trained models, tools, and datasets. The platform enables developers and researchers to share, test, and deploy AI models. It offers solutions for various tasks including text processing, image recognition, speech processing, and more.",
+    "link": "https://huggingface.co/",
+    "freeversion": true,
+    "pricing": "Free with enterprise options",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "Machine Learning",
+    "logo": "https://huggingface.co/front/assets/huggingface_logo.svg"
   }
 ]

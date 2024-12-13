@@ -37,7 +37,7 @@
   },
   {
     "title": "ScripAI",
-    "short_description": "ソーシャルメディア管理や就職活動の生産性を向上させるように設計されたAIツール群です。",
+    "short_description": "ソーシャルメディア管理や就職活動の��産性を向上させるように設計されたAIツール群です。",
     "description": "Scrip AIは、魅力的なソーシャルメディア投稿の作成、メールの下書き、履歴書の最適化をサポートする無料ツールを提供しています。これらのツールは、プロフェッショナルなコミュニケーションにおける効果と効率を高めるように調整されています。",
     "link": "https://scripai.com/",
     "freeversion": true,
@@ -94,5 +94,17 @@
     "affiliate": false,
     "category": "Text Tools",
     "logo": "https://quillbot.com/logo.png"
+  },
+  {
+    "title": "Hugging Face",
+    "short_description": "数千の機械学習モデルにアクセスできる主要なAIモデルプラットフォーム。",
+    "description": "Hugging Faceは、事前学習済みモデル、ツール、データセットの膨大なコレクションを提供する包括的な機械学習プラットフォームです。開発者や研究者がAIモデルを共有、テスト、デプロイすることを可能にします。テキスト処理、画像認識、音声処理など、さまざまなタスクのソリューションを提供しています。",
+    "link": "https://huggingface.co/",
+    "freeversion": true,
+    "pricing": "無料版とエンタープライズオプションあり",
+    "pricing_short": "無料",
+    "affiliate": false,
+    "category": "Machine Learning",
+    "logo": "https://huggingface.co/front/assets/huggingface_logo.svg"
   }
 ]
