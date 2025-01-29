@@ -11,6 +11,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Badges from "../components/Badges";
 
 export default function ServicePage({
   params: { locale },
@@ -36,6 +37,7 @@ export default function ServicePage({
           <p className="mt-0 md:mt-6 text-lg leading-8 text-gray-600 p-1 md:pr-10 ">
             {t("description")}
           </p>
+          <Badges />
         </div>
         <ul
           role="list"
@@ -52,39 +54,50 @@ export default function ServicePage({
             const linkedinUrl = t(`members.${key}.linkedinUrl`);
 
             return (
-              <Card className="mt-16 w-full md:w-3/4 p-0" key={name}>
-                <CardHeader>
-                  <CardTitle>{name}</CardTitle>
-                  <CardDescription>
-                    <Badge variant="outline">{role}</Badge>
+              <Card
+                className="mt-16 w-full md:w-3/4 p-4 bg-white shadow-lg rounded-lg"
+                key={name}
+              >
+                <CardHeader className="border-b border-gray-200 pb-4">
+                  <CardTitle className="text-xl font-semibold text-primary">
+                    {name}
+                  </CardTitle>
+                  <CardDescription className="text-sm text-secondary">
+                    <Badge variant="outline" className="text-sm">
+                      {role}
+                    </Badge>
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <CardDescription>{bio}</CardDescription>
-                  <div className="flex flex-row mt-2 md:mt-5">
+                <CardContent className="pt-4">
+                  <CardDescription className="text-base text-gray-700">
+                    {bio}
+                  </CardDescription>
+                  <div className="flex flex-row mt-4">
                     <Image
                       alt={name}
                       src={imageUrl}
                       width={208}
                       height={260}
-                      className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover"
+                      className="aspect-[4/5] w-52 flex-none rounded-2xl object-cover shadow-md"
                     />
-                    <div className="ml-1 md:ml-5">
-                      <CardDescription className="flex flex-col mb-5">
-                        <b>{g("socialnetworks")}: </b>{" "}
+                    <div className="ml-4">
+                      <CardDescription className="flex flex-col mb-4">
+                        <b className="text-sm text-primary">
+                          {g("socialnetworks")}:
+                        </b>
                         <ul>
                           <li>
                             <a
                               target="_blank"
                               rel="noreferrer"
                               href={linkedinUrl}
-                              className="text-gray-400 hover:text-gray-500"
+                              className="text-gray-500 hover:text-primary"
                             >
-                              <div className="flex flex-row text-sm text-slate-500">
+                              <div className="flex flex-row items-center text-sm">
                                 Linked
                                 <Icon
                                   icon="akar-icons:linkedin-fill"
-                                  className="w-6 h-6 text-secondary"
+                                  className="w-5 h-5 ml-1 text-secondary"
                                 />
                               </div>
                             </a>
@@ -92,8 +105,12 @@ export default function ServicePage({
                         </ul>
                       </CardDescription>
                       <CardDescription>
-                        <b>{t("languages")}:</b>
-                        <ReactMarkdown>{languages}</ReactMarkdown>
+                        <b className="text-sm text-primary">
+                          {t("languages")}:
+                        </b>
+                        <ReactMarkdown className="text-sm text-gray-700">
+                          {languages}
+                        </ReactMarkdown>
                       </CardDescription>
                     </div>
                   </div>
