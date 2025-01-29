@@ -1,7 +1,6 @@
 "use server";
 
 import nodemailer from "nodemailer";
-import fs from "fs/promises";
 
 // Sofortige Debug-Ausgabe
 console.log("=== SMTP SETUP START ===");
@@ -43,13 +42,6 @@ const transporter = nodemailer.createTransport({
   console.log("=== SMTP SETUP END ===");
 })();
 
-async function logToFile(message: string) {
-  await fs.appendFile(
-    "email-debug.log",
-    `${new Date().toISOString()}: ${message}\n`
-  );
-}
-
 export async function sendEmail(formData: {
   name: string;
   email: string;
@@ -57,6 +49,7 @@ export async function sendEmail(formData: {
   message: string;
 }) {
   console.log("=== EMAIL SENDING START ===");
+  console.log("Attempting to send email to:", process.env.SMTP_TO);
   console.log("Received form data:", JSON.stringify(formData, null, 2));
 
   const mailOptions = {
@@ -82,7 +75,6 @@ export async function sendEmail(formData: {
   };
 
   try {
-    await logToFile(`Attempting to send email to ${mailOptions.to}`);
     console.log("Attempting to send email...");
     const info = await transporter.sendMail(mailOptions);
     console.log("Email sent successfully:", {
@@ -92,7 +84,6 @@ export async function sendEmail(formData: {
     console.log("=== EMAIL SENDING END ===");
     return { success: true };
   } catch (error) {
-    // Error Typ-Überprüfung
     const err = error as Error & { code?: string; command?: string };
     console.error("Failed to send email:", {
       error: err.message,
