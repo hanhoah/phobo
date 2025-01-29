@@ -92,12 +92,14 @@ export async function sendEmail(formData: {
     console.log("=== EMAIL SENDING END ===");
     return { success: true };
   } catch (error) {
+    // Error Typ-Überprüfung
+    const err = error as Error & { code?: string; command?: string };
     console.error("Failed to send email:", {
-      error: error.message,
-      code: error.code,
-      command: error.command,
+      error: err.message,
+      code: err.code,
+      command: err.command,
     });
     console.log("=== EMAIL SENDING END ===");
-    return { success: false, error: error.message };
+    return { success: false, error: err.message };
   }
 }
