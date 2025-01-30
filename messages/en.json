@@ -73,6 +73,7 @@
   },
   "about": {
     "about": "About",
+    "title": "Welcome to Phobo – Your top-notch web design agency in Mülheim an der Ruhr!",
     "description": "Welcome to Phobo, your full-service web design agency! Founded by Han Hoa Huynh, a graduate media computer scientist with over 20 years of experience in web design, we specialize in developing custom full-stack applications. Our expertise includes modern technologies such as React.js, Next.js, Vue.js, Nuxt.js, Svelte, SvelteKit, and Tailwind.css.",
     "phobo": "The name 'Phobo' has its roots in the Vietnamese 'Phở Bò', which means 'beef noodle soup'. This delicious dish is not only a national dish of Vietnam but also a symbol of the diversity and richness of Vietnamese cuisine. Just as a good bowl of Phở is carefully prepared—with an aromatic broth and fresh ingredients—we also emphasize the careful design and development of your digital solutions.",
     "slogan": "Our slogan: 'We want to make the web faster' reflects our commitment to providing innovative and efficient solutions for small and medium-sized enterprises (SMEs). Let us strengthen your digital presence together and bring your ideas to life!",
@@ -101,7 +102,8 @@
     "en": "English",
     "de": "German",
     "vi": "Vietnamese",
-    "zh": "Chinese"
+    "zh": "Chinese",
+    "ja": "Japanese"
   },
   "team": {
     "title": "About The Team",

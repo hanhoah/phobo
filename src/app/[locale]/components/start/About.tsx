@@ -1,20 +1,26 @@
+"use client";
+
 import { ClipboardDocumentListIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { useParams } from "next/navigation";
+import { getDescriptionComponent } from "./getDescriptionComponent";
 
 export default function AboutSection() {
   const t = useTranslations("about");
+  const { locale } = useParams();
+  const Description = getDescriptionComponent(locale as string);
+
   return (
     <section>
       <div className="max-w-7xl mx-auto md:px-4 px-1">
         <div className="overflow-hidden">
           <div className="flex flex-row">
             <div className=" md:p-3 lg:p-6">
-              <h1 className="text-primary">{t("about")} Phobo</h1>
+              <h1 className="text-primary">{t("title")} </h1>
               <div className="flex flex-col md:flex-row">
-                <div className="w-full lg:w-2/3 md:p-5 ">
-                  <p>{t("description")}</p>
-                  <p>{t("phobo")}</p>
+                <div className="w-full lg:w-2/3 md:p-5">
+                  <Description />
                   <p>{t("slogan")}</p>
                 </div>
                 <div className="border-2 mx-auto my-5">
