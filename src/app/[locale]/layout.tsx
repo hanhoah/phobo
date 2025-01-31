@@ -8,6 +8,7 @@ import { Roboto } from "next/font/google";
 import { setRequestLocale } from "next-intl/server"; // Importieren Sie die stabile API
 import Head from "next/head";
 import ContactCard from "./components/messenger/ContactCard";
+import { useTranslations } from "next-intl";
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -20,17 +21,25 @@ export function generateStaticParams() {
   return ["en", "de", "vi", "zh"].map((locale) => ({ locale }));
 }
 
-export default async function LocaleLayout({
+function HeadWithTranslations() {
+  const t = useTranslations("meta.homepage");
+
+  return (
+    <Head>
+      <title>{t("title")}</title>
+      <meta name="description" content={t("description")} />
+    </Head>
+  );
+}
+
+export default async function RootLayout({
   children,
-  params,
+  params: { locale },
 }: {
   children: React.ReactNode;
-  params: { locale?: string }; // locale ist optional
+  params: { locale: string };
 }) {
   const validLocales = ["en", "de", "vi", "zh", "ja"]; // Ihre unterstützten Sprachen hier
-
-  // Standardwert für locale, falls es nicht gesetzt ist
-  const locale = params?.locale || "en";
 
   console.log("locale received:", locale); // Debug-Ausgabe
 
@@ -46,9 +55,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={roboto.className}>
-      <Head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head>
+      <HeadWithTranslations />
       <body className="w-full m-auto bg-gray-100">
         <NextIntlClientProvider messages={messages}>
           <div className="sticky top-0 z-20 w-full">

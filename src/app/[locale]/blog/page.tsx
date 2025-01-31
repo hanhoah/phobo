@@ -2,9 +2,25 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import ImageCard from "../components/ImageCard";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
 interface Params {
   locale: string;
+}
+
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: Params;
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "meta.blog" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
+  };
 }
 
 const BlogPage = async ({ params }: { params: Params }) => {

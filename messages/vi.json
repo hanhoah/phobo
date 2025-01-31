@@ -75,8 +75,8 @@
     "about": "Về",
     "title": "Chào mừng bạn đến với Phobo, đại lý thiết kế web toàn diện của bạn!",
     "description": "Chào mừng bạn đến với Phobo, đại lý thiết kế web toàn diện của bạn! Được thành lập bởi Han Hoa Huynh, một kỹ sư truyền thông (FH) với hơn 20 năm kinh nghiệm trong lĩnh vực thiết kế web, chúng tôi chuyên phát triển các ứng dụng Fullstack tùy chỉnh. Chuyên môn của chúng tôi bao gồm các công nghệ hiện đại như React.js, Next.js, Vue.js, Nuxt.js, Svelte, SvelteKit và Tailwind.css.",
-    "phobo": "Tên ‘Phobo’ có nguồn gốc từ ‘Phở Bò’ trong tiếng Việt, có nghĩa là ‘mì bò’. Món ăn ngon này không chỉ là món quốc hồn quốc túy của Việt Nam mà còn là biểu tượng cho sự đa dạng và phong phú của nền ẩm thực Việt Nam. Giống như một tô phở ngon được chuẩn bị cẩn thận – với nước dùng thơm ngon và nguyên liệu tươi mới – chúng tôi cũng chú trọng đến việc thiết kế và phát triển cẩn thận các giải pháp kỹ thuật số của bạn.",
-    "slogan": "Khẩu hiệu của chúng tôi: ‘Chúng tôi muốn làm cho web nhanh hơn’ phản ánh cam kết của chúng tôi trong việc cung cấp các giải pháp đổi mới và hiệu quả cho các doanh nghiệp nhỏ và vừa (SMEs). Hãy cùng nhau củng cố sự hiện diện kỹ thuật số của bạn và biến ý tưởng thành hiện thực!",
+    "phobo": "Tên 'Phobo' có nguồn gốc từ 'Phở Bò' trong tiếng Việt, có nghĩa là 'mì bò'. Món ăn ngon này không chỉ là món quốc hồn quốc túy của Việt Nam mà còn là biểu tượng cho sự đa dạng và phong phú của nền ẩm thực Việt Nam. Giống như một tô phở ngon được chuẩn bị cẩn thận – với nước dùng thơm ngon và nguyên liệu tươi mới – chúng tôi cũng chú trọng đến việc thiết kế và phát triển cẩn thận các giải pháp kỹ thuật số của bạn.",
+    "slogan": "Khẩu hiệu của chúng tôi: 'Chúng tôi muốn làm cho web nhanh hơn' phản ánh cam kết của chúng tôi trong việc cung cấp các giải pháp đổi mới và hiệu quả cho các doanh nghiệp nhỏ và vừa (SMEs). Hãy cùng nhau củng cố sự hiện diện kỹ thuật số của bạn và biến ý tưởng thành hiện thực!",
     "phobowebdesigntitle": "Phobo: Nơi thiết kế web gặp gỡ truyền thống Việt Nam",
     "phobowebdesigndesc": "Tại Phobo, chúng tôi kết hợp đam mê thiết kế web với niềm đam mê về ẩm thực Việt Nam mà người sáng lập chúng tôi có. Giống như một tô phở bò được chuẩn bị cẩn thận với nguyên liệu tươi mới và nước dùng thơm ngon, chúng tôi cũng chú trọng đến việc thiết kế và phát triển cẩn thận các giải pháp kỹ thuật số của bạn. Khám phá cách mà chúng tôi làm nổi bật thương hiệu của bạn!",
     "zielgruppe": "Đối tượng: Các doanh nghiệp vừa và nhỏ từ nhiều ngành nghề khác nhau như thợ thủ công, thợ điện, nhà bán lẻ, tiệm nail, luật sư, kế toán viên, bất động sản."
@@ -256,5 +256,17 @@
   "aitools": {
     "title": "Công cụ AI",
     "subtitle": "Danh sách các công cụ AI miễn phí và một phần có phí mà bạn có thể sử dụng cho dự án của mình."
+  },
+  "meta": {
+    "homepage": {
+      "title": "Phobo – Thiết kế web tại Mülheim an der Ruhr",
+      "description": "Tăng cường sự hiện diện kỹ thuật số của bạn với Phobo, công ty thiết kế web của bạn tại Mülheim an der Ruhr. Liên hệ với chúng tôi để được tư vấn giải pháp phù hợp!",
+      "keywords": "Thiết kế web Mülheim an der Ruhr, Phát triển web, Thiết kế đáp ứng, Tối ưu hóa SEO, Tiếp thị trực tuyến"
+    },
+    "blog": {
+      "title": "Phobo Blog – Xu hướng và thông tin mới nhất về Thiết kế Web & Tiếp thị Trực tuyến",
+      "description": "Khám phá các xu hướng, mẹo và thực tiễn tốt nhất về thiết kế web, SEO và tiếp thị trực tuyến trong blog của chúng tôi. Hãy cập nhật và tối ưu hóa sự hiện diện kỹ thuật số của bạn!",
+      "keywords": "Blog Thiết kế Web, Mẹo SEO, Chiến lược Tiếp thị Trực tuyến, Xu hướng Phát triển Web, Chuyển đổi Số"
+    }
   }
 }

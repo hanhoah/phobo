@@ -52,7 +52,7 @@
   },
   "FormPage": {
     "title": "Request Service",
-    "intro": "Are you ready to bring your website or online marketing project to life? Share your ideas with us, and let’s develop a plan together. Our full-service offering includes everything you need to achieve your goals—from conception to implementation. Fill out our contact form now and let’s get started! Feel free to adjust any part of the text to better fit your brand voice or specific offerings!",
+    "intro": "Are you ready to bring your website or online marketing project to life? Share your ideas with us, and let's develop a plan together. Our full-service offering includes everything you need to achieve your goals—from conception to implementation. Fill out our contact form now and let's get started! Feel free to adjust any part of the text to better fit your brand voice or specific offerings!",
     "name": "Name",
     "email": "E-Mail",
     "subject": "Subject",
@@ -62,7 +62,7 @@
   "services": {
     "webdesign": {
       "title": "Custom Web Design Solutions",
-      "description": "Give your brand a unique online presence with our creative web design services. Our experienced team creates user-friendly and engaging websites that not only look great but also function optimally. Let’s bring your vision to life and delight your audience!",
+      "description": "Give your brand a unique online presence with our creative web design services. Our experienced team creates user-friendly and engaging websites that not only look great but also function optimally. Let's bring your vision to life and delight your audience!",
       "cta": "Learn more about our web design services"
     },
     "seo": {
@@ -107,7 +107,7 @@
   },
   "team": {
     "title": "About The Team",
-    "description": "At our agency, we're a vibrant collective of creative minds driven by a shared passion for innovation. We thrive on transforming ideas into stunning digital experiences, and we’re committed to delivering exceptional results that elevate our clients' brands to new heights. Let’s create something extraordinary together! Feel free to let me know if you need any further adjustments!",
+    "description": "At our agency, we're a vibrant collective of creative minds driven by a shared passion for innovation. We thrive on transforming ideas into stunning digital experiences, and we're committed to delivering exceptional results that elevate our clients' brands to new heights. Let's create something extraordinary together! Feel free to let me know if you need any further adjustments!",
     "languages": "Languages",
     "members": {
       "hanHoaHuynh": {
@@ -256,5 +256,17 @@
   "aitools": {
     "title": "AI Tools",
     "subtitle": "A list of free and partially paid AI tools that you can use for your projects."
+  },
+  "meta": {
+    "homepage": {
+      "title": "Phobo – Web Design in Mülheim an der Ruhr",
+      "description": "Enhance your digital presence with Phobo, your web design agency in Mülheim an der Ruhr. Contact us for tailored solutions!",
+      "keywords": "Web Design Mülheim an der Ruhr, Web Development, Responsive Design, SEO Optimization, Online Marketing"
+    },
+    "blog": {
+      "title": "Phobo Blog – Latest Trends and Insights in Web Design & Online Marketing",
+      "description": "Discover the latest trends, tips and best practices in web design, SEO and online marketing in our blog. Stay informed and optimize your digital presence!",
+      "keywords": "Web Design Blog, SEO Tips, Online Marketing Strategies, Web Development Trends, Digital Transformation"
+    }
   }
 }
