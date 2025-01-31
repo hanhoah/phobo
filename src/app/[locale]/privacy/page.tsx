@@ -1,6 +1,8 @@
 import React from "react";
 import { useLocale } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
 // src/app/de/impressum/page.tsx
 const PrivacyPage = ({
@@ -162,3 +164,17 @@ const PrivacyPage = ({
 };
 
 export default PrivacyPage;
+
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "meta.privacy" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
+  };
+}

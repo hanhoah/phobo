@@ -12,6 +12,8 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import Badges from "../components/Badges";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
 export default function ServicePage({
   params: { locale },
@@ -122,4 +124,18 @@ export default function ServicePage({
       </div>
     </section>
   );
+}
+
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "meta.team" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
+  };
 }

@@ -267,6 +267,31 @@
       "title": "Phobo Blog – Latest Trends and Insights in Web Design & Online Marketing",
       "description": "Discover the latest trends, tips and best practices in web design, SEO and online marketing in our blog. Stay informed and optimize your digital presence!",
       "keywords": "Web Design Blog, SEO Tips, Online Marketing Strategies, Web Development Trends, Digital Transformation"
+    },
+    "faq": {
+      "title": "FAQ – Frequently Asked Questions about Web Design & Online Marketing",
+      "description": "Find answers to frequently asked questions about web design, SEO, online marketing and our services. We're here to help!",
+      "keywords": "Web Design FAQ, SEO Questions, Online Marketing FAQ, Web Development FAQ, Digital Marketing Questions"
+    },
+    "imprint": {
+      "title": "Imprint – Phobo Web Design Agency Mülheim an der Ruhr",
+      "description": "Imprint of Phobo Web Design Agency in Mülheim an der Ruhr. Here you'll find all legal information about our company.",
+      "keywords": "Web Design Imprint, Legal Information, Phobo Imprint, Web Agency Mülheim, Imprint Template"
+    },
+    "privacy": {
+      "title": "Privacy Policy – Phobo Web Design Agency Mülheim an der Ruhr",
+      "description": "Privacy policy of Phobo Web Design Agency. Learn how we protect and process your data.",
+      "keywords": "Web Design Privacy, Privacy Policy, GDPR Web Agency, Privacy Mülheim, Phobo Privacy"
+    },
+    "team": {
+      "title": "Our Team – Phobo Web Design Agency Mülheim an der Ruhr",
+      "description": "Get to know our experienced team that professionally implements your web design and online marketing projects.",
+      "keywords": "Web Design Team, Phobo Team, Web Developers Mülheim, Online Marketing Experts, Web Agency Team"
+    },
+    "request": {
+      "title": "Request Form – Phobo Web Design Agency Mülheim an der Ruhr",
+      "description": "Submit your request via our contact form. We're happy to advise you on web design, SEO and online marketing.",
+      "keywords": "Web Design Request Form, Contact Form, Web Design Inquiry, SEO Consultation, Online Marketing Request"
     }
   }
 }

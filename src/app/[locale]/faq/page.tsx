@@ -1,6 +1,22 @@
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
 import ReactMarkdown from "react-markdown";
+import { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
+
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "meta.faq" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
+  };
+}
 
 export default function FAQPage({
   params: { locale },

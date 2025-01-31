@@ -267,6 +267,31 @@
       "title": "Phobo Blog – Xu hướng và thông tin mới nhất về Thiết kế Web & Tiếp thị Trực tuyến",
       "description": "Khám phá các xu hướng, mẹo và thực tiễn tốt nhất về thiết kế web, SEO và tiếp thị trực tuyến trong blog của chúng tôi. Hãy cập nhật và tối ưu hóa sự hiện diện kỹ thuật số của bạn!",
       "keywords": "Blog Thiết kế Web, Mẹo SEO, Chiến lược Tiếp thị Trực tuyến, Xu hướng Phát triển Web, Chuyển đổi Số"
+    },
+    "faq": {
+      "title": "FAQ – Câu hỏi thường gặp về Thiết kế Web & Tiếp thị Trực tuyến",
+      "description": "Tìm câu trả lời cho các câu hỏi thường gặp về thiết kế web, SEO, tiếp thị trực tuyến và dịch vụ của chúng tôi. Chúng tôi luôn sẵn sàng hỗ trợ!",
+      "keywords": "FAQ Thiết kế Web, Câu hỏi SEO, FAQ Tiếp thị Trực tuyến, FAQ Phát triển Web, Câu hỏi Tiếp thị Số"
+    },
+    "imprint": {
+      "title": "Thông tin pháp lý – Công ty Thiết kế Web Phobo tại Mülheim an der Ruhr",
+      "description": "Thông tin pháp lý của Công ty Thiết kế Web Phobo tại Mülheim an der Ruhr. Tại đây bạn sẽ tìm thấy tất cả thông tin pháp lý về công ty chúng tôi.",
+      "keywords": "Thông tin pháp lý Thiết kế Web, Thông tin pháp lý, Phobo Thông tin pháp lý, Công ty Web Mülheim, Mẫu Thông tin pháp lý"
+    },
+    "privacy": {
+      "title": "Chính sách Bảo mật – Công ty Thiết kế Web Phobo tại Mülheim an der Ruhr",
+      "description": "Chính sách bảo mật của Công ty Thiết kế Web Phobo. Tìm hiểu cách chúng tôi bảo vệ và xử lý dữ liệu của bạn.",
+      "keywords": "Bảo mật Thiết kế Web, Chính sách Bảo mật, GDPR Công ty Web, Bảo mật Mülheim, Phobo Bảo mật"
+    },
+    "team": {
+      "title": "Đội ngũ của chúng tôi – Công ty Thiết kế Web Phobo tại Mülheim an der Ruhr",
+      "description": "Làm quen với đội ngũ giàu kinh nghiệm của chúng tôi, những người thực hiện chuyên nghiệp các dự án thiết kế web và tiếp thị trực tuyến của bạn.",
+      "keywords": "Đội ngũ Thiết kế Web, Đội ngũ Phobo, Nhà phát triển Web Mülheim, Chuyên gia Tiếp thị Trực tuyến, Đội ngũ Công ty Web"
+    },
+    "request": {
+      "title": "Biểu mẫu yêu cầu – Công ty Thiết kế Web Phobo tại Mülheim an der Ruhr",
+      "description": "Gửi yêu cầu của bạn qua biểu mẫu liên hệ. Chúng tôi sẵn lòng tư vấn cho bạn về thiết kế web, SEO và tiếp thị trực tuyến.",
+      "keywords": "Biểu mẫu yêu cầu Thiết kế Web, Biểu mẫu liên hệ, Yêu cầu Thiết kế Web, Tư vấn SEO, Yêu cầu Tiếp thị Trực tuyến"
     }
   }
 }

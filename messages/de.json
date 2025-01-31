@@ -144,7 +144,7 @@
       },
       "q2": {
         "question": "Was kostet die Erstellung einer Website?",
-        "answer": "Die Kosten für die Erstellung einer Website variieren je nach Anforderungen und Umfang des Projekts. Einfache Websites beginnen oft bei etwa 1.000 Euro."
+        "answer": "Die Kosten für die Erstellung einer Website variieren je nach Anforderungen und Umfang des Projekts. Wir nutzen für die Entwicklung von Websites die Technologien React.js, Vue.js, Node.js und Tailwind.css. Diese lassen sich hervorragend mit KI Tools erstellen. Die Effizienzsteigerung durch KI Tools ermöglicht es uns, Websites schnell und kostengünstig zu entwickeln. Daher können wir einfache Websites schon ab 1.000 Euro anbieten."
       },
       "q3": {
         "question": "Bieten Sie auch Wartungsdienste an?",
@@ -270,6 +270,31 @@
       "title": "Phobo Blog – Aktuelle Trends und Insights zu Webdesign & Online-Marketing",
       "description": "Entdecken Sie in unserem Blog die neuesten Trends, Tipps und Best Practices rund um Webdesign, SEO und Online-Marketing. Bleiben Sie informiert und optimieren Sie Ihre digitale Präsenz!",
       "keywords": "Webdesign Blog, SEO Tipps, Online-Marketing Strategien, Webentwicklung Trends, Digitale Transformation"
+    },
+    "faq": {
+      "title": "FAQ – Häufig gestellte Fragen zu Webdesign & Online-Marketing",
+      "description": "Finden Sie Antworten auf häufig gestellte Fragen zu Webdesign, SEO, Online-Marketing und unseren Dienstleistungen. Wir helfen Ihnen weiter!",
+      "keywords": "FAQ Webdesign, Häufige Fragen SEO, Online-Marketing Fragen, Webentwicklung FAQ, Digital Marketing Fragen"
+    },
+    "imprint": {
+      "title": "Impressum – Phobo Webdesign Agentur Mülheim an der Ruhr",
+      "description": "Impressum der Phobo Webdesign Agentur in Mülheim an der Ruhr. Hier finden Sie alle rechtlichen Informationen zu unserem Unternehmen.",
+      "keywords": "Impressum Webdesign, Rechtliche Angaben, Phobo Impressum, Webagentur Mülheim, Impressum Vorlage"
+    },
+    "privacy": {
+      "title": "Datenschutz – Phobo Webdesign Agentur Mülheim an der Ruhr",
+      "description": "Datenschutzerklärung der Phobo Webdesign Agentur. Erfahren Sie, wie wir Ihre Daten schützen und verarbeiten.",
+      "keywords": "Datenschutz Webdesign, Datenschutzerklärung, DSGVO Webagentur, Datenschutz Mülheim, Phobo Datenschutz"
+    },
+    "team": {
+      "title": "Unser Team – Phobo Webdesign Agentur Mülheim an der Ruhr",
+      "description": "Lernen Sie unser erfahrenes Team kennen, das Ihre Webdesign- und Online-Marketing-Projekte professionell umsetzt.",
+      "keywords": "Webdesign Team, Phobo Team, Webentwickler Mülheim, Online-Marketing Experten, Webagentur Team"
+    },
+    "request": {
+      "title": "Anfrageformular – Phobo Webdesign Agentur Mülheim an der Ruhr",
+      "description": "Stellen Sie Ihre Anfrage über unser Kontaktformular. Wir beraten Sie gerne zu Webdesign, SEO und Online-Marketing.",
+      "keywords": "Anfrageformular Webdesign, Kontaktformular, Webdesign Anfrage, SEO Beratung, Online-Marketing Anfrage"
     }
   }
 }
