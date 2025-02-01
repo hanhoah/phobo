@@ -258,7 +258,9 @@
   },
   "aitools": {
     "title": "AI Tools",
-    "subtitle": "Eine Liste von kostenlosen und teilweise kostenpflichtigen AI Tools, die Sie für Ihre Projekte nutzen können."
+    "subtitle": "Eine Liste von kostenlosen und teilweise kostenpflichtigen AI Tools, die Sie für Ihre Projekte nutzen können.",
+    "description": "Entdecken Sie unsere Sammlung von kostenlosen und teilweise kostenpflichtigen AI Tools für Ihre Projekte. Verbessern Sie Ihre Webdesign- und Marketing-Prozesse mit modernster KI-Technologie.",
+    "keywords": "AI Tools, Künstliche Intelligenz Tools, Webdesign Tools, Marketing Tools, KI-Technologie"
   },
   "meta": {
     "homepage": {
@@ -295,6 +297,11 @@
       "title": "Anfrageformular – Phobo Webdesign Agentur Mülheim an der Ruhr",
       "description": "Stellen Sie Ihre Anfrage über unser Kontaktformular. Wir beraten Sie gerne zu Webdesign, SEO und Online-Marketing.",
       "keywords": "Anfrageformular Webdesign, Kontaktformular, Webdesign Anfrage, SEO Beratung, Online-Marketing Anfrage"
+    },
+    "aitools": {
+      "title": "AI Tools – Phobo Webdesign Agentur Mülheim an der Ruhr",
+      "description": "Entdecken Sie unsere Sammlung von kostenlosen und teilweise kostenpflichtigen AI Tools für Ihre Projekte. Verbessern Sie Ihre Webdesign- und Marketing-Prozesse mit modernster KI-Technologie.",
+      "keywords": "AI Tools, Künstliche Intelligenz Tools, Webdesign Tools, Marketing Tools, KI-Technologie"
     }
   }
 }

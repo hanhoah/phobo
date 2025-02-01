@@ -1,15 +1,26 @@
+import { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import AiToolsGrid from "@/app/[locale]/components/aitools/AiToolsGrid";
 import { loadAiTools } from "@/lib/loadAiTools";
 
-export default async function AiToolsPage({
+export async function generateMetadata({
   params: { locale },
 }: {
   params: { locale: string };
-}) {
-  setRequestLocale(locale);
+}): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "meta.aitools" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+    keywords: t("keywords"),
+  };
+}
+
+const AiToolsPage = async ({ params }: { params: { locale: string } }) => {
+  setRequestLocale(params.locale);
   const t = await getTranslations("aitools");
-  const tools = await loadAiTools(locale);
+  const tools = await loadAiTools(params.locale);
 
   return (
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -25,4 +36,6 @@ export default async function AiToolsPage({
       <AiToolsGrid tools={tools} />
     </main>
   );
-}
+};
+
+export default AiToolsPage;
