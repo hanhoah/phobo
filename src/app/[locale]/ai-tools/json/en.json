@@ -20,7 +20,7 @@
     "pricing": "Free",
     "pricing_short": "Free",
     "affiliate": false,
-    "category": "Search Engine",
+    "category": "LLM",
     "logo": "https://www.perplexity.ai/logo.png"
   },
   {
@@ -62,7 +62,7 @@
   {
     "title": "Acronym Generator",
     "short_description": "Create memorable acronyms based on phrases or keywords for branding and marketing.",
-    "description": "This tool helps users generate catchy acronyms from given phrases or keywords, making it easier to create memorable brand names or marketing slogans. It’s especially useful for businesses looking to simplify complex terms into digestible formats.",
+    "description": "This tool helps users generate catchy acronyms from given phrases or keywords, making it easier to create memorable brand names or marketing slogans. It's especially useful for businesses looking to simplify complex terms into digestible formats.",
     "link": "https://www.reliablesoft.net/ai-text-generator-tools/acronym-generator/",
     "freeversion": true,
     "pricing": "Free with premium options available",
@@ -106,5 +106,41 @@
     "affiliate": false,
     "category": "Machine Learning",
     "logo": "https://huggingface.co/front/assets/huggingface_logo.svg"
+  },
+  {
+    "title": "Deepseek",
+    "short_description": "A powerful AI tool for processing and analyzing large datasets.",
+    "description": "Deepseek offers advanced algorithms for data analysis, enabling users to gain deeper insights into complex datasets. It is ideal for companies looking to make data-driven decisions.",
+    "link": "https://chat.deepseek.com/",
+    "freeversion": true,
+    "pricing": "Free with premium options",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.deepseek.com/logo.png"
+  },
+  {
+    "title": "Qwen 2.5",
+    "short_description": "An advanced language model for precise and context-aware text generation.",
+    "description": "Qwen 2.5 utilizes the latest advancements in AI to generate highly precise and context-aware texts. It is ideal for applications requiring natural and fluid language processing.",
+    "link": "https://chat.qwenlm.ai/",
+    "freeversion": true,
+    "pricing": "Free with premium options",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.qwen.com/logo.png"
+  },
+  {
+    "title": "ChatGPT",
+    "short_description": "An AI-powered chatbot enabling human-like conversations.",
+    "description": "ChatGPT is an advanced chatbot based on natural language processing, capable of conducting human-like conversations. It is suitable for use in customer service, education, and entertainment.",
+    "link": "https://chat.openai.com/",
+    "freeversion": true,
+    "pricing": "Free with premium options",
+    "pricing_short": "Free",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.openai.com/logo.png"
   }
 ]

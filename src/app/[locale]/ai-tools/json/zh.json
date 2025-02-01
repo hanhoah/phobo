@@ -20,7 +20,7 @@
     "pricing": "免费",
     "pricing_short": "免费",
     "affiliate": false,
-    "category": "Search Engine",
+    "category": "LLM",
     "logo": "https://www.perplexity.ai/logo.png"
   },
   {
@@ -74,7 +74,7 @@
   {
     "title": "Rephrase Text",
     "short_description": "在保持原意的同时改善写作风格的文本改写工具。",
-    "description": "QuillBot是一个高级改写工具，允许用户在保持原意的同时重写句子。提供多种文本改写模式，非常适合���要提升写作风格或避免抄袭的学生、作家和专业人士使用。",
+    "description": "QuillBot是一个高级改写工具，允许用户在保持原意的同时重写句子。提供多种文本改写模式，非常适合要提升写作风格或避免抄袭的学生、作家和专业人士使用。",
     "link": "https://quillbot.com/paraphrasing-tool",
     "freeversion": true,
     "pricing": "提供免费版本和付费选项",
@@ -106,5 +106,41 @@
     "affiliate": false,
     "category": "Machine Learning",
     "logo": "https://huggingface.co/front/assets/huggingface_logo.svg"
+  },
+  {
+    "title": "Deepseek",
+    "short_description": "一个强大的AI工具，用于处理和分析大量数据。",
+    "description": "Deepseek提供先进的数据分析算法，使用户能够深入了解复杂的数据集。它非常适合希望做出数据驱动决策的企业。",
+    "link": "https://chat.deepseek.com/",
+    "freeversion": true,
+    "pricing": "免费，提供高级选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.deepseek.com/logo.png"
+  },
+  {
+    "title": "Qwen 2.5",
+    "short_description": "一个先进的语言模型，用于精确和上下文相关的文本生成。",
+    "description": "Qwen 2.5利用最新的AI进展来生成高精度和上下文相关的文本。它非常适合需要自然和流畅语言处理的应用。",
+    "link": "https://chat.qwenlm.ai/",
+    "freeversion": true,
+    "pricing": "免费，提供高级选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.qwen.com/logo.png"
+  },
+  {
+    "title": "ChatGPT",
+    "short_description": "一个AI支持的聊天机器人，能够进行类人对话。",
+    "description": "ChatGPT是一个基于自然语言处理的先进聊天机器人，能够进行类人对话。适用于客户服务、教育和娱乐领域。",
+    "link": "https://chat.openai.com/",
+    "freeversion": true,
+    "pricing": "免费，提供高级选项",
+    "pricing_short": "免费",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.openai.com/logo.png"
   }
 ]

@@ -20,7 +20,7 @@
     "pricing": "Miễn phí",
     "pricing_short": "Miễn Phí",
     "affiliate": false,
-    "category": "Search Engine",
+    "category": "LLM",
     "logo": "https://www.perplexity.ai/logo.png"
   },
   {
@@ -106,5 +106,41 @@
     "affiliate": false,
     "category": "Machine Learning",
     "logo": "https://huggingface.co/front/assets/huggingface_logo.svg"
+  },
+  {
+    "title": "Deepseek",
+    "short_description": "Một công cụ AI mạnh mẽ để xử lý và phân tích lượng dữ liệu lớn.",
+    "description": "Deepseek cung cấp các thuật toán phân tích dữ liệu tiên tiến, cho phép người dùng có được cái nhìn sâu sắc hơn về các tập dữ liệu phức tạp. Nó lý tưởng cho các doanh nghiệp muốn đưa ra quyết định dựa trên dữ liệu.",
+    "link": "https://chat.deepseek.com/",
+    "freeversion": true,
+    "pricing": "Miễn phí với các tùy chọn cao cấp",
+    "pricing_short": "Miễn phí",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.deepseek.com/logo.png"
+  },
+  {
+    "title": "Qwen 2.5",
+    "short_description": "Một mô hình ngôn ngữ tiên tiến để tạo văn bản chính xác và theo ngữ cảnh.",
+    "description": "Qwen 2.5 sử dụng những tiến bộ mới nhất trong AI để tạo ra các văn bản chính xác và theo ngữ cảnh. Nó lý tưởng cho các ứng dụng yêu cầu xử lý ngôn ngữ tự nhiên và trôi chảy.",
+    "link": "https://chat.qwenlm.ai/",
+    "freeversion": true,
+    "pricing": "Miễn phí với các tùy chọn cao cấp",
+    "pricing_short": "Miễn phí",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.qwen.com/logo.png"
+  },
+  {
+    "title": "ChatGPT",
+    "short_description": "Một chatbot hỗ trợ AI cho phép các cuộc trò chuyện giống như con người.",
+    "description": "ChatGPT là một chatbot tiên tiến dựa trên xử lý ngôn ngữ tự nhiên và có khả năng thực hiện các cuộc trò chuyện giống như con người. Nó phù hợp để sử dụng trong dịch vụ khách hàng, giáo dục và giải trí.",
+    "link": "https://chat.openai.com/",
+    "freeversion": true,
+    "pricing": "Miễn phí với các tùy chọn cao cấp",
+    "pricing_short": "Miễn phí",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.openai.com/logo.png"
   }
 ]

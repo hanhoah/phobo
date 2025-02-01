@@ -20,7 +20,7 @@
     "pricing": "Kostenlos",
     "pricing_short": "Kostenlos",
     "affiliate": false,
-    "category": "Search Engine",
+    "category": "LLM",
     "logo": "https://www.perplexity.ai/logo.png"
   },
   {
@@ -105,5 +105,41 @@
     "affiliate": false,
     "category": "Machine Learning",
     "logo": "https://huggingface.co/front/assets/huggingface_logo.svg"
+  },
+  {
+    "title": "Deepseek",
+    "short_description": "Ein leistungsstarkes KI-Tool zur Verarbeitung und Analyse von großen Datenmengen.",
+    "description": "Deepseek bietet fortschrittliche Algorithmen zur Datenanalyse, die es Benutzern ermöglichen, tiefere Einblicke in komplexe Datensätze zu gewinnen. Es ist ideal für Unternehmen, die datengetriebene Entscheidungen treffen möchten.",
+    "link": "https://chat.deepseek.com/",
+    "freeversion": true,
+    "pricing": "Kostenlos mit Premium-Optionen",
+    "pricing_short": "Kostenlos",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.deepseek.com/logo.png"
+  },
+  {
+    "title": "Qwen 2.5",
+    "short_description": "Ein fortschrittliches Sprachmodell für präzise und kontextbezogene Textgenerierung.",
+    "description": "Qwen 2.5 nutzt die neuesten Fortschritte in der KI, um hochpräzise und kontextbezogene Texte zu generieren. Es ist ideal für Anwendungen, die eine natürliche und flüssige Sprachverarbeitung erfordern.",
+    "link": "https://chat.qwenlm.ai/",
+    "freeversion": true,
+    "pricing": "Kostenlos mit Premium-Optionen",
+    "pricing_short": "Kostenlos",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.qwen.com/logo.png"
+  },
+  {
+    "title": "ChatGPT",
+    "short_description": "Ein KI-gestützter Chatbot, der menschenähnliche Konversationen ermöglicht.",
+    "description": "ChatGPT ist ein fortschrittlicher Chatbot, der auf natürlicher Sprachverarbeitung basiert und in der Lage ist, menschenähnliche Konversationen zu führen. Es eignet sich für den Einsatz in Kundenservice, Bildung und Unterhaltung.",
+    "link": "https://chat.openai.com/",
+    "freeversion": true,
+    "pricing": "Kostenlos mit Premium-Optionen",
+    "pricing_short": "Kostenlos",
+    "affiliate": false,
+    "category": "LLM",
+    "logo": "https://www.openai.com/logo.png"
   }
 ]
