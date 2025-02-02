@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.phobo.de
+
+# Sitemaps
+Sitemap: https://www.phobo.de/sitemap.xml
