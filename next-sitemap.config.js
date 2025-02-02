@@ -2,6 +2,7 @@
 module.exports = {
   siteUrl: process.env.SITE_URL || "https://www.phobo.de",
   generateRobotsTxt: true, // (optional)
+  sitemapSize: 7000,
   // optional: if you want to include other languages
   alternateRefs: [
     {
@@ -26,38 +27,41 @@ module.exports = {
     },
     // Fügen Sie hier weitere Sprachen hinzu
   ],
-  // Dynamische Routen für Blog-Beiträge
-  additionalPaths: async (config) => {
-    const blogPosts = await fetchBlogPosts(); // Funktion, die alle Blog-URLs abruft
-    return blogPosts.map((post) => ({
-      loc: `${config.siteUrl}/${post.locale}/blog/${post.slug}`,
+  transform: async (config, path) => {
+    // Extrahiere die Sprache aus dem Pfad (z.B. /de/blog/... → de)
+    const locale = path.split("/")[1];
+    return {
+      loc: path,
       lastmod: new Date().toISOString(),
       changefreq: "daily",
       priority: 0.7,
-      alternateRefs: [
-        {
-          href: `${config.siteUrl}/de/blog/${post.slug}`,
-          hreflang: "de",
-        },
-        {
-          href: `${config.siteUrl}/zh/blog/${post.slug}`,
-          hreflang: "zh",
-        },
-        {
-          href: `${config.siteUrl}/vi/blog/${post.slug}`,
-          hreflang: "vi",
-        },
-        {
-          href: `${config.siteUrl}/en/blog/${post.slug}`,
-          hreflang: "en",
-        },
-        {
-          href: `${config.siteUrl}/ja/blog/${post.slug}`,
-          hreflang: "ja",
-        },
-        // Weitere Sprachen hinzufügen
-      ],
-    }));
+      alternateRefs: config.alternateRefs,
+    };
+  },
+  // Dynamische Routen für Blog-Beiträge
+  additionalPaths: async (config) => {
+    const blogPosts = await fetchBlogPosts();
+    const locales = ["de", "zh", "vi", "en", "ja"]; // Liste der unterstützten Sprachen
+    const paths = [];
+
+    // Erstelle sprachspezifische Sitemaps
+    locales.forEach((locale) => {
+      const localePosts = blogPosts.filter((post) => post.locale === locale);
+      localePosts.forEach((post) => {
+        paths.push({
+          loc: `${config.siteUrl}/${locale}/blog/${post.slug}`,
+          lastmod: new Date().toISOString(),
+          changefreq: "daily",
+          priority: 0.7,
+          alternateRefs: locales.map((altLocale) => ({
+            href: `${config.siteUrl}/${altLocale}/blog/${post.slug}`,
+            hreflang: altLocale,
+          })),
+        });
+      });
+    });
+
+    return paths;
   },
 };
 
