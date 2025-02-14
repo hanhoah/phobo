@@ -51,33 +51,36 @@ const ChatBot = () => {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="fixed bottom-4 right-4 z-50 md:bottom-8 md:right-8">
       {!isOpen ? (
         <Button
           onClick={() => setIsOpen(true)}
-          className="rounded-full w-12 h-12 p-0 bg-orange-500 hover:bg-orange-600 border-none"
+          className="rounded-full w-12 h-12 p-0 bg-orange-500 hover:bg-orange-600 border-none shadow-lg"
         >
           <MessageCircle className="h-6 w-6 text-white" />
         </Button>
       ) : (
         <div className="relative">
-          <Card className="w-[440px] border-orange-500">
-            <CardHeader className="flex flex-row items-center justify-between">
-              <CardTitle>phobo.de - Chat Assistent</CardTitle>
+          <Card className="w-[calc(100vw-2rem)] md:w-[440px] border-orange-500 shadow-xl">
+            <CardHeader className="flex flex-row items-center justify-between space-y-0 p-4">
+              <CardTitle className="text-base md:text-lg">
+                phobo.de - Chat Assistent
+              </CardTitle>
               <Button
                 variant="ghost"
                 size="icon"
                 onClick={() => setIsOpen(false)}
+                className="h-8 w-8"
               >
                 <X className="h-4 w-4" />
               </Button>
             </CardHeader>
-            <CardContent>
-              <ScrollArea className="h-[400px] pr-4">
+            <CardContent className="p-4">
+              <ScrollArea className="h-[50vh] md:h-[400px] pr-4">
                 {messages.map((message, i) => (
                   <div
                     key={i}
-                    className={`mb-4 ${
+                    className={`mb-4 text-sm md:text-base ${
                       message.role === "assistant"
                         ? "text-blue-600"
                         : "text-orange-500"
@@ -86,6 +89,11 @@ const ChatBot = () => {
                     {message.content}
                   </div>
                 ))}
+                {isLoading && (
+                  <div className="text-gray-500 animate-pulse">
+                    Schreibe Antwort...
+                  </div>
+                )}
               </ScrollArea>
               <div className="flex gap-2 mt-4">
                 <Input
@@ -94,12 +102,12 @@ const ChatBot = () => {
                   onKeyPress={(e) => e.key === "Enter" && sendMessage()}
                   placeholder="Schreibe eine Nachricht..."
                   disabled={isLoading}
-                  className="focus-visible:ring-orange-500 border-orange-500"
+                  className="focus-visible:ring-orange-500 border-orange-500 text-sm md:text-base"
                 />
                 <Button
                   onClick={sendMessage}
                   disabled={isLoading}
-                  className="bg-orange-500 hover:bg-orange-600"
+                  className="bg-orange-500 hover:bg-orange-600 whitespace-nowrap"
                 >
                   Senden
                 </Button>
