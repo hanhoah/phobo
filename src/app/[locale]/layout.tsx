@@ -9,6 +9,12 @@ import { setRequestLocale } from "next-intl/server"; // Importieren Sie die stab
 import Head from "next/head";
 import ContactCard from "./components/messenger/ContactCard";
 import { useTranslations } from "next-intl";
+import dynamic from "next/dynamic";
+
+// Dynamischer Import des ChatBot mit deaktiviertem SSR
+const ChatBot = dynamic(() => import("@/components/ChatBot"), {
+  ssr: false,
+});
 
 const roboto = Roboto({
   weight: ["400", "700"],
@@ -69,6 +75,7 @@ export default async function RootLayout({
             </div>
           </div>
           <Footer />
+          <ChatBot />
         </NextIntlClientProvider>
         <Analytics />
       </body>

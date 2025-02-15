@@ -11,10 +11,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="de">
-      <body>
-        {children}
-        <ChatBot />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

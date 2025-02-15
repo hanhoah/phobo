@@ -116,7 +116,7 @@ const ChatBot = () => {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50 md:bottom-8 md:right-8">
+    <div className="fixed bottom-4 right-4 z-[100] md:bottom-8 md:right-8">
       {!isOpen ? (
         <Button
           onClick={() => setIsOpen(true)}
