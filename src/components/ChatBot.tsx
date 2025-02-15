@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { MessageCircle, X } from "lucide-react";
 import Link from "next/link";
+import { eventEmitter } from "@/lib/eventEmitter";
 
 interface Message {
   role: "user" | "assistant";
@@ -14,10 +15,10 @@ interface Message {
 }
 
 const ChatBot = () => {
+  const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
 
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
@@ -29,6 +30,10 @@ const ChatBot = () => {
   useEffect(() => {
     scrollToBottom();
   }, [messages, isLoading]);
+
+  useEffect(() => {
+    eventEmitter.on("openChat", () => setIsOpen(true));
+  }, []);
 
   const sendMessage = async () => {
     if (!input.trim()) return;

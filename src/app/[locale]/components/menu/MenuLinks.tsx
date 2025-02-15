@@ -53,7 +53,7 @@ const MenuLinks = ({ onMenuItemClick = () => {} }) => {
               onClick={onMenuItemClick}
               className="block py-2 px-4 hover:underline hover:text-primary"
             >
-              {t("webdesign")}
+              {t("Services.items.webdesign")}
             </Link>
           </li>
           <li>
@@ -62,7 +62,7 @@ const MenuLinks = ({ onMenuItemClick = () => {} }) => {
               onClick={onMenuItemClick}
               className="block py-2 px-4 hover:underline hover:text-primary"
             >
-              {t("seo")}
+              {t("Services.items.seo")}
             </Link>
           </li>
           <li>
@@ -71,7 +71,16 @@ const MenuLinks = ({ onMenuItemClick = () => {} }) => {
               onClick={onMenuItemClick}
               className="block py-2 px-4 hover:underline hover:text-primary"
             >
-              {t("mobilefirst")}
+              {t("Services.items.mobilefirst")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={`/${locale}/services/chatbot`}
+              onClick={onMenuItemClick}
+              className="block py-2 px-4 hover:underline hover:text-primary"
+            >
+              {t("Services.items.chatbot")}
             </Link>
           </li>
         </ul>

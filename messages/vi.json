@@ -36,8 +36,16 @@
     "privacy": "Quyền riêng tư",
     "imprint": "Thông tin pháp lý",
     "faq": "Hỏi Đáp",
-    "mobilefirst": "Thiết kế di động trước",
-    "ai_tools": "Công cụ AI"
+    "mobilefirst": "Thiết kế di động",
+    "ai_tools": "Công cụ AI",
+    "Services": {
+      "items": {
+        "webdesign": "Phát triển Web",
+        "seo": "Tối ưu hóa SEO",
+        "mobilefirst": "Thiết kế di động",
+        "chatbot": "Chatbot AI"
+      }
+    }
   },
   "HomePage": {
     "title": "Xin chào thế giới!",
@@ -298,5 +306,72 @@
       "description": "Khám phá bộ sưu tập các công cụ AI miễn phí và một phần có phí cho dự án của bạn. Nâng cao quy trình thiết kế web và tiếp thị của bạn với công nghệ AI tiên tiến.",
       "keywords": "Công cụ AI, Công cụ Trí tuệ Nhân tạo, Công cụ Thiết kế Web, Công cụ Tiếp thị, Công nghệ AI"
     }
+  },
+  "chatbot": {
+    "title": "Chatbot AI cho Trang Web của Bạn",
+    "subtitle": "Nâng cao dịch vụ khách hàng với chatbot thông minh, tuân thủ GDPR của chúng tôi. Dễ dàng tích hợp, hoạt động 24/7.",
+    "demo": "Bắt đầu Demo Trực tiếp",
+    "features": {
+      "gdpr": {
+        "title": "Tuân thủ GDPR",
+        "desc": "Tất cả dữ liệu được lưu trữ và xử lý tại Đức."
+      },
+      "integration": {
+        "title": "Tích hợp Dễ dàng",
+        "desc": "Chỉ một dòng mã cho WordPress và các CMS khác."
+      },
+      "availability": {
+        "title": "Hoạt động 24/7",
+        "desc": "Trả lời tự động suốt ngày đêm."
+      }
+    },
+    "plans": {
+      "basic": {
+        "name": "Cơ bản",
+        "price": "19",
+        "description": "Hoàn hảo cho các trang web nhỏ và startup",
+        "features": {
+          "0": "Chatbot cơ bản với cơ sở kiến thức tiêu chuẩn",
+          "1": "Tối đa 250 yêu cầu mỗi tháng",
+          "2": "Tùy chỉnh cơ bản (màu sắc & logo)",
+          "3": "Hỗ trợ qua email",
+          "4": "Tích hợp WordPress",
+          "5": "Tuân thủ GDPR"
+        }
+      },
+      "professional": {
+        "name": "Chuyên nghiệp",
+        "price": "39",
+        "description": "Lý tưởng cho doanh nghiệp đang phát triển",
+        "features": {
+          "0": "Cơ sở kiến thức mở rộng (tối đa 1000 mục)",
+          "1": "Tối đa 1000 yêu cầu mỗi tháng",
+          "2": "Tùy chỉnh thiết kế hoàn toàn",
+          "3": "Đa ngôn ngữ (DE, EN)",
+          "4": "Bảng điều khiển phân tích",
+          "5": "Hỗ trợ ưu tiên",
+          "6": "Xuất chat",
+          "7": "Kiểm tra A/B"
+        }
+      },
+      "business": {
+        "name": "Doanh nghiệp",
+        "price": "89",
+        "description": "Cho yêu cầu chuyên nghiệp",
+        "features": {
+          "0": "Cơ sở kiến thức không giới hạn",
+          "1": "Yêu cầu không giới hạn",
+          "2": "Tùy chọn white label",
+          "3": "Đa ngôn ngữ (tất cả ngôn ngữ)",
+          "4": "Hỗ trợ cao cấp",
+          "5": "Phân tích nâng cao",
+          "6": "Truy cập API",
+          "7": "Hỗ trợ nhiều tên miền",
+          "8": "Có thể sử dụng khóa API OpenAI tùy chỉnh"
+        }
+      }
+    },
+    "cta": "Yêu cầu Ngay",
+    "month": "/tháng"
   }
 }

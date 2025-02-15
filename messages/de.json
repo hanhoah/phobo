@@ -37,7 +37,15 @@
     "imprint": "Impressum",
     "faq": "FAQ",
     "mobilefirst": "Mobile First",
-    "ai_tools": "AI Tools"
+    "ai_tools": "AI Tools",
+    "Services": {
+      "items": {
+        "webdesign": "Webentwicklung",
+        "seo": "SEO-Optimierung",
+        "mobilefirst": "Mobile First",
+        "chatbot": "AI Chatbot"
+      }
+    }
   },
   "HomePage": {
     "title": "Hallo Welt!",
@@ -303,5 +311,72 @@
       "description": "Entdecken Sie unsere Sammlung von kostenlosen und teilweise kostenpflichtigen AI Tools für Ihre Projekte. Verbessern Sie Ihre Webdesign- und Marketing-Prozesse mit modernster KI-Technologie.",
       "keywords": "AI Tools, Künstliche Intelligenz Tools, Webdesign Tools, Marketing Tools, KI-Technologie"
     }
+  },
+  "chatbot": {
+    "title": "AI Chatbot für Ihre Website",
+    "subtitle": "Steigern Sie Ihren Kundenservice mit unserem intelligenten, DSGVO-konformen Chatbot. Einfach zu integrieren, 24/7 verfügbar.",
+    "demo": "Live Demo starten",
+    "features": {
+      "gdpr": {
+        "title": "DSGVO-konform",
+        "desc": "Alle Daten werden in Deutschland gehostet und verarbeitet."
+      },
+      "integration": {
+        "title": "Einfache Integration",
+        "desc": "Nur eine Zeile Code für WordPress und andere CMS."
+      },
+      "availability": {
+        "title": "24/7 Verfügbar",
+        "desc": "Automatische Antworten rund um die Uhr."
+      }
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "19",
+        "description": "Perfekt für kleine Websites und Startups",
+        "features": {
+          "0": "Basis-Chatbot mit Standard-Knowledge-Base",
+          "1": "Bis zu 250 Anfragen pro Monat",
+          "2": "Grundlegende Anpassung (Farben & Logo)",
+          "3": "E-Mail-Support",
+          "4": "WordPress-Integration",
+          "5": "DSGVO-konform"
+        }
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "39",
+        "description": "Ideal für wachsende Unternehmen",
+        "features": {
+          "0": "Erweiterte Knowledge-Base (bis zu 1000 Einträge)",
+          "1": "Bis zu 1000 Anfragen pro Monat",
+          "2": "Vollständige Design-Anpassung",
+          "3": "Mehrsprachigkeit (DE, EN)",
+          "4": "Analytics-Dashboard",
+          "5": "Prioritäts-Support",
+          "6": "Chat-Export",
+          "7": "A/B Testing"
+        }
+      },
+      "business": {
+        "name": "Business",
+        "price": "89",
+        "description": "Für professionelle Anforderungen",
+        "features": {
+          "0": "Unbegrenzte Knowledge-Base",
+          "1": "Unbegrenzte Anfragen",
+          "2": "White-Label-Option",
+          "3": "Mehrsprachigkeit (alle Sprachen)",
+          "4": "Premium-Support",
+          "5": "Erweiterte Analytics",
+          "6": "API-Zugang",
+          "7": "Multi-Domain-Support",
+          "8": "Eigener OpenAI API-Key möglich"
+        }
+      }
+    },
+    "cta": "Jetzt anfragen",
+    "month": "/Monat"
   }
 }

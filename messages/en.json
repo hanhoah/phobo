@@ -37,7 +37,15 @@
     "imprint": "Imprint",
     "faq": "FAQ",
     "mobilefirst": "Mobile-First Design",
-    "ai_tools": "AI Tools"
+    "ai_tools": "AI Tools",
+    "Services": {
+      "items": {
+        "webdesign": "Web Development",
+        "seo": "SEO Optimization",
+        "mobilefirst": "Mobile First",
+        "chatbot": "AI Chatbot"
+      }
+    }
   },
   "HomePage": {
     "title": "Hello world!",
@@ -298,5 +306,72 @@
       "description": "Explore our collection of free and partially paid AI tools for your projects. Enhance your web design and marketing processes with cutting-edge AI technology.",
       "keywords": "AI Tools, Artificial Intelligence Tools, Web Design Tools, Marketing Tools, AI Technology"
     }
+  },
+  "chatbot": {
+    "title": "AI Chatbot for Your Website",
+    "subtitle": "Enhance your customer service with our intelligent, GDPR-compliant chatbot. Easy to integrate, available 24/7.",
+    "demo": "Start Live Demo",
+    "features": {
+      "gdpr": {
+        "title": "GDPR Compliant",
+        "desc": "All data is hosted and processed in Germany."
+      },
+      "integration": {
+        "title": "Easy Integration",
+        "desc": "Just one line of code for WordPress and other CMS."
+      },
+      "availability": {
+        "title": "24/7 Available",
+        "desc": "Automatic responses around the clock."
+      }
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic",
+        "price": "19",
+        "description": "Perfect for small websites and startups",
+        "features": {
+          "0": "Basic chatbot with standard knowledge base",
+          "1": "Up to 250 requests per month",
+          "2": "Basic customization (colors & logo)",
+          "3": "Email support",
+          "4": "WordPress integration",
+          "5": "GDPR compliant"
+        }
+      },
+      "professional": {
+        "name": "Professional",
+        "price": "39",
+        "description": "Ideal for growing businesses",
+        "features": {
+          "0": "Extended knowledge base (up to 1000 entries)",
+          "1": "Up to 1000 requests per month",
+          "2": "Full design customization",
+          "3": "Multilingual (DE, EN)",
+          "4": "Analytics dashboard",
+          "5": "Priority support",
+          "6": "Chat export",
+          "7": "A/B Testing"
+        }
+      },
+      "business": {
+        "name": "Business",
+        "price": "89",
+        "description": "For professional requirements",
+        "features": {
+          "0": "Unlimited knowledge base",
+          "1": "Unlimited requests",
+          "2": "White label option",
+          "3": "Multilingual (all languages)",
+          "4": "Premium support",
+          "5": "Advanced analytics",
+          "6": "API access",
+          "7": "Multi-domain support",
+          "8": "Custom OpenAI API key possible"
+        }
+      }
+    },
+    "cta": "Request Now",
+    "month": "/month"
   }
 }

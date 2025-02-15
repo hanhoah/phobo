@@ -7,13 +7,13 @@
     "history": "我们的历史",
     "testimonials": "客户评价",
     "services": "服务项目",
-    "webdesign": "网页设计",
+    "webdesign": "网站开发",
     "responsive_design": "响应式设计",
     "uiux_design": "UI/UX设计",
     "webentwicklung": "网页开发",
     "frontend": "前端开发",
     "backend": "后端开发",
-    "seo": "SEO优化",
+    "seo": "搜索引擎优化",
     "onpage_seo": "页面内SEO",
     "offpage_seo": "页面外SEO",
     "seo_audits": "SEO审计",
@@ -36,8 +36,16 @@
     "privacy": "隐私政策",
     "imprint": "版权声明",
     "faq": "常见问题",
-    "mobilefirst": "移动优先设计",
-    "ai_tools": "AI工具"
+    "mobilefirst": "移动优先",
+    "ai_tools": "AI工具",
+    "Services": {
+      "items": {
+        "webdesign": "网站开发",
+        "seo": "搜索引擎优化",
+        "mobilefirst": "移动优先",
+        "chatbot": "AI聊天机器人"
+      }
+    }
   },
   "HomePage": {
     "title": "你好，世界！",
@@ -327,5 +335,72 @@
       "description": "探索我们为您的项目提供的免费和部分付费AI工具集合。使用尖端的AI技术增强您的网页设计和营销流程。",
       "keywords": "AI工具, 人工智能工具, 网页设计工具, 营销工具, AI技术"
     }
+  },
+  "chatbot": {
+    "title": "为您的网站提供AI聊天机器人",
+    "subtitle": "使用我们符合GDPR的智能聊天机器人提升您的客户服务。易于集成，全天候可用。",
+    "demo": "开始在线演示",
+    "features": {
+      "gdpr": {
+        "title": "符合GDPR",
+        "desc": "所有数据都在德国托管和处理。"
+      },
+      "integration": {
+        "title": "轻松集成",
+        "desc": "WordPress和其他CMS只需一行代码。"
+      },
+      "availability": {
+        "title": "24/7全天候服务",
+        "desc": "全天候自动回复。"
+      }
+    },
+    "plans": {
+      "basic": {
+        "name": "基础版",
+        "price": "19",
+        "description": "适合小型网站和初创企业",
+        "features": {
+          "0": "带标准知识库的基础聊天机器人",
+          "1": "每月最多250个请求",
+          "2": "基本定制（颜色和标志）",
+          "3": "电子邮件支持",
+          "4": "WordPress集成",
+          "5": "符合GDPR"
+        }
+      },
+      "professional": {
+        "name": "专业版",
+        "price": "39",
+        "description": "适合成长中的企业",
+        "features": {
+          "0": "扩展知识库（最多1000条）",
+          "1": "每月最多1000个请求",
+          "2": "完整的设计定制",
+          "3": "多语言支持（德语，英语）",
+          "4": "分析仪表板",
+          "5": "优先支持",
+          "6": "聊天导出",
+          "7": "A/B测试"
+        }
+      },
+      "business": {
+        "name": "企业版",
+        "price": "89",
+        "description": "适合专业需求",
+        "features": {
+          "0": "无限知识库",
+          "1": "无限请求次数",
+          "2": "白标选项",
+          "3": "多语言支持（所有语言）",
+          "4": "高级支持",
+          "5": "高级分析",
+          "6": "API访问",
+          "7": "多域名支持",
+          "8": "可使用自定义OpenAI API密钥"
+        }
+      }
+    },
+    "cta": "立即申请",
+    "month": "/月"
   }
 }
