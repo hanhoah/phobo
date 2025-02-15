@@ -21,7 +21,10 @@ const PlanCard = ({
     basic: 6,
     professional: 8,
     business: 9,
+    enterprise: 10,
   };
+
+  const isEnterprise = plan === "enterprise";
 
   return (
     <Card className="flex flex-col">
@@ -29,8 +32,14 @@ const PlanCard = ({
         <h3 className="text-2xl font-semibold">{t(`plans.${plan}.name`)}</h3>
         <p className="text-gray-600 mt-2">{t(`plans.${plan}.description`)}</p>
         <div className="text-3xl font-bold text-orange-500 mt-4">
-          {t(`plans.${plan}.price`)}€
-          <span className="text-base font-normal">{t("month")}</span>
+          {isEnterprise ? (
+            <span className="text-2xl">{t(`plans.${plan}.price`)}</span>
+          ) : (
+            <>
+              {t(`plans.${plan}.price`)}€
+              <span className="text-base font-normal">{t("month")}</span>
+            </>
+          )}
         </div>
       </div>
       <div className="p-6 flex-grow">
@@ -65,7 +74,7 @@ const PlanCard = ({
 
 export default function ChatbotPageClient({ locale }: { locale: string }) {
   const t = useTranslations("chatbot");
-  const plans = ["basic", "professional", "business"];
+  const plans = ["basic", "professional", "business", "enterprise"];
 
   return (
     <div className="container mx-auto py-12">
@@ -87,7 +96,7 @@ export default function ChatbotPageClient({ locale }: { locale: string }) {
         </Button>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8 mb-16">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
         {plans.map((plan) => (
           <PlanCard key={plan} plan={plan} t={t} locale={locale} />
         ))}

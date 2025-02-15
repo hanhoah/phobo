@@ -338,7 +338,7 @@
     "plans": {
       "basic": {
         "name": "Basic",
-        "price": "19",
+        "price": "35",
         "description": "Perfekt für kleine Websites und Startups",
         "features": {
           "0": "Basis-Chatbot mit Standard-Knowledge-Base",
@@ -351,7 +351,7 @@
       },
       "professional": {
         "name": "Professional",
-        "price": "39",
+        "price": "59",
         "description": "Ideal für wachsende Unternehmen",
         "features": {
           "0": "Erweiterte Knowledge-Base (bis zu 1000 Einträge)",
@@ -366,7 +366,7 @@
       },
       "business": {
         "name": "Business",
-        "price": "89",
+        "price": "99",
         "description": "Für professionelle Anforderungen",
         "features": {
           "0": "Unbegrenzte Knowledge-Base",
@@ -378,6 +378,23 @@
           "6": "API-Zugang",
           "7": "Multi-Domain-Support",
           "8": "Eigener OpenAI API-Key möglich"
+        }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Individuell",
+        "description": "Maßgeschneiderte Lösung für Ihre spezifischen Anforderungen",
+        "features": {
+          "0": "Vollständig individualisierte Entwicklung",
+          "1": "Spezifische Integrationen nach Bedarf",
+          "2": "Dedizierte Entwicklungs-Ressourcen",
+          "3": "Persönlicher Account Manager",
+          "4": "Service Level Agreement (SLA)",
+          "5": "24/7 Premium Support",
+          "6": "Individuelle Skalierungsoptionen",
+          "7": "Maßgeschneiderte Sicherheitslösungen",
+          "8": "Angepasste Analytics & Reporting",
+          "9": "Individuelle KI-Trainings"
         }
       }
     },
