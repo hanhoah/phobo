@@ -16,44 +16,52 @@ const PlanCard = ({
   plan: string;
   t: any;
   locale: string;
-}) => (
-  <Card className="flex flex-col">
-    <div className="p-6 border-b">
-      <h3 className="text-2xl font-semibold">{t(`plans.${plan}.name`)}</h3>
-      <p className="text-gray-600 mt-2">{t(`plans.${plan}.description`)}</p>
-      <div className="text-3xl font-bold text-orange-500 mt-4">
-        {t(`plans.${plan}.price`)}€
-        <span className="text-base font-normal">{t("month")}</span>
+}) => {
+  const maxFeatures = {
+    basic: 6,
+    professional: 8,
+    business: 9,
+  };
+
+  return (
+    <Card className="flex flex-col">
+      <div className="p-6 border-b">
+        <h3 className="text-2xl font-semibold">{t(`plans.${plan}.name`)}</h3>
+        <p className="text-gray-600 mt-2">{t(`plans.${plan}.description`)}</p>
+        <div className="text-3xl font-bold text-orange-500 mt-4">
+          {t(`plans.${plan}.price`)}€
+          <span className="text-base font-normal">{t("month")}</span>
+        </div>
       </div>
-    </div>
-    <div className="p-6 flex-grow">
-      <ul className="space-y-2">
-        {Array.from({ length: 10 })
-          .map((_, i) => {
-            try {
-              const feature = t(`plans.${plan}.features.${i}`);
-              return (
-                <li key={i} className="flex items-start">
-                  <Check className="h-5 w-5 text-orange-500 mr-2 shrink-0" />
-                  <span>{feature}</span>
-                </li>
-              );
-            } catch {
-              return null;
-            }
-          })
-          .filter(Boolean)}
-      </ul>
-    </div>
-    <div className="p-6 border-t">
-      <Link href={`/${locale}/requestservice#form`} className="w-full">
-        <Button className="w-full bg-orange-500 hover:bg-orange-600">
-          {t("cta")}
-        </Button>
-      </Link>
-    </div>
-  </Card>
-);
+      <div className="p-6 flex-grow">
+        <ul className="space-y-2">
+          {Array.from({ length: maxFeatures[plan as keyof typeof maxFeatures] })
+            .map((_, i) => {
+              try {
+                const feature = t(`plans.${plan}.features.${i}`);
+                return (
+                  <li key={i} className="flex items-start">
+                    <Check className="h-5 w-5 text-orange-500 mr-2 shrink-0" />
+                    <span>{feature}</span>
+                  </li>
+                );
+              } catch {
+                return null;
+              }
+            })
+            .filter(Boolean)}
+        </ul>
+      </div>
+      <div className="p-6 border-t">
+        <Link href={`/${locale}/requestservice#form`} className="w-full">
+          <Button className="w-full bg-orange-500 hover:bg-orange-600">
+            {t("cta")}
+          </Button>
+        </Link>
+      </div>
+    </Card>
+  );
+};
 
 export default function ChatbotPageClient({ locale }: { locale: string }) {
   const t = useTranslations("chatbot");
