@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { MessageCircle, X } from "lucide-react";
+import Link from "next/link";
 
 interface Message {
   role: "user" | "assistant";
@@ -18,6 +19,17 @@ const ChatBot = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  // Scrollen wenn neue Nachrichten kommen oder der Ladezustand sich ändert
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages, isLoading]);
+
   const sendMessage = async () => {
     if (!input.trim()) return;
 
@@ -26,6 +38,8 @@ const ChatBot = () => {
       const userMessage: Message = { role: "user", content: input };
       setMessages((prev) => [...prev, userMessage]);
       setInput("");
+
+      scrollToBottom();
 
       const response = await fetch("/api/chat", {
         method: "POST",
@@ -43,11 +57,46 @@ const ChatBot = () => {
         content: responseText,
       };
       setMessages((prev) => [...prev, assistantMessage]);
+
+      scrollToBottom();
     } catch (error) {
       console.error("Error sending message:", error);
     } finally {
       setIsLoading(false);
     }
+  };
+
+  const formatMessage = (content: string) => {
+    // Teile den Content an der Markierung
+    const parts = content.split(/\[KONTAKTFORMULAR\]/g);
+
+    // Wenn keine Markierung gefunden wurde, gib den Original-Text zurück
+    if (parts.length === 1) {
+      return <div className="whitespace-pre-wrap">{content}</div>;
+    }
+
+    // Erstelle ein Array von Elementen mit Text und Link
+    return (
+      <div className="whitespace-pre-wrap">
+        {parts.map((part, index) => (
+          <>
+            {part}
+            {index < parts.length - 1 && (
+              <>
+                Sie können uns auch gerne über unser{" "}
+                <Link
+                  href="/de/requestservice#form"
+                  className="text-orange-500 hover:text-orange-600"
+                >
+                  Kontaktformular
+                </Link>{" "}
+                erreichen.
+              </>
+            )}
+          </>
+        ))}
+      </div>
+    );
   };
 
   return (
@@ -77,23 +126,26 @@ const ChatBot = () => {
             </CardHeader>
             <CardContent className="p-4">
               <ScrollArea className="h-[50vh] md:h-[400px] pr-4">
-                {messages.map((message, i) => (
-                  <div
-                    key={i}
-                    className={`mb-4 text-sm md:text-base ${
-                      message.role === "assistant"
-                        ? "text-blue-600"
-                        : "text-orange-500"
-                    }`}
-                  >
-                    {message.content}
-                  </div>
-                ))}
-                {isLoading && (
-                  <div className="text-gray-500 animate-pulse">
-                    Schreibe Antwort...
-                  </div>
-                )}
+                <div className="space-y-4">
+                  {messages.map((message, i) => (
+                    <div
+                      key={i}
+                      className={`mb-4 text-sm md:text-base ${
+                        message.role === "assistant"
+                          ? "text-blue-600"
+                          : "text-orange-500"
+                      }`}
+                    >
+                      {formatMessage(message.content)}
+                    </div>
+                  ))}
+                  {isLoading && (
+                    <div className="text-gray-500 animate-pulse">
+                      Schreibe Antwort...
+                    </div>
+                  )}
+                  <div ref={messagesEndRef} />
+                </div>
               </ScrollArea>
               <div className="flex gap-2 mt-4">
                 <Input

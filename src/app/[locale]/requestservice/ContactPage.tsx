@@ -58,7 +58,9 @@ export default function ContactPage({ locale }: { locale: string }) {
                 <ZaloQR />
               </div>
               <div className="flex flex-col">
-                <p className="text-gray-700 ">{t("zalo.description")}</p>
+                <p id="form" className="text-gray-700 ">
+                  {t("zalo.description")}
+                </p>
                 <Zalo />
               </div>
             </div>

@@ -29,33 +29,69 @@ export async function addDocument(
 export async function searchDocuments(query: string, clientId: string) {
   try {
     const embedding = await createEmbedding(query);
+    const normalizedQuery = query.toLowerCase().trim();
 
-    // Wenn nach Team-Mitgliedern gefragt wird
-    if (
-      query.toLowerCase().includes("wer ist") ||
-      query.toLowerCase().includes("team")
-    ) {
+    // Direkte Suche nach Team-Mitgliedern
+    const teamMembers = [
+      "hai pham",
+      "han hoa",
+      "sergio",
+      "seki",
+      "team",
+      "mitarbeiter",
+      "gründer",
+    ];
+
+    if (teamMembers.some((member) => normalizedQuery.includes(member))) {
       const result = await db.query(
-        `SELECT content, 1 - (embedding <-> $1) as similarity 
+        `SELECT content, 1 as similarity 
          FROM documents 
-         WHERE client_id = $2
-         AND (metadata->>'type' = 'team_member' OR metadata->>'type' = 'team_info')
-         ORDER BY similarity DESC 
-         LIMIT 10`,
-        [embedding, clientId]
+         WHERE client_id = $1
+         AND (
+           metadata->>'type' = 'team_member' 
+           OR metadata->>'type' = 'team_info'
+           OR LOWER(content) LIKE '%' || $2 || '%'
+         )
+         ORDER BY 
+           CASE 
+             WHEN metadata->>'type' = 'team_member' THEN 0
+             WHEN metadata->>'type' = 'team_info' THEN 1
+             ELSE 2
+           END,
+           similarity DESC 
+         LIMIT 3`,
+        [clientId, normalizedQuery]
       );
-      return result.rows;
+
+      if (result.rows.length > 0) {
+        return result.rows;
+      }
     }
 
-    // Normale Suche
+    // Normale semantische Suche mit höherem Schwellenwert
     const result = await db.query(
       `SELECT content, 1 - (embedding <-> $1) as similarity 
        FROM documents 
        WHERE client_id = $2
+       AND 1 - (embedding <-> $1) > 0.75
        ORDER BY similarity DESC 
-       LIMIT 10`,
+       LIMIT 3`,
       [embedding, clientId]
     );
+
+    // Wenn keine Ergebnisse gefunden wurden, versuche es mit einem niedrigeren Schwellenwert
+    if (result.rows.length === 0) {
+      const fallbackResult = await db.query(
+        `SELECT content, 1 - (embedding <-> $1) as similarity 
+         FROM documents 
+         WHERE client_id = $2
+         AND 1 - (embedding <-> $1) > 0.6
+         ORDER BY similarity DESC 
+         LIMIT 2`,
+        [embedding, clientId]
+      );
+      return fallbackResult.rows;
+    }
 
     return result.rows;
   } catch (error) {
