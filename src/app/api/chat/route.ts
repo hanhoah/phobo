@@ -73,7 +73,7 @@ Beispielantwort:
 - Kundenmanagement
 - Mobile-First Design
 
-Für ein individuelles Angebot und detaillierte Beratung kontaktieren Sie uns am besten über unser [KONTAKTFORMULAR]"
+Für ein individuelles Angebot und detaillierte Beratung kontaktieren Sie uns am besten wie folgt: [KONTAKTFORMULAR]"
 
 Kontext für aktuelle Anfrage: ${context}`;
 
