@@ -44,28 +44,46 @@ const ChatBot = () => {
       setMessages((prev) => [...prev, userMessage]);
       setInput("");
 
-      scrollToBottom();
+      // Erstelle die Konversationshistorie für den API-Call
+      const conversationHistory = messages.slice(-10).map((msg) => ({
+        role: msg.role,
+        content: msg.content,
+      }));
 
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ messages: [...messages, userMessage] }),
+        body: JSON.stringify({
+          message: input,
+          clientId: "phobo",
+          conversationHistory,
+        }),
       });
 
-      if (!response.ok) throw new Error("Failed to send message");
+      const data = await response.json();
 
-      const responseText = await response.text();
+      if (data.error) {
+        throw new Error(data.error);
+      }
+
       const assistantMessage: Message = {
         role: "assistant",
-        content: responseText,
+        content: data.reply,
       };
-      setMessages((prev) => [...prev, assistantMessage]);
 
-      scrollToBottom();
+      setMessages((prev) => [...prev, assistantMessage]);
     } catch (error) {
       console.error("Error sending message:", error);
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "assistant",
+          content:
+            "Entschuldigung, es gab einen Fehler. Bitte versuchen Sie es später noch einmal.",
+        },
+      ]);
     } finally {
       setIsLoading(false);
     }
@@ -75,28 +93,21 @@ const ChatBot = () => {
     // Teile den Content an der Markierung
     const parts = content.split(/\[KONTAKTFORMULAR\]/g);
 
-    // Wenn keine Markierung gefunden wurde, gib den Original-Text zurück
-    if (parts.length === 1) {
-      return <div className="whitespace-pre-wrap">{content}</div>;
-    }
-
-    // Erstelle ein Array von Elementen mit Text und Link
     return (
-      <div className="whitespace-pre-wrap">
+      <div>
         {parts.map((part, index) => (
           <>
             {part}
             {index < parts.length - 1 && (
-              <>
-                Sie können uns auch gerne über unser{" "}
+              <div className="my-2 p-2 bg-orange-100 rounded-lg border border-orange-300">
+                <span>Möchten Sie ein individuelles Angebot? </span>
                 <Link
                   href="/de/requestservice#form"
-                  className="text-orange-500 hover:text-orange-600"
+                  className="text-orange-500 hover:text-orange-600 font-bold underline"
                 >
-                  Kontaktformular
-                </Link>{" "}
-                erreichen.
-              </>
+                  Kontaktieren Sie uns hier
+                </Link>
+              </div>
             )}
           </>
         ))}
