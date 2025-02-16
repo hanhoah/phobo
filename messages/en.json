@@ -374,6 +374,23 @@
           "7": "Multi-domain support",
           "8": "Custom OpenAI API key possible"
         }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Custom",
+        "description": "Customized solution for your specific requirements",
+        "features": {
+          "0": "Fully customized development",
+          "1": "Specific integrations as needed",
+          "2": "Dedicated development resources",
+          "3": "Personal account manager",
+          "4": "Service Level Agreement (SLA)",
+          "5": "24/7 Premium support",
+          "6": "Individual scaling options",
+          "7": "Custom security solutions",
+          "8": "Custom analytics & reporting",
+          "9": "Individual AI training"
+        }
       }
     },
     "cta": "Request Now",

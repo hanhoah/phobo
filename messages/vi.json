@@ -374,6 +374,23 @@
           "7": "Hỗ trợ nhiều tên miền",
           "8": "Có thể sử dụng khóa API OpenAI tùy chỉnh"
         }
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Tùy chỉnh",
+        "description": "Giải pháp tùy chỉnh cho yêu cầu cụ thể của bạn",
+        "features": {
+          "0": "Phát triển hoàn toàn tùy chỉnh",
+          "1": "Tích hợp cụ thể theo nhu cầu",
+          "2": "Nguồn lực phát triển chuyên dụng",
+          "3": "Quản lý tài khoản cá nhân",
+          "4": "Thỏa thuận mức độ dịch vụ (SLA)",
+          "5": "Hỗ trợ cao cấp 24/7",
+          "6": "Tùy chọn mở rộng cá nhân",
+          "7": "Giải pháp bảo mật tùy chỉnh",
+          "8": "Phân tích & báo cáo tùy chỉnh",
+          "9": "Đào tạo AI cá nhân"
+        }
       }
     },
     "cta": "Yêu cầu Ngay",
