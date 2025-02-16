@@ -53,7 +53,7 @@ const BlogPage = async ({ params }: { params: Params }) => {
   });
   return (
     <div>
-      <ul className="flex md:flex-row md:space-x-5 flex-col">
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {posts.map((post) => (
           <div key={post.slug}>
             <ImageCard
